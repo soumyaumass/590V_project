@@ -1,0 +1,113 @@
+start,truth int,fiction type ,film condensed,reality condensed,duration
+00:00:30,3,,Marines roll into Fallujah.,A convoy of marines pulled into Fallujah. ,42
+00:01:12,1,,"Kyle eyes an insurgent, loses him.",This specific guy wasn't in the bio.,85
+00:02:37,1,,Kyle shoots a child with a grenade.,"The mother had the grenade, Kyle shot her. ",57
+00:03:34,3,,Young Kyle hunts deer with his dad.,Kyle's dad took him hunting a lot.,44
+00:04:18,1,,Young Kyle steals a bible at church.,"He went to church, didn't steal a bible.",34
+00:04:52,3,,Young Kyle protects little brother from a bully.,"Kyle loved a fight, especially to protect Jeff.",80
+00:06:12,3,,"Kyle falls from a rodeo horse, injures his hand.",Kyle gave up broncos after a serious accident in the pen.,62
+00:07:14,0,,Jeff ribs Kyle about his girlfriend.,The girlfriend scene was made up.,20
+00:07:34,0,,Kyle finds Sarah in bed with another guy.,The girlfriend scene was made up.,54
+00:08:28,0,,Kyle kicks Sarah out.,The girlfriend scene was made up.,48
+00:09:16,0,,"Kyle sees the WTC bombing on TV, decides to join up.",Kyle had always intended to join up.,59
+00:10:15,3,,Kyle gets a SEALs brochure at the recruiting office.,Kyle got hooked on the SEAL idea.,32
+00:10:47,2,,Hell week montage at SEAL training camp.,Hell week was intense. ,176
+00:13:43,3,,Kyle meets Taya in a bar & they hit it off.,"Kyle met Taya in a bar, they clicked.",213
+00:17:16,3,,Taya pukes in the carpark.,Taya puked at the end of the night.,25
+00:17:41,2,,Sniper training. Kyle is a good shot.,Kyle did pretty well at sniper training. ,36
+00:18:17,3,,Kyle leaves Taya a voicemail.,Kyle left Taya many voicemails. ,40
+00:18:57,2,,Kyle's focus at training is off.,Kyle had some difficulty keeping focused at training.,25
+00:19:22,-1,,Kyle & Taya go to a fayre.,We couldn't find a source for this. ,73
+00:20:35,2,,Kyle's focus at training is off.,Kyle had some difficulty keeping focused at training.,17
+00:20:52,-1,,Taya & Kyle have sex for the first time.,We couldn't find a source for this. ,41
+00:21:33,2,,Tosh is getting annoyed at Kyle's lack of focus.,The sniper trainers were tough on the recruits.,30
+00:22:03,3,,Taya & Kyle watch the WTC attack on TV.,Taya & Kyle saw the WTC attack news on TV. ,40
+00:22:43,3,,Kyle's focus at training is spot-on.,Kyle learned to hone his focus. ,6
+00:22:49,2,,Kyle & Taya get engaged in bed.,Kyle & Taya decided to get married.,49
+00:23:38,1,,Kyle finds out the US is going to war at his own wedding.,Kyle knew he was getting deployed before they got married.,85
+00:25:03,2,,SEALs & marines pull up in Fallujah.,SEALs & marines arrived in convoy in Fallujah. ,47
+00:25:50,2,,Everybody heads to their positions.,They got to work straight away. ,40
+00:26:30,1,,Kyle shoots a child with a grenade.,"The mother had the grenade, Kyle shot her. ",118
+00:28:28,0,,"Kyle is disturbed by his kill, Biggles reassures him.",Kyle was never uneasy about a kill.,68
+00:29:36,2,,Kyle drops an insurgent right over the marines.,Kyle shot an insurgent right behind the marines.,31
+00:30:07,3,,"A car runs at the marines, Kyle kills the driver.",Kyle shot the driver of an enemy truck,45
+00:30:52,3,,Kyle shoots insurgents from his post.,Kyle shot insurgents most days.,76
+00:32:08,1,,Mustafa shoots a marine.,Kyle didn't come across Mustafa at all.,53
+00:33:01,1,,Kyle is upset that Mustafa killed a marine on his watch.,Kyle didn't encounter Mustafa.,43
+00:33:44,3,,Kyle gets questioned by the higher-ups.,Kyle had to answer for a shot he took. ,19
+00:34:03,3,,Biggles teases Kyle.,Biggles & Kyle adored each other.,42
+00:34:45,-1,,"Jeff has deployed, Kyle doesn't like it.",We couldn't find a source for this. ,147
+00:37:12,-1,,Gronski briefs the marines on enemy no1.,Kyle didn't mention any specific enemy.,70
+00:38:22,2,,Kyle wants to join the marines on the ground.,Kyle let his post to help out on the ground.,43
+00:39:05,2,,Goat refuses to help the marines on the ground.,Kyle had to work with a coward & hated him.,84
+00:40:29,1,,"Team 3 find a family, the father begs them to come inside.",Didn't happen. ,104
+00:42:13,0,,Kyle interrogates the father about The Butcher.,Didn't happen. ,106
+00:43:59,0,,Kyle tells the DIA about The Butcher.,Didn't happen. ,55
+00:44:54,2,,Lee tells Kyle he trained as a preacher.,Lee trained as a minister.,34
+00:45:28,0,,Mustafa adjusts his aim.,Kyle didn't have any dealings with Mustafa.,13
+00:45:41,-1,,Taya calls to tell Kyle it's a boy.,We couldn't find a source for this. ,23
+00:46:04,0,,Mustafa shoots the driver. ,Kyle didn't have any dealings with Mustafa.,6
+00:46:10,2,,Taya overhears a gunfight on the phone.,Taya did hear a gunfight over the phone.,28
+00:46:38,1,,"The Butcher appears, dragging a kid.",Kyle had no dealings with The Butcher.,80
+00:47:58,1,,Mustafa pins Kyle on a rooftop.,Kyle didn't have any dealings with Mustafa.,110
+00:49:48,1,,Gronski shuts down the unit pending investigation.,There was no such mission. ,47
+00:50:35,2,,Kyle lifts weights to pass the time.,Kyle worked out during his confinement to base.,19
+00:50:54,3,,Taya awaits Kyle on the tarmac.,Taya always waited for kyle at the airport. ,52
+00:51:46,3,,Taya is nervous about being with Kyle again.,"Taya was nervous, she felt distant from Kyle.",77
+00:53:03,3,,"Kyle is jumpy, won't leave the house.","Kyle didn't like being back, stayed in the house.",57
+00:53:60,2,,Taya's OBGYN takes Kyle's BP. It's high.,Kyle had BP problems at a later stage.,55
+00:54:55,1,,Taya goes into labour in the car.,Taya didn't go into labour in the car.,50
+00:55:45,2,,Taya gives birth to a boy. Kyle's really happy.,Kyle wasn't crazy about the baby. The birth was tough.,27
+00:56:12,1,,Kyle watches Mustafa's kill videos.,Kyle didn't have any dealings with Mustafa.,64
+00:57:16,1,,"Kyle sees Jeff at the airbase, looking weary.",Kyle didn't meet Jeff on the tarmac.,101
+00:58:57,1,,Kyle is instructed to put together an action squad. ,There was no Kill-The-Butcher action squad.,55
+00:59:52,-1,,Lee questions the whole war.,We couldn't find a source for this. ,81
+01:01:13,3,,Team 3 find a family in an apartment.,The military often found families hiding in homes.,65
+01:02:18,0,,Kyle interrogates the family.,Didn't happen. ,37
+01:02:55,0,,The Butcher enters a restaurant across the street.,Didn't happen. ,77
+01:04:12,0,,Kyle notices 'shooter's strawberries' on the father.,Didn't happen. ,70
+01:05:22,1,,Kyle finds a stash of weapons under the floorboards.,"Kyle didn't find the weapons, the marines did.",69
+01:06:31,0,,"Kyle threatens the father, forces him to work with them. ",Didn't happen. ,42
+01:07:13,0,,The father knocks on the restaurant door.,Didn't happen. ,94
+01:08:47,2,,Team 3 find a body hanging. ,They found two bodies hanging. ,39
+01:09:26,0,,The Butcher escapes down a tunnel.,The Butcher didn't feature in Kyle's story.,78
+01:10:44,0,,"The Butcher jumps into a vehicle, which explodes.",The Butcher didn't feature in Kyle's story.,39
+01:11:23,0,,Mustafa tries to shoot at Team 3.,Kyle didn't have any dealings with Mustafa.,59
+01:12:22,2,,"Stateside, a man thanks Kyle for saving his life.",Kyle was thanked by a man he saved.,156
+01:14:58,2, ,Kyle gets angry when nurses ignore McKenna.,Kyle was angry at all the testing done on his sick daughter.,60
+01:15:58,3,,Taya holds McKenna & cries.,Taya was deeply unhappy after McKenna's birth.,110
+01:17:48,-1,,Biggles buys an engagement ring locally.,We couldn't find a source for this. ,77
+01:19:05,0,,Mustafa watches the team.,Kyle didn't have any dealings with Mustafa.,95
+01:20:40,2,,Mustafa shoots Biggles in the face.,"Mustafa blinded Biggles, but Kyle wasn't there. ",87
+01:22:07,3,,Biggles is rushed to medical.,Kyle carried Biggles to medical. ,72
+01:23:19,2,,"Colonel suggests Team 3 take a break, they refuse.",The team refused the offer of downtime.,60
+01:24:19,2,,Lee is gunned down.,Lee was killed on a mission. ,148
+01:26:47,1,,Kyle escorts bodies home.,Other men escorted the bodies home.,19
+01:27:06,1,,Kyle attends Lee's funeral. ,Kyle was in Iraq for the funeral.,94
+01:28:40,0,,Kyle is angry at Lee for giving up.,Kyle spoke highly of Lee's regretful letter.,52
+01:29:32,1,,Kyle visits Biggles in hospital.,Kyle didn't manage to see Biggles in hospital.,118
+01:31:30,3,,Taya begs Kyle not to go back.,Taya wanted Kyle home. ,97
+01:33:07,2,,Kyle hears Biggles died on the operating table.,Biggles did die in surgery but not until many years later.,56
+01:34:03,2,,Kyle is thinking of going home for good.,Kyle struggled during his 4th tour. ,54
+01:34:57,1,,"Kyle nearly has to kill a kid, & can't handle it. ",Kyle saw a kid with a rocket but was never going to kill him.,90
+01:36:27,0,,"Kyle knows Mustafa is near, wants him dead. ",Kyle didn't have any dealings with Mustafa.,40
+01:37:07,0,,Kyle sets up position.,Kyle didn't have any dealings with Mustafa.,209
+01:40:36,0,,"Mustafa fires, takes out an engineer.",Kyle didn't have any dealings with Mustafa.,52
+01:41:28,2,,Kyle kills Mustafa from 2100yds out. ,"Kyle made a 2100yd shot, but it wasn't Mustafa.",159
+01:44:07,2,,Insurgents swarm the building. ,Insurgents swarmed a building but Kyle wasn't in it.,229
+01:47:56,2,,"Kyle calls Taya, tells her he's coming home.",Kyle was falling apart by this point.,62
+01:48:58,2,,Strykers roll in to get them out. ,The army rescued Kyle's team.,178
+01:51:56,-1,,"Kyle is stateside, but in a bar instead of at home.",We couldn't find a source for this. ,129
+01:54:05,-1,,Kyle hears war sounds in his head.,We couldn't find a source for this. ,40
+01:54:45,1,,Kyle nearly kills a dog at a birthday party.,The dog part didn't happen.,74
+01:55:59,-1,,Kyle sees a psychiatrist.,We couldn't find a source for this. ,106
+01:57:45,3,,Kyle talks to veterans in hospital.,Kyle worked with veterans.,36
+01:58:21,3,,Kyle tutors a veteran at a shooting range.,Kyle taught & hung out with veterans. ,73
+01:59:34,3,,The family move to Texas.,The family moved from California to Texas.,38
+02:00:12,3,,Kyle & McKenna hang out.,Kyle & McKenna got close eventually.,21
+02:00:33,3,,Taya & Kyle flirt.,Taya & Kyle got their marriage back on track.,25
+02:00:58,3,,Kyle teaches Colton to hunt.,Kyle taught his son to hunt. ,25
+02:01:23,3,,Kyle gets ready to take a veteran out shooting. Happy families.,The family were in a good place that day.,144
+02:03:47,0,,Taya doesn't like the look of the marine.,Taya never saw the marine. ,24
+02:04:11,3,,Kyle was killed by the veteran he was trying to help. ,Eddie Ray Routh shot Kyle dead that day.,11
+02:04:22,3,,Thousands of people attended his funeral & memorial.,The funeral & memorial were huge affairs.,172

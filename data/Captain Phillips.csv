@@ -1,0 +1,173 @@
+start,truth int,fiction type ,film condensed,reality condensed,duration
+00:00:37,3,,Phillips packs at home. ,Phillips was well-prepared.,46
+00:01:23,3,,His nurse wife Andrea appears.,"Phillips was married to Andrea, a nurse.",18
+00:01:41,3,,They head to the airport.,Andrea always drove Phillips to the airport. ,104
+00:03:25,3,,They hug goodbye. ,Andrea dropped Phillips off at the airport.,41
+00:04:06,-1,narrative cohesion,"Somalian beach, men sit around with rifles. ",We don't have the pirates' side of things.,10
+00:04:16,-1,"narrative cohesion, dramatic license",A vehicle convoy rolls in. ,We don't have the pirates' side of things.,12
+00:04:28,-1,"narrative cohesion, dramatic license",Muse is woken urgently. ,We don't have the pirates' side of things.,19
+00:04:47,-1,"narrative cohesion, dramatic license","The vehicles pull into camp, cause havoc. ",We don't have the pirates' side of things.,39
+00:05:26,-1,"narrative cohesion, dramatic license, character development",Muse tells another guy to stay out of his way. ,We don't have the pirates' side of things.,16
+00:05:42,-1,"narrative cohesion, character development",Bilal asks Muse to take him.,We don't have the pirates' side of things.,29
+00:06:11,-1,"narrative cohesion, character development",Men jostle for recruitment on the job. ,We don't have the pirates' side of things.,29
+00:06:40,-1,"narrative cohesion, dramatic license",Crews are chosen. Muse selects Najee. ,We don't have the pirates' side of things.,59
+00:07:39,-1,narrative cohesion,Two motorboats are prepped. ,We don't have the pirates' side of things.,43
+00:08:22,-1,"narrative cohesion, dramatic license","The men meet a rusty ship, board it. ",We don't have the pirates' side of things.,51
+00:09:13,3,,Phillips pulls into a port in a taxi. ,Phillips was taken to the port by car.,33
+00:09:46,3,,Phillips examines the Alabama's condition. ,Phillips found safety measures in poor condition.,53
+00:10:39,3,,The crew members greet Phillips. ,"Phillips knew two crew members, the rest were new to him.",67
+00:11:46,3,,Shane gives Phillips a rundown of their cargo. ,The ship was carrying commercial cargo & food aid. ,9
+00:11:55,3,,Shane talks Phillips through the route.,The route ran from Salalah to Mombasa. ,35
+00:12:30,3,,Phillips orders extra security. ,Phillips was hot on security. ,19
+00:12:49,3,,The ship sets sail. ,The Maersk Alabama set sail from Salalah in April 2009.,94
+00:14:23,3,,"PHILLIPS locks cages, orders checks etc. ",Phillips went over the entire ship.,41
+00:15:04,1,character development,Phillips is stern with his crew.,Not in the book. ,27
+00:15:31,-1,narrative cohesion,The pirates identify the Alabama. ,We don't have the pirates' side of things.,39
+00:16:10,3,,Phillips gets a warning about pirate activity. ,Phillips had several warnings about pirates.,44
+00:16:54,3,,He initates an emergency drill. ,They did a pirate attack drill.,54
+00:17:48,3,,"The crew follow protocol, preparing the hoses etc. ",The crew prepared the pirate hoses.,50
+00:18:38,3,,Phillips notices something on the radar.,Phillips noticed three blips on the screen.,28
+00:19:06,3,,He spots two boats coming up. ,Two pirate 'skiffs' approached.,14
+00:19:20,0,character development,Phillips orders the crew to prep for danger. ,Phillips wasn't really a team player.,63
+00:20:23,3,,Phillips gets clearance to up the speed.,Phillips upped the speed.,20
+00:20:43,3,,"Maritime Emergency don't pick up, he calls UKMTO. ",Maritime Emergency didn't pick up. UKMTO did.,71
+00:21:54,-1,"narrative cohesion, character development","Two pirate boats approach, pirates arguing. ",We don't have the pirates' side of things.,34
+00:22:28,2,dramatic license,Phillips gets clearance to up the speed again.,Phillips upped the speed again.,28
+00:22:56,3,,The pirates struggle against the waves. ,The small boats were struggling against the waves.,14
+00:23:10,3,,Phillips puts out a fake distress call. ,Phillips faked a distress call. ,75
+00:24:25,3,,One of the pirate boats flees. ,One of the small boats did turn around at that point. ,32
+00:24:57,1,dramatic license,Phillips speeds up again. ,Phillips upped the speed again.,20
+00:25:17,3,,MUSE gaining ever more ground. ,The pirates were just 4 miles away.,19
+00:25:36,3,,Phillips orders sideways movement. ,Phillips used the ship to create waves.,8
+00:25:44,-1,narrative cohesion,"Muse pushes the engine too hard, it blows.",The little boats struggled in the water.,85
+00:27:09,2,,Phillips talks to his crew.,Phillips debriefed the crew.,58
+00:28:07,2,dramatic license,The crew aren't happy about the danger. ,The crew had their concerns. ,91
+00:29:38,1,character development,"Phillips emails his wife, says little. ",Phillips told Andrea everything.,34
+00:30:12,-1,"narrative cohesion, dramatic license","The pirates fight, Muse hits a guy with a wrench. ",We don't have the pirates' side of things.,112
+00:32:04,2,narrative cohesion,Shane calls Phillips to the bridge.,Here the film blends two incidents into one. ,42
+00:32:46,2,narrative cohesion,Phillips calls UKMTO. The pirates are back. ,Phillips reported to UKMTO.,98
+00:34:24,2,narrative cohesion,"Muse orders Phillips to stop, opens fire.",A blend of two incidents.,54
+00:35:18,2,"narrative cohesion, dramatic license",Crew set up hoses. ,The hoses didn't stop the pirates.,134
+00:37:32,2,character development,Phillips sends the crew to the engine room. ,Phillips stayed on the bridge.,49
+00:38:21,3,,The pirates shoot into the bridge. ,The pirates shot into the bridge.,92
+00:39:53,1,character development,Philips tells his crew to stay put. ,No such call. ,67
+00:41:00,2,,The crew hids behind cylinders. ,There was a safe room through the engine room,14
+00:41:14,3,,The pirates point guns at Phillips.,The pirates entered the bridge.,35
+00:41:49,2,narrative cohesion,Muse says they only want money. ,Phillips gave them $30k.,87
+00:43:16,3,,The ship doesn't seem to be working. ,The engineer shut down the ship.,13
+00:43:29,3,,The crew sweat in the engine room.,The safe room was really hot.,8
+00:43:37,3,,The pirates try to fix the ship. ,The pirates tried to fix the ship.,75
+00:44:52,3,,Muse demands to see the crew or he'll shoot people.,Muse demanded to see the crew.,42
+00:45:34,0,character development,Phillips implores Muse to shoot him. ,Phillips never asked to be shot. ,81
+00:46:55,2,dramatic license,Phillips stalls the search when he can. ,Phillips stalled & sent out messages by radio.,54
+00:47:49,0,dramatic license,Mike leaves to disable the lights.,Not in the book. ,16
+00:48:05,2,narrative cohesion,Phillips leads Muse around the ship.,The pirates searched the ship.,104
+00:49:49,2,narrative cohesion,SHANE enters the galley.,Shane moved around the ship throughout. ,10
+00:49:59,2,dramatic license,Shane hides in the galley.,Shane had to hide when the pirates entered rooms he was in.,100
+00:51:39,0,dramatic license,Shane tells the crew to leave broken glass down. ,The broken glass thing didn't happen. ,27
+00:52:06,3,,The pirates guard ATM & Colin. ,Colin & ATM were on the bridge with Phillips.,36
+00:52:42,0,dramatic license,Bilal cuts his foot on broken glass.,The broken glass thing didn't happen. ,38
+00:53:20,2,dramatic license,Mike distracts the pirates.,Mike played an important role. ,34
+00:53:54,2,dramatic license,Muse demands a search for the crew.,Muse searched for the crew.,32
+00:54:26,1,dramatic license,Mike pulls the lights. ,Mike captured the leader.,17
+00:54:43,3,dramatic license,It goes dark in the engine room. ,Muse was scared of the dark room.,24
+00:55:07,1,dramatic license,A pirate goes after MIKE. ,Mike went after a pirate. ,15
+00:55:22,0,dramatic license,Muse sends Phillips to treat Bilal's foot. ,The broken glass thing didn't happen. ,81
+00:56:43,3,,On the bridge. The pirates are angry. ,The pirates were angry.,17
+00:57:00,2,narrative cohesion,The crew attack Muse. ,Mike attacked the pirate leader.,85
+00:58:25,0,character development,Phillips tries to get treatment for Bilal. ,The broken glass thing didn't happen. ,25
+00:58:50,3,dramatic license,The crew have Muse hostage. ,Mike captured the leader.,61
+00:59:51,2,narrative cohesion,Phillips offers $30k & a lifeboat. ,They made a deal.,47
+01:00:38,3,,Phillips hands it all over.,The pirates got the cash & the lifeboat.,51
+01:01:29,2,narrative cohesion,Phillips gets into the lifeboat - insurance.,Phillips got into the lifeboat.,75
+01:02:44,3,,"Muse released, enters lifeboat. ",The pirate leader was released.,66
+01:03:50,2,dramatic license,"Najee knocks Phillips down, won't let him go. ",The pirates refused to let him go.,17
+01:04:07,3,,The Bainbridge is in the area.,The USS Bainbridge rescued Phillips.,42
+01:04:49,3,,The Bainbridge crew get instructions to rescue Phillips.,The USS Bainbridge rescued Phillips.,70
+01:05:59,2,dramatic license,The lifeboat is hot & cramped. ,"The lifeboat was hot, cramped.",68
+01:07:07,0,character development,Muse tells Phillips his plan.,The pirates didn't discuss this with Phillips. ,43
+01:07:50,2,character development,The pirates discover the Alabama is working fine.,The pirates found out the ship wasn't broken.,39
+01:08:29,3,,The crew follow the lifeboat.,The Alabama stayed with the lifeboat.,22
+01:08:51,1,character development,The pirates argue over khat supplies. ,There was no khat in the lifeboat.,46
+01:09:37,2,character development,Muse explains himself - revenge on overfishing. ,The pirates sought revenge for overfishing.,47
+01:10:24,2,character development,Phillips cleans Bilal's foot wound. ,"The leader had a cut hand, which Phillips bandaged.",116
+01:12:20,2,dramatic license,"Phillips open a knife, Najee gets mad. ",The pirates took Phillips' knife.,42
+01:13:02,3,,The UVA ScanEagle at work. ,The Navy had a ScanEagle drone.,19
+01:13:21,3,,The Navy get info that Garaad is in charge here. ,Garaad was the big boss.,90
+01:14:51,3,,"Phillips asks for water, Najee refuses. ",The pirates denied Phillips water.,106
+01:16:37,0,character development,Phillips suggests opening a hatch for air. ,Not in the book. ,68
+01:17:45,2,dramatic license,Muse tries to radio boss Hufan. ,The operation had a hierachy. ,8
+01:17:53,0,dramatic license,Hufan tells them Garaad isn't impressed.,Garaad had high expectations.,82
+01:19:15,3,,SEAL gets permission to take lethal measures. ,Thw White House permitted lethal force. ,32
+01:19:47,3,,Najee tries to smash a window with a loaded rifle. ,A pirate tried to smash a window with a loaded AK47. ,96
+01:21:23,3,,Muse boasts of his riches. ,The leader claimed to have made millions. ,37
+01:22:00,3,,Najee puts a gun to Phillips' head.,Phillips often had a gun to his head.,35
+01:22:35,3,,US Bainbridge arrives. ,The Bainbridge arrived in the night. ,55
+01:23:30,3,,Castellano radios the lifeboat.,Castellano handled the negotiations.,8
+01:23:38,3,,Nemo offers to bring food & water. ,"The Navy supplied the lifeboat, used an interpreter.",78
+01:24:56,3,,"Navy board the Alabama, send them away.",The Navy ordered the Alabama to leave. ,26
+01:25:22,3,,Navy prepare to launch supply boats.,The Navy did send out a boat with supplies. ,32
+01:25:54,-1,character development,Muse wasn't worried about the Navy. ,We don't have the pirates' side of things.,46
+01:26:40,3,,The boats approach the lifeboat. ,The Navy did send out a boat with supplies. ,32
+01:27:12,3,,The boats use cameras to place their targets.,The Navy ships were hi tech.,6
+01:27:18,2,dramatic license,Phillips yells out his seat number. ,Phillips radioed his position.,47
+01:28:05,3,,Najee fires a shot. ,A shot was fired next to Phillips' head.,69
+01:29:14,3,,The pirates argue. ,Things got tense between the pirates.,15
+01:29:29,3,,The Navy radios the lifeboat. ,The Navy was in regular contact with the lifeboat.,60
+01:30:29,0,character development,Muse refuses to talk. ,Muse was willing to talk. ,23
+01:30:52,3,,US Boxer & US Halyburton arrive.,The USS Boxer & USS Arleigh Burke helped out. ,26
+01:31:18,0,character development,Phillips implores Muse to give up. ,Their 'relationship' wasn't like that.,120
+01:33:18,3,,Castellano is told the SEALS are coming. ,Castellano was the commander of the Bainbridge. ,36
+01:33:54,3,,They lifeboat heads for Somalia. ,The pirates wanted to reach Somalia with Phillips. ,21
+01:34:15,3,,SEALS parachute out of a plane. ,The SEALS parachuted into the ocean. ,17
+01:34:32,2,narrative cohesion,Phillips is allowed outside to pee.,Phillips was allowed out to pee.,48
+01:35:20,3,,"He pushes Bilal, jumps into the ocean. ","Phillips escaped, briefly. ",35
+01:35:55,3,,The Navy prepare a flare.,The Navy couldn't tell who was in the water.,22
+01:36:17,3,,"The pirates are furious, shoot at Phillips.",The pirates went crazy.,52
+01:37:09,3,,The flare goes up but it doesn't help. ,The Navy couldn't tell who was in the water.,17
+01:37:26,3,,Muse recaptures Phillips. ,The pirates recaptured Phillips. ,66
+01:38:32,3,,The SEALS board the Navy ship. ,The SEALS were brought in to assist.,17
+01:38:49,2,character development,Najee beats Phillips. ,All the pirates beat him. ,55
+01:39:44,3,,The Navy offers a peaceful resolution. ,The Navy hoped for a peaceful resolution.,66
+01:40:50,2,dramatic license,Muse puts a gun to Phillips' head.,Phillips was held at gunpoint. ,44
+01:41:34,3,,The Navy try to figure out what happened. ,The Navy were following every move. ,7
+01:41:41,1,dramatic license,Pirates make plans to kill Phillips. ,"Inspired by other moments, but not true. ",60
+01:42:41,2,"character development, dramatic license",Muse holds his gun to Phillips' head.,Phillips often had a gun to his head.,20
+01:43:01,1,dramatic license,SEALS say they've got pirates' elders onboard. ,The SEALS didn't use that particular lie. ,91
+01:44:32,3,,The Navy team prepare for the tow. ,The Navy prepared for the tow. ,68
+01:45:40,0,character development ,Muse explains his actions to Phillips. ,Their 'relationship' wasn't like that.,106
+01:47:26,3,,The Navy attaches a towline & microphone. ,The Navy towed the lifeboat.,41
+01:48:07,3,,They send over a uniform for Phillips. ,Bright clothes for easy identification.,53
+01:49:00,3,,Muse climbs aboard the Navy boat. ,The leader did board the Navy boat. ,32
+01:49:32,0,dramatic license,The pirates throw the uniform on the floor.,Pirates insisted Phillips put the uniform on.,15
+01:49:47,3,,Muse is brought onboard.,Muse was brought on board.,86
+01:51:13,3,,Najee guards Phillips. ,Phillips was guarded by armed pirates throughout his capture. ,22
+01:51:35,3,,Bright lights throw the pirates.,The Bainbridge did have bright lights.,48
+01:52:23,3,,Snipers wait for a clear view. ,The snipers wanted full clearance. ,29
+01:52:52,0,dramatic license,Phillips makes a grab for the uniform. ,The pirates gave the uniform to Phillips straight off. ,28
+01:53:20,3,,The Navy hear Najee make a threat.,The Navy were aware of everything. ,7
+01:53:27,3,,The Bainbridge makes huge waves. ,The Navy manoeuvered to create chop.,70
+01:54:37,1,dramatic license,"Phillips grabs a pen, unseen. ",Phillips didn't grab a biro.,17
+01:54:54,0,dramatic license,Phillips grabs paper as Navy tow lifeboat.,The Navy towed the lifeboat.,29
+01:55:23,0,dramatic license,He scribbles a note.,Phillips didn't write a note. ,38
+01:56:01,3,,NAVY team watching & planning. ,"The Bainbridge followed, making plans. ",16
+01:56:17,0,dramatic license,Phillips keeps scribbling.,Phillips didn't write a note. ,21
+01:56:38,1,dramatic license,"Najee catches him, goes nuts. ",Phillips didn't write a note. ,99
+01:58:17,3,,"The Navy hear screaming, tow faster.",The Navy towed the lifeboat in ever closer.,23
+01:58:40,3,,Phillips breaks down in terror. ,Phillips lost hope in the end. ,23
+01:59:03,3,,Snipers await their chance.,Snipers were waiting. ,9
+01:59:12,3,,Bilal blindfolds Phillips. ,Phillips was tied & blindfolded. ,39
+01:59:51,3,,Snipers try to get a clear view. ,Snipers were waiting. ,15
+02:00:06,3,,The pirates argue.,The pirates disagreed about killing Phillips. ,14
+02:00:20,3,,Phillips finally loses it. ,Phillips eventually snapped. ,10
+02:00:30,3,,Commander wants full clearance before shooting. ,The snipers wanted full clearance. ,21
+02:00:51,3,,"Najee draws his gun, snipers shoot. ",SEALS fired to protect Phillips. ,20
+02:01:11,3,,"Phillips realises pirates shot dead, he's safe. ",The SEALS shot the pirates dead. ,59
+02:02:10,3,,Navy enter the lifeboat. ,The Navy retrieved Phillips.,12
+02:02:22,3,,Guards take Muse down. ,Muse was tricked onto the Bainbridge.,10
+02:02:32,3,,Bainbridge debrief. ,"Three pirates shot, one captured, Phillips saved. ",7
+02:02:39,2,character development,Phillips is in extreme shock. ,Phillips was traumatised.,51
+02:03:30,3,,Muse arrested to be tried in the USA. ,Muse was tried in the USA.,29
+02:03:59,3,,"Phillips receives care, he's traumatised.",Phillips was traumatised.,158
+02:06:37,-,-,-,-,31
+02:07:08,3,,Muse convicted of 33yrs.,Muse was sentenced to 33yrs 9mths.,29

@@ -1,0 +1,77 @@
+start,truth int,fiction type ,film condensed,reality condensed,duration
+00:00:52,3,,King & wife Coretta prepare for Nobel Prizegiving.,King went to Oslo to get a Nobel Prize. ,133
+00:03:05,3,,King presented with Nobel Prize.,King presented with Nobel Peace Prize.,39
+00:03:44,3,,"A church explodes, children die. ","Ku Klux Klan bombed a church, killed 4 children. ",126
+00:05:50,3,,"Cooper tries to register to vote, blocked by impossible test. ","Cooper attempted to register at least 5 times, blocked. ",180
+00:08:50,2,character development,"President Johnson awaits King's visit, he's annoyed with King's impatience.","Controversy over Johnson's view of King, but they worked together.",28
+00:09:18,2,character development,"King demands legislation to protect black right to vote, Johnson delays. ","Johnson promised to do it eventually, but not yet.",242
+00:13:20,3,,King heads to Selma. ,King went to Selma. ,67
+00:14:27,3,,SCLC leader Bevel greets King.,Bevel worked with King in Selma. ,30
+00:14:57,3,,King is attacked by a white guy.,National States' Rights activist knocked King down. ,65
+00:16:02,3,,FBI director Hoover suggests discrediting King via his family.,"Hoover went after King, taping his extramartial encounters. ",86
+00:17:28,3,,Coretta gets a threatening phone call. ,The Kings received many such calls. ,163
+00:20:11,3,,"Kings calls Mahalia Jackson, asks for a song. ",King was enamoured by Jackson's gospel voice.,129
+00:22:20,3,,King & SCLC leaders arrive at Richie Jackson's place.,Richie Jackson's home became unofficial HQ for the Selma movement.,40
+00:23:00,3,,Jackson feeds everyone. ,Richie Jackson's home became unofficial HQ for the Selma movement.,83
+00:24:23,3,,The SNCC aren't happy that King has turned up.,Major tensions between the SNCC & SCLC.,83
+00:25:46,3,,King incites local blacks to dem & their right to vote. ,King gave a speech encouraging action. ,175
+00:28:41,-1,,A journalist challenges King on his non-violent approach.,We couldn't find a source for this.,27
+00:29:08,3,,"SCLC leaders meet with SNCC leaders, discuss tactics.",The two groups agreed drama was needed. ,210
+00:32:38,3,,Protesters march peacefully to the courthouse.,King led 100 protesters to the courthouse.,95
+00:34:13,3,,The protesters kneel.,The protest was a peaceful sit-in. ,49
+00:35:02,2,narrative convenience,"Sheriff Clark hits Cager Lee, Annie Lee Cooper hits Clark, she's arrested. ",Lee was attacked in nearby Marion. Cooper did hit Clark. ,74
+00:36:16,3,,King shown in jail. ,King got himself arrested on purpose.,14
+00:36:30,3,,Johnson watches Wallace speak out against desegregation.,Johnson viewed Wallace as an uncontrollable bigot. ,41
+00:37:11,2,character development,King is despondent.,King suffered moments of despondency. ,199
+00:40:30,3,,Malcolm X turns up. The SCLC are alarmed.,Malcolm X arrived in support of King. ,22
+00:40:52,3,,Coretta meets with Malcolm X. ,They met in secret. ,89
+00:42:21,3,,Malcolm X persuades Coretta he's there to help. ,Coretta felt optimistic they could work together. ,73
+00:43:34,2,character development,"King was suspicious of Malcolm X, didn't like Coretta talking with him.",King deplored Malcolm X's violent approach.,114
+00:45:28,3,,Wallace hatches a plan to kill the movement.,Wallace sanctioned planned violence against the protesters.,105
+00:47:13,3,,"Police kill lights, attack protesters. Jackson & family flee.",Police killed the lights to hide their violence from reporters. Jackson family fled. ,61
+00:48:14,2,dramatic license,"The cops find Jackson & family, shoot him dead.","The cops shot Jackson, but he died from his wounds several days later. ",107
+00:50:01,3,,King visits Cager Lee in hospital. ,King visited Jackson & family in hospital.,184
+00:53:05,3,,King gives a eulogy at Jackson's funeral. ,The funeral speech sparked the Selma to Montgomery march. ,201
+00:56:26,3,,SCLC & SNCC leaders meet to discuss tactics.,They met frequently for strategy meetings.,122
+00:58:28,2,character development,"King informs Johnson of his intention to march, Johnson not happy.","King kept Johnson updated, Johnson's response contested. ",64
+00:59:32,-1,,White warns King's people to keep King safe.,We couldn't find a source for this.,55
+01:00:27,2,character development,King tells Johnson the cause won't wait for him. ,They discussed legislation but we don't have details. ,15
+01:00:42,2,character development,Johnson brings Hoover in.,"Johnson worked with Hoover, although to what extent is contested.",17
+01:00:59,3,,"Coretta is sent a recording, apparently of King having sex with someone else.",The FBI did mail incriminating tapes to Coretta.,285
+01:05:44,-1,,King agrees to stay home the first day of the march.,We couldn't find a source for this.,126
+01:07:50,3,,Wallace condemns the march.,Wallace ordered extreme measures to prevent the march.,51
+01:08:41,3,,Lewis & Forman argue about the march.,SNCC had reservations. ,114
+01:10:35,3,,The march begins.,Over 500 protesters marched across Edmund Pettus Bridge.,102
+01:12:17,3,,State troopers await the protesters.,The troopers lined up to block the march.,64
+01:13:21,2,narrative convenience,"Bayard calls Young, tells him to turn on TV.",Footage from the march was broadcast on CBS.,16
+01:13:37,3,,Troopers release tear gas & attack.,Troopers used teargas & nightsticks to attack protesters.,89
+01:15:06,2,narrative convenience,17m people watch events on the news.,Millions of people tuned in.,14
+01:15:20,3,,Troopers knock Boynton to the ground.,A photo of Boynton's assault went global.,10
+01:15:30,3,,Viewers glued to TV sets watch the violence. ,Millions of people saw what happened via CBS. ,101
+01:17:11,-1,,Lewis & Abernathy help Boynton up.,We couldn't find a source for this.,38
+01:17:49,3,,People reconvene outside the chapel.,Marchers returned to the chapel.,43
+01:18:32,2,dramatic license,Young talks a man out of using a gun to retaliate.,The leaders discouraged violence.,51
+01:19:23,3,,King ordered the second march following Bloody Sunday.,King organized a second march.,26
+01:19:49,3,,King puts out a call to action. ,King called for supporters to come to Selma.,52
+01:20:41,3,,Minister James Reeb heads to Selma. ,"Reeb answered King's call, went to Selma. ",17
+01:20:58,3,,Judge Johnson won't allow the march without White House backup.,"Judge Johnson was sympathetic, but wanted to wait for formal hearings.",30
+01:21:28,-1,,Johnson warns Wallace & King to stop. ,We couldn't find a source for this.,76
+01:22:44,3,,Lawyer Doar asks King to give up the march for his own safety. He refuses.,Doar urged King to postpone the march. SCLC leaders told him no.,91
+01:24:15,3,,"Hundreds gather, including Archbishop Iakovos.",Archbishop Iakovos joined the march.,48
+01:25:03,3,,King addresses the crowd of black & white supporters.,Around a third of the protesters were white. ,39
+01:25:42,3,,"Troops withdraw, the marchers kneel in prayer. ",The troopers stepped aside & the marchers kneeled.,186
+01:28:48,3,,"King turns back, leads the marchers home.",King turned the marchers around to obey a federal injunction.,58
+01:29:46,3,,SNCC & SCLC leaders argue about King's decision.,"Only a few knew of the turnaround plan, others weren't happy. ",104
+01:31:30,3,,King sends his wife a letter.,King often wrote to his wife.,122
+01:33:32,2,dramatic license,White supremacists attack & kill Reeb.,"Reeb was attacked by white men, died two days later. ",124
+01:35:36,3,,Johnson annoyed about sit-ins at The White House.,Seven Selma activists conducted a sit-in at The White House.,113
+01:37:29,-1,,King  & Lewis debate approaches.,We couldn't find a source for this.,261
+01:41:50,3,,King goes to court to fight for the right to march in safety.,King went to court to get his march sanctioned.,69
+01:42:59,3,,Judge Johnson grants the right to march unencumbered from Selma.,Judge Johnson overtuned Wallace's prohibiton of the march. ,138
+01:45:17,3,,Key leaders arrange for famous speakers to attend the march.,Some really big stars attended the march. ,39
+01:45:56,3,,Wallace informed Johnson is going over his head.,Johnson tried to work with Wallace but eventually went over him. ,20
+01:46:16,3,,Wallace & Johnson debate the issue.,Johnson urged Wallace to protect the marchers.,160
+01:48:56,3,,Johnson announces his Voting Rights Bill.,Johnson demanded Congress pass his Voting Rights Bill.,131
+01:51:07,3,,Doar implores King to nix his speech for safety.,Doar tried to protect King. ,147
+01:53:34,3,,Thousands march with military protection.,"8000 people joined the march, protected by police & military.",149
+01:56:03,3,,"Titles: Most activists went on to do well, some were killed. The Voting Rights Act got signed in. ","Many activists got official posts, some were murdered. Johnson signed the Voting Rights Act.",230

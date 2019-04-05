@@ -1,0 +1,108 @@
+start,truth int,fiction type ,film condensed,reality condensed,duration
+00:00:54,-1,Character development ,Doctor says Martin is okay.,Martin was barely featured in the book. ,54
+00:01:48,3,,Feud between Byers & his press secretary Martin.,The scandal was known as 'Spingate'.,33
+00:02:21,-1,Character development ,Martin & wife watch a choir.,Martin was barely featured in the book. ,26
+00:02:47,3,,PM Blair backs Byers.,Blair backed Byers.,4
+00:02:51,-1,Character development ,Martin walks out of the performance.,Martin was barely featured in the book. ,21
+00:03:12,-1,Character development ,His wife is worried about him.,Martin was barely featured in the book. ,32
+00:03:44,3,,Philomena lights a church candle.,Philomena was Catholic.,26
+00:04:10,3,,Young Philomena meets a man at a fairground.,They met at a carnival. ,43
+00:04:53,-1,Character development ,Philomena chats to the priest.,Not in the book. ,26
+00:05:19,3,,Young Philomena kisses the man.,Philomena got pregnant at a carnival.,34
+00:05:53,3,,Young Philomen pregnant.,Philomena was blamed for her pregnancy. ,44
+00:06:37,3,,Young Philomena gives birth agonizingly.,No painkillers allowed for 'sinners'. ,36
+00:07:13,2,Dramatic license ,Philomena remembers her son.,Philomena first told Jane about her son.,52
+00:08:05,,,Young Philomena gives birth to a baby boy.,Anthony Lee was born in 1952.,29
+00:08:34,3,,Martin at a party.,Martin was at a New Year's Eve party.,82
+00:09:56,2,Story coherance,Jane waitressing at Martin's party.,Jane's friend approached Martin. ,73
+00:11:09,-1,Character development ,Should he do a human interest story?,Martin was barely featured in the book. ,7
+00:11:16,-1,Character development ,Martin meets Philomena & Jane at a pub.,Martin was barely featured in the book. ,128
+00:13:24,2,Dramatic license,"Philomen's parents never visit her, say she is dead, out of shame.",Philomena's father disowned her. ,57
+00:14:21,3,,Philomena gets to see her son for an hour a day.,Philomena got to see Anthony for an hour a day.,55
+00:15:16,3,,Her best friend is disraught. Her baby may be adopted.,Mary's mother was distraught about her adoption.,26
+00:15:42,3,,A nun gives Philomena a secret photo of her son.,A kind nun gave Philomena a photo. ,21
+00:16:03,3,,Martin is shocked Philomena was trapped in a convent.,£100 was the charge for release.,32
+00:16:35,2,Story coherence,A family comes to adopt Mary.,"Mary was adopted, her mother was devastated.",49
+00:17:24,-1,Dramatic license,Philomena is told off by a nun.,Not in the book. ,16
+00:17:40,-1,Dramatic license,Philomena watches the new family.,Not in the book. ,28
+00:18:08,-1,Dramatic license,She wil be late for choir practice.,Not in the book. ,18
+00:18:26,3,,Anthony is cuddling with Mary.,Anthony charmed Mary's adoptive mother.,14
+00:18:40,3,,Philomena is told the family are taking Anthony too.,Mary's adoptive mother took Anthony too.,31
+00:19:11,3,,She screams at the window.,Philomena watched her son leave from a window. ,31
+00:19:42,2,Dramatic license,She races to the gate & screams her son's name.,"Philomena watched, sobbing, from a window. ",56
+00:20:38,2,Character development ,"Phllomena has tried to trace her son, unsuccessfully.",The nuns could have connected Philomena & Anthony but chose not to. ,67
+00:21:45,1,Character development ,Philomena & Martin visit Ireland.,Martin investigated alone.,71
+00:22:56,2,,Philomena asks if Martin believes in God.,Philomena remained a practising Catholic all her life.,53
+00:23:49,3,,They visit the convent.,They visited the convent together. ,45
+00:24:34,3,,"Philomena is upset, but pulls herself together.",Philomena carried no bitterness.,21
+00:24:55,3,,They enter the convent.,Martin & Philomena visited Roscrea together.,40
+00:25:35,1,Dramatic license,Martin sees picture of Jane Russell.,"Jane Russell adopted an Irish baby from London, not Roscrea.",35
+00:26:10,3,,Philomena revisits the window.,Philomena did go back to Roscrea.,59
+00:27:09,-1,Character development,Martin asks about Jane Russell.,We don't know what Martin did exactly.,38
+00:27:47,3,,They are told records were burnt in a fire.,Sister Hildegard destroyed incriminating paperwork.,108
+00:29:35,-1,Character development,Sister Claire is evasive.,We don't know what Martin did exactly.,40
+00:30:15,-1,Character development,Martin is blocked from speaking to an older nun.,Martin was barely featured in the book. ,44
+00:30:59,3,,The graves of the girls who died.,Many young girls died there.,36
+00:31:35,3,,They discovered a signed contract.,Philomena was pressured into signing a release for her son.,71
+00:32:46,3,,Martin is frustrated by the documents.,Release papers conveniently survived.,20
+00:33:06,3,,Philomena says she signed because she thought she had sinned.,Philomena still blames herself. ,69
+00:34:15,3,,Philomena defends the nuns.,Philomena defended the nuns. ,38
+00:34:53,2,Dramatic license,The bonfire of documents was actually intentional.,"Jane Russell bought a baby from a Derry couple, but not from Roscrea.",81
+00:36:14,2,Character development ,Martin pitches the story to an editor.,Martin probably sold the story.,81
+00:37:35,2,Dramatic license,Martin visited the US. Philomena didn't.,Martin went to America alone. ,87
+00:39:02,0,Character development ,Philomena details her cheesy romantic novel.,Philomena didn't go to Washington.,139
+00:41:21,0,Character development ,Martin's is insulted by an old friend.,Philomena didn't go to Washington.,93
+00:42:54,3,,Homevideo of Anthony getting off a plane.,There is a photo of this event.,37
+00:43:31,3,,Plane lands in Washington.,Martin flew to Washington to conduct his research. ,26
+00:43:57,0,Character development ,Philomena is excited.,Philomena didn't go to Washington.,56
+00:44:53,0,Character development ,They visit the Lincoln memorial.,Philomena didn't go to Washington.,70
+00:46:03,1,Dramatic license,Philomena worries about what Anthony might have become.,Philomena's brother fretted over what might have happened to Anthony.,56
+00:46:59,0,Character development ,Philomena checks Martin has slippers.,Philomena didn't go to Washington.,26
+00:47:25,-1,Character development ,Martin complains about Philomena.,Not in the book. ,30
+00:47:55,1,Character development ,Philomena wakes Martin up to thank him.,"Philomena wasn't in Washington, but was grateful. ",59
+00:48:54,3,,Philomena praying.,Philomena was a devout Catholic. ,34
+00:49:28,-1,Character development.,Martin jogging.,Not in the book. ,10
+00:49:38,3,,Martin requests immigration files.,Martin researched Anthony for 4-5 years. ,9
+00:49:47,0,Character development ,Martin annoyed by everyone.,Martin went to America alone. ,89
+00:51:16,0,Character development ,Philomena chats to the Mexican chef.,Martin went to America alone. ,18
+00:51:34,2,Dramatic license,Anthony changes his name to Michael Hess.,"Anthony became Michael Hess, a top US lawyer. ",92
+00:53:06,0,Dramatic license,Philomena discovers her son is dead.,Jane discovered Anthony was dead before they ever met Martin.,55
+00:54:01,0,Dramatic license,Heavy atmosphere.,Martin went to America alone. ,32
+00:54:33,0,Character development ,Martin is bullied by his editor into staying.,Martin went to America alone. ,65
+00:55:38,1,Story coherence ,Martin puts the case to Philomena.,Martin went to America alone. ,93
+00:57:11,2,Story coherence ,Anthony in the White House.,Martin had met Anthony before. ,104
+00:58:55,2,Dramatic license,Anthony's sexuality is revealed.,Nancy informed Martin of Anthony's sexuality. ,117
+01:00:52,0,Character development ,Philomena's is comfortable with her son's sexuality.,"Philomena hadn't known he was gay, but thought nothing of it. ",16
+01:01:08,3,,Anthony & his partner Peter together.,Anthony lived with his partner.,32
+01:01:40,3,,Philomena doubtful about the story.,Philomena expressed doubts about the story being published. ,58
+01:02:38,1,Character development,Mary not very warm.,"Mary & Martin corresponded, she was warm.",24
+01:03:02,3,,Marys says their childhood was unhappy.,"Anthony died of AIDS, didn't get along with his adoptive father. ",192
+01:06:14,3,,Home movie of Anthony playing.,There are photographs of Anthony playing as a baby. ,8
+01:06:22,2,Character development,Martin & Philomena argue about God.,Philomena was a devout Catholic.,42
+01:07:04,2,Story coherence,PHILOMENA in a confession box. ,Philomena was a devout Catholic.,13
+01:07:17,-1,Dramatic license/character development,Martin talks to his editor.,Not in the book.,37
+01:07:54,-1,Character development,Philomena can't confess. Cries.,Not in the book.,44
+01:08:38,2,Character development,Philomena doesn't want to do the story anymore.,Philomena still blames herself for losing her son.,86
+01:10:04,0,Dramatic license ,Anthony's partner doesn't want to meet Philomena.,Steve flew to England to meet Philomena.,44
+01:10:48,0,Dramatic license ,Philomena upset & hiding.,Philomena didn't go to Washington.,108
+01:12:36,3,,Home video clip of Anthony & Pete.,Anthony lived with his partner.,13
+01:12:49,-1,Dramatic license ,Martin sees a celtic harp on his glass.,Not in the book. ,39
+01:13:28,1,Dramatic license ,Philomena is fed up. But Anthony wore a celtic pin.,Philomena didn't go to the US. Anthony wore a celtic ring.,107
+01:15:15,0,Dramatic license ,They drive to Peter's house.,Philomena didn't visit Pete's home.,50
+01:16:05,0,Dramatic license ,They watch him being dropped off.,Philomena didn't visit Pete's home.,49
+01:16:54,0,Dramatic license ,Martin doorsteps Pete. Unsuccessfully.,Pete was warm towards Philomena.,114
+01:18:48,0,Dramatic license ,Philomena knocks.,Philomena didn't visit Pete's home.,42
+01:19:30,2,Story coherence,They watch the memorial video.,They all met at Martin's London home.,114
+01:21:24,3,,Anthony searched for his mother.,Anthony searched for his mother. ,98
+01:23:02,-1,Character development,Martin is angry.,Martin's feelings didn't feature in the book. ,73
+01:24:15,-1,Character development,Martin blames Sister Hildegard.,Martin's feelings didn't feature in the book. ,57
+01:25:12,1,Character development,Martin confront Sister Hildegard.,Sister Hildegard had died by that point. ,68
+01:26:20,2,Character development,Sister Hildegard blames Philomena.,The convent blamed girls for their pregnancies. ,34
+01:26:54,3,,Martin incredulous. Philomena forgiving.,Philomena was not bitter about events. ,113
+01:28:47,-1,Character development,Martin calms down.,Martin was barely featured in the book. ,48
+01:29:35,3,,Philomena visits her son's grave.,Anthony was buried at Roscrea.,46
+01:30:21,2,Character development,Martin offers not to print the story.,Philomena originally wanted anonymity but changed her mind. ,43
+01:31:04,2,Character development,"They drive away, both satisfied.",Philomena remained positive after finding her son's grave. ,104
+01:32:48,3,,Martin published a book.,Martin published 'The Lost Child of Philomena Lee' in 2009. ,14
+01:33:02,3,,Philomena visits her son's grave.,Philomena visits her son's grave regularly. ,8
+01:33:10,3,,Martin is a broadcaster & author.,Martin is a broadcaster & author. ,6

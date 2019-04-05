@@ -1,0 +1,156 @@
+start,truth int,fiction type ,film condensed,reality condensed,duration
+00:00:48,3,,Turing in police interview room. ,Turing was interviewed by police.,33
+00:01:21,3,,Police explore his smashed-up flat.,Turing was burgled.,39
+00:02:00,-1,,Menzies hears news of a crime against Turing.,We don't know if MI6 monitored Turing. ,42
+00:02:42,2,,Nock investigates the crime scene. ,Nock didn't exist. ,46
+00:03:28,1,,Nock questions Turing. ,The police did interview Turing.,77
+00:04:45,2,,Nock and constable discuss Turing.,It's likely. ,26
+00:05:11,3,,Turing walks through child evacuation scene. ,Turing travelled during the evacuation.,148
+00:07:39,0,,Denniston interviews Turing. ,Denniston didn't interview him.,14
+00:07:53,0,,Turing appears not to have a sense of humour. ,Turing was known for his wit & tomfoolery.,12
+00:08:05,0,,Denniston is a militaristic ball-breaker.,Denniston was supportive.,23
+00:08:28,3,,Turing is depicted as a prodigy.,Turing was exceptionally clever.,26
+00:08:54,1,,Denniston and Turing don't get on. ,No evidence of any strong dislike. ,36
+00:09:30,0,,Denniston turns Turing down. ,Denniston never interviews Turing. ,61
+00:10:31,1,,Turing says he speaks no German. ,He learnt German at school but wasn't great at it. ,1
+00:10:32,1,,Turing reveals he knows about Enigma.,The Bletchley Park work was top secret.,52
+00:11:24,1,,Denniston says Enigma is unbreakable.,Polish & French intelligence had already broken Enigma codes.,16
+00:11:40,2,,The team survey the Enigma Machine,Seems likely. ,5
+00:11:45,0,,The team include Cairncross. ,Cairncross never worked on Enigma.,2
+00:11:47,3,,Denniston explains how it works. ,Denniston was super experienced.,31
+00:12:18,1,,Polish intelligence smuggled Enigma out. ,Polish intelligence didn't steal an Enigma machine. ,16
+00:12:34,-1,,Denniston explains the problem - codes changed daily. ,More complicated than that. ,24
+00:12:58,2,,They spar over the number of code combinations.,Many billions were possible. ,35
+00:13:33,2,resource bend ,They are to work as a team of five.,A small group of four worked together.,15
+00:13:48,0,,Menzies makes a few comments. ,No record of Menzies being there. ,56
+00:14:44,2,,"""20 million years worth of settings in 20 mins""","It would have taken a very, very long time to check all those settings. ",127
+00:16:51,1,,Turing comes over as lone genius.,"Turing was eccentric, but friendly. ",64
+00:17:55,0,,Tensions over letter frequency analysis method.,Letter frequency analysis was known to be worthless.,21
+00:18:16,2,,Turing designs a machine. ,He adapted an existing design. ,53
+00:19:09,3,,Turing running.,Turing was a runner. ,22
+00:19:31,3,,Making a machine montage.,The English developed the Enigma machine.,50
+00:20:21,0,,Nock discovers Turing's records are classified.,They didn't dig into Turing's war records. ,36
+00:20:57,0,,Nock uses a fake letter to request Turing's records.,Not possible. ,15
+00:21:12,0,,Denniston tells Turing his teammates have made complaints.,His team didn't make complaints against him.,42
+00:21:54,2,,Turing argues only a machine can beat Enigma.,"True, but Turing not the first to realise it.",45
+00:22:39,1,,Denniston gives Turing a dressing down.,No such confrontation. ,30
+00:23:09,2,,Turing hands Menzies a letter for Churchhill. ,Turing wrote to Churchill. ,14
+00:23:23,1,,Churchill has put Turing in charge.,He didn't put Turing in charge but did reply to his letter.,50
+00:24:13,2,,Menzies mocks Turing for his unpopularity.,Turing wasn't popular at school. ,6
+00:24:19,3,,"Flashback to Turing's school, Sherbourne.",Turing attended Sherborne school.,7
+00:24:26,0,,Turing displays OCD symptoms. ,There's no evidence that Turing suffered from OCD.,14
+00:24:40,2,,A boy tips food over Turing's head.,Bullying was common at Sherbourne.,10
+00:24:50,3,,Turing trapped under the floorboards.,Schoolboys did trap him under the floorboards.,60
+00:25:50,1,,Christopher frees him. ,"He didn't free him, but they were friends.",36
+00:26:26,2,,Turing proposes a crossword competition to recruit. ,There was such a competition. ,28
+00:26:54,-1,,Montage of people working on the crossword.,There was such a competition. ,27
+00:27:21,3,,People shelter in the undergroud during London bombings.,People did use the underground as a bomb shelter.,60
+00:28:21,3,,Aftermath of bombings.,London was repeatedly bombed.,40
+00:29:01,-1,,Turing briefs the potential crossword recruits.,"There was such a competition, not organised by Turing.",33
+00:29:34,0,,"Joan arrives, startling Turing.",Joan was poached from Cambridge.,7
+00:29:41,2,,"Joan is told to leave, she protests.",Sexism was rife at the time. ,62
+00:30:43,-1,,Turing invigilates a timed task.,There was a recruitment drive of this sort.,53
+00:31:36,0,,Joan beats Turing's time.,No evidence of how her talents compared with Turing's.,27
+00:32:03,2,,Menzies tells recruits they'll be executed if they leak info.,The sentence for treason was death.,25
+00:32:28,1,,Christopher explains cryptography to Turing.,A different friend introduced Turing to cryptography.,77
+00:33:45,3,,Turing wrestles with his crush on Christopher.,Turing did have a crush on Christopher Morcom at school.,16
+00:34:01,0,,Turing builds his computer at Bletchley.,"The machine wasn't build by him, or at Bletchley.",39
+00:34:40,0,,Joan finds Turing speaking with her parents.,Turing hadn't met them at this stage.,13
+00:34:53,0,,Joan says her father won't let her work at Bletchley.,No evidence that he father blocked her career.,57
+00:35:50,1,,Turing mentions that female staff live together.,"Likely they lived together, but Turing didn't mention it.",31
+00:36:21,0,,Turing repeats Christopher's motivational line.,Didn't happen. ,39
+00:37:00,0,,Nock implies Turing might be a spy.,He wasn't suspected of espionage.,73
+00:38:13,2,,JOAN arrives at Bletchley Park.,She was already at Bletchley. ,36
+00:38:49,0,,Turing says Britain is starving to death.,The Nazis were bombing supply ships but Britain wasn't starving.,6
+00:38:55,-1,,"Americans sent 100,000 tons of food per week.","Cannot confirm the 100,000 tons figure.",27
+00:39:22,2,,"The clock hits midnight, the day's work is useless.",The codes were changed each day. ,24
+00:39:46,0,,"Hugh gets mad at the machine, tries to smash it.",The machine was slow because the code was complex. ,55
+00:40:41,0,,Peter blames his brother's peril on Turing.,Peter didn't have a brother who worked on convoys. ,38
+00:41:19,0,,Turing smuggles documents out to show Joan.,He would never have breached security.,142
+00:43:41,0,,"TURING calls his machine ""Christopher'.","The machine was called the Bombe, then Victory.",10
+00:43:51,-1,,Joan asks about his 'Universal Machine'.,One of Turing's theories concerned such a machine.,57
+00:44:48,0,,Denniston suspects Turing of being a spy. ,TURING was never suspected of being a spy.,63
+00:45:51,2,,Denniston says spies are loner types.,Spies often don't form real relationships.,11
+00:46:02,0,,Denniston threatens Turing. ,He never threatened Turing.,36
+00:46:38,1,,Joan consoles Turing.,"Unnecessary, since he wasn't suspected of espionage.",26
+00:47:04,1,,They discuss codes in a bar.,Unlikely they would chat about their work in public.,14
+00:47:18,2,,"Hugh comes over, Turing gets awkward.",Hugh was diplomatic and Turing was well-liked.,63
+00:48:21,0,,Turing comes across as socially dysfunctional. ,"Turing was known for sociability, wit & tomfoolery.",62
+00:49:23,0,,Turing and Christopher pass encrypted notes.,They didn't share an interest in cryptography.,71
+00:50:34,2,,Hugh offers an idea for wiring the machine.,Welchmann actually made this suggestion.,53
+00:51:27,1,,They turn the machine on. It's noisy.,Not housed at Bletchley but was noisy.,68
+00:52:35,3,,Battlefield. German tanks roll through Europe. ,The Germans made great advances across Europe.,32
+00:53:07,3,,Turing frustrated at the slowness of the machine.,It was slow and took weeks to decrypt.,30
+00:53:37,0,,"Denniston bursts in, shuts down the machine.",Didn't happen. ,141
+00:55:58,0,,Hugh defends Turing.,Didn't happen. ,45
+00:56:43,0,,Hugh bargains with Denniston.,Didn't happen. ,45
+00:57:28,0,,Hugh and Turing discuss the spy. ,No one knew about the spy until 1951.,42
+00:58:10,2,,"Nock is told that Turing is gay, was robbed by man he had sex with.",Turing admitted this to police. ,59
+00:59:09,0,,NOCK asks to interrogate him.,"Turing reported the burglary, which brought his lifestyle to police attention. ",15
+00:59:24,2,,Joan finds Turing frustrated by Christopher's slowness.,Likely. The early machines were slow. ,27
+00:59:51,0,,Joan announces she's leaving.,Joan was happy at Bletchley.,19
+01:00:10,0,,TURING insists he won't let her leave.,Joan was happy at Bletchley.,7
+01:00:17,0,,Joan lashes out at Turing. ,Didn't happen.,47
+01:01:04,2,,Turing makes an engagement ring from wire.,He proposed to Joan in the traditional way.,70
+01:02:14,0,,They throw an engagement party.,They kept their engagement secret.,73
+01:03:27,0,,Cairncross advises Turing not to speak of his sexuality.,They never met.,100
+01:05:07,2,,"Turing waits for Christopher, he never arrives.",Christopher died.,53
+01:06:00,0,,Nock interviews Turing.,Didn't happen.,217
+01:09:37,3,,"The machine churns, it's struggling.",The Bombe struggled against the Enigma system.,60
+01:10:37,1,,Joan's friend Helen is interested in Hugh.,No record of this meeting. ,159
+01:13:16,0,,Turing questions Helen on her work.,Employees weren't allowed to discuss their work.,68
+01:14:24,1,,Turing suggests using weather reports to decode messages.,It was a bit more complicated than that.,56
+01:15:20,1,,"They apply the weather idea, and it works!",Far more complicated and drawn-out than that.,205
+01:18:45,2,,They decode messages into a map of the North Atlantic.,A bigger team did use such a map. ,40
+01:19:25,0,,Turing stops the team from alerting a convoy to an attack.,The team didn't make such decisions.,149
+01:21:54,1,,The team can't save Peter's brother from a convoy attack.,"Didn't happen, but the sinking did.",101
+01:23:35,2,,The blasted remains of the convoy at sea.,German U-Boats torpedoed many convoys.,13
+01:23:48,0,,Turing and Joan go to conspire with Menzies. ,They didn't travel to London to conspire with Menzies.,52
+01:24:40,-1,,Turing suggests a plan for using their intelligence.,Menzies decided this for himself.,27
+01:25:07,2,,Turing and Joan request a cover story.,This kind of thing happened.,38
+01:25:45,0,,MENZIES agrees.,Menzies wasn't there.,26
+01:26:11,-1,,Codename Ultra became world's largest military intelligence store.,Can't confirm this.,11
+01:26:22,0,,It was like having a tap on Himmler's intercom.,Himmler didn't have military command at that stage.,14
+01:26:36,0,,And for some reason they trusted TURING.,They trusted him for good reason.,4
+01:26:40,-1,,Peter knocks papers out of Turing's hands.,Peter respected Turing. ,22
+01:27:02,0,,Turing works out Cairncross is a spy.,Cairncross wasn't revealed as a spy until 1951.,62
+01:28:04,0,,Cairncross blackmails Turing into covering for him.,Turing never met Cairncross.,46
+01:28:50,0,,Turing keeps the secret.,Never happened.   ,43
+01:29:33,0,,"Turing finds Menzies at Joans, reveals Caincross is the spy. ",This scene never happened.,42
+01:30:15,0,,Menzies admits he placed Cairncross at Bletchley knowing he was a spy.,Cairncross wasn't deliberately placed there.,35
+01:30:50,2,,Churchill too paranoid to work with the Soviets.,"Churchill shared some intelligence, but not methods.",13
+01:31:03,0,,Menzies wants to use Cairncross to leak misinformation.,Cairncross wasn't an unwitting double-agent. ,35
+01:31:38,0,,Turing insists Menzies releases Joan.,Dramatic conceit. Didn't happen.,7
+01:31:45,0,,TURING has become a spy!,There was no such setup.,36
+01:32:21,0,,Turing tells Joan to leave Bletchley.,Didn't happen. ,28
+01:32:49,2,,TURING tells JOAN he's homosexual. ,Turing told her after a few days of engagement.,25
+01:33:14,3,,JOAN suspected he was gay.,Joan suspected Turing was gay.,5
+01:33:19,3,,Joan was fine with Turing's sexuality.,Joan wasn't bothered by such things. ,46
+01:34:05,0,,Turing rejects her harshly. ,Turing acted honourably. ,28
+01:34:33,0,,"Joan asserts herself, refuses to leave.",She was deferent to men.,38
+01:35:11,0,,The team are forced to calculate who to save.,Higher-ups made such decisions.,34
+01:35:45,2,,Many big battles won because of Bletchley work.,Many battles were aided and won by Enigma intelligence. ,55
+01:36:40,3,,Victory is declared for the Allies. ,The Allies won the war.,62
+01:37:42,1,,Menzies tells the team to burn everything.,All materials were destroyed.,54
+01:38:36,-1,,Turing faces Nock down. ,Nock didn't exist.,54
+01:39:30,1,,Headmaster coldly tells Turing Christopher died.,"All students were told with kindness, and comforted.",140
+01:41:50,3,,Turing sentenced for indecency.,Turing sentenced on three counts of gross indeceny.,21
+01:42:11,2,,Joan turns up at Turing's place.,They remained life-long friends.,29
+01:42:40,-1,,She notices him twitching. ,Turing's circle dispute that he was depressed.,22
+01:43:02,3,,Judge offers prison or hormonal therapy.,Turing accepted a year of hormone treatment over prison.,32
+01:43:34,0,,She offers to help. He refuses.,JOAN wasn't there.,10
+01:43:44,0,,"Turing says he's not alone, he has the computer. ",Turing never confused computers with people. ,20
+01:44:04,2,,If Turing doesn't accept treatment they'll take the computer away. ,Prison would have lost Turing his position. ,11
+01:44:15,1,,Turing breaks down. ,His letters show he was pragmatic. ,50
+01:45:05,2,,Turing spots Joan's wedding ring.,Joan married an army colleague.,25
+01:45:30,-1,,Turing's hand is twitching badly.,No mention of this side-effect. ,35
+01:46:05,2,,Joan says the country has a lot to thank him for. ,"It did, but it was a team effort. ",48
+01:46:53,3,,Turing created a field of scientific enquiry.,Turing was highly influential.,37
+01:47:30,0,,She repeats his catchphrase back to him. ,This catchphrase was made up for the film.,43
+01:48:13,2,,The team burning their materials at Bletchley.,All materials at Bletchley were destroyed after the war.,30
+01:48:43,1,,Turing commited suicide after a yr of hormonal therapy. ,Died a year after he stopped the therapy - maybe not suicide.,16
+01:48:59,3,,"1885-1967 49,000 gay men convicted of gross indecency.",Truly terrible.,10
+01:49:09,3,,Queen Elizabeth II pardoned Turing.,Queen Elizabeth issued a royal pardon for Alan Turing.,14
+01:49:23,3,,Estimates say breaking Enigma shortened war by 2yrs+.,Possibly shortened war by 2-4years.,11
+01:49:34,2,,Remained a secret for 50yrs.,First book about Bletchley published 1974.,12
+01:49:46,3,,Turing's work inspired computers.,His work provided a blueprint for the digital computer.,23

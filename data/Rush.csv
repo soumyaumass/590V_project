@@ -1,0 +1,108 @@
+start,truth int,fiction type ,film condensed,reality condensed,duration
+00:01:16,3,,Lauda talks about his rivalry with Hunt. ,Lauda & Hunt were rivals. ,115
+00:03:11,2,Character development,"Hunt swaggers into hospital, injured.","Hunt was hospitalised, & made the most of it. ",75
+00:04:26,3,,Hunt has sex with a nurse.,Hunt loved sex.,51
+00:05:17,3,,Crystal Palace 1970.,Hunt raced at Crystal Palace.,59
+00:06:16,3,,Hunt throws up. ,Hunt threw up before every race.,22
+00:06:38,0,Dramatic license,Hunt sees Lauda. ,Lauda wasn't there.,78
+00:07:56,0,Dramatic license,Hunt beats Lauda in the race.,Lauda wasn't there.,119
+00:09:55,0,Dramatic license,Lauda & Hunt argue.,Lauda wasn't there.,67
+00:11:02,3,,"Lauda asks his dad for money, he refuses.",Lauda's family didn't support his career.,63
+00:12:05,3,,He gets a bank loan. ,Lauda's early career was funded through bank loans.,12
+01:12:25,3,,Lauda is rushed to hospital. ,Lauda was helicoptered to hospital.,42
+00:12:17,1,Character development,Hunt wins Driver of the Year.,Hunt won second place.,77
+00:13:34,3,,He finds out about Lauda's funding. ,Lauda bought his way into the sport.,41
+00:14:15,3,,Lauda enters BRM for testing. ,BRM sought Lauda out.,34
+00:14:49,3,,"He meets the new team, they're not keen. ",Lauda was the straight-talking type.,32
+00:15:21,3,,He suggests improvements on the car. ,Lauda was an expert.,42
+00:16:03,3,,They work on the car.,BRM had to do a lot to bring their cars up to standard.,43
+00:16:46,1,Dramatic license,Lauda wins a bet.,"At Ferrari, not BRM.",82
+00:18:08,3,,Lauda demands a 2yr contract.,Lauda got his 2yr contract.,63
+00:19:11,0,Character development,Regazzoni warns Lauda not to date the track manager. ,Lauda was in a committed relationship.,83
+00:20:34,3,,Hunt's team give him an F1 car.,Hesketh bought a March 731.,84
+00:21:58,3,,Hunt sees a crash at F1.,Hunt saw the crash.,63
+00:23:01,2,,"Finds out it was fatal, throws up.",Mark Donohue lost his life.,31
+00:23:32,1,character development,Hunt calls for the race to be cancelled. ,This moment isn't in the Calley book. ,38
+00:24:10,-1,,Hunt visualises the race.,This moment isn't in the Calley book. ,22
+00:24:32,2,Narrative cohesion,Suzy & Hunt meet. ,"They met in Spain, got engaged.",140
+00:26:52,3,,They get married. ,"They were married, Hesketh paid.",31
+00:27:23,3,,Lauda gets signed by Ferrari. ,Ferrari headhunted Lauda.,29
+00:27:52,3,,Lauda tells the engineers the Ferrari is shit.,Ferrari was paling until Lauda joined .,32
+00:28:24,3,,Ferrari introduce Lauda & Regazzoni as their drivers.,Regazzoni persuaded Ferrari to take Lauda too.,12
+00:28:36,3,,They drive through the countryside. ,They were buddies.,69
+00:29:45,2,,Lauda asks Marlene for a lift from a party.,Lauda met Marlene at a party.,74
+00:30:59,0,Dramatic license,Lauda tells Marlene her car is dodgy. ,Didn't happen.,68
+00:32:07,0,Dramatic license,"The car breaks down, they flag a lift with 2 fans.",Didn't happen.,109
+00:33:56,0,Dramatic license,The fans are super excited. ,Didn't happen.,72
+00:35:08,0,Dramatic license,"Lauda puts his food down, Marlene is smitten. ",Didn't happen.,30
+00:35:38,3,,Lauda wins the 1975 US Grand Prix.,Lauda was 1975 world champion.,121
+00:37:39,2,Character development,Hunt says Lauda only won because his car was better. ,Lauda was a pro with engines.,144
+00:40:03,3,,Hunt finds his team gone.,Team Hesketh ran out of money.,30
+00:40:33,3,,Hesketh tells him they've gone bust.,The team got no sponsorship.,80
+00:41:53,3,,Hunt gets wasted. ,Hunt lost his drive.,37
+00:42:30,3,,Hunt finds out his reputation lost them sponsorship.,The team got no sponsorship.,27
+00:42:57,3,,Hunt turns on Suzy. ,Their marriage was miserable .,102
+00:44:39,3,,A spot opens at McLaren.,Hunt wanted Fittapaldi's spot.,37
+00:45:16,3,,Hunt pleads for the drive. ,McLaren took Hunt on.,71
+00:46:27,3,,Bubbles assures McLaren that Hunt can drive. ,Mayer disapproved of Hunt's antics.,24
+00:46:51,3,,"Grand Premio de Brazil, Hunt & Lauda prep. ",Hunt & Lauda were true rivals.,70
+00:48:01,3,,"Lauda wins, Hunt's car fails. ","Lauda won, Hunt retired.",13
+00:48:14,3,,"Lauda wins South Africa, Hunt comes second. ","Lauda won, Hunt second.",22
+00:48:36,3,,"Hunt wins Spain, Lauda second. Hunt disqualified. ","Lauda second, Hunt won (disqualified).",93
+00:50:09,3,,"Monaco, Hunt's car fails. ","Lauda won, Hunt retired.",31
+00:50:40,3,,"Belgium, Hunt's car fails again.","Lauda won, Hunt retired.",61
+00:51:41,3,,Hunt blames Lauda for his bad performances. ,Lauda gave evidence against Hunt in F1 court.,68
+00:52:49,3,,Suzy has an affair with Burton. ,Suzy had an affair with Burton.,32
+00:53:21,3,,"Hunt & Suzy talk, she ends it. ",Suzy left Hunt for Burton.,96
+00:54:57,3,,Hunt leaves alone. ,Hunt was relieved Suzy had left him.,40
+00:55:37,3,,Hunt hooks up with an air hostess. ,"Hunt got laid, a lot & had a thing fro air-stewardesses.",57
+00:56:34,3,,"Grand Prix de France, Hunt wins, Lauda retires. ","Lauda retired, Hunt won.",43
+00:57:17,3,,"British Grand Prix, Hunt wins, Lauda second. ","Lauda won, Hunt second (disqualified).",49
+00:58:06,3,,Hunt's disqualification is overturned. ,Hunt's disqualification was revoked.,22
+00:58:28,2,,Hunt & Lauda give cocky interviews.,They were both arrogant.,35
+00:59:03,3,,Lauda & Marlene wait to get married.,They married soon after meeting.,33
+00:59:36,1,Character development,They have a basic ceremony. ,Lauda wasn't the flashy type.,23
+00:59:59,3,,Cosy honeymoon montage. ,Lauda & Marlene were very close.,21
+01:00:20,1,Character development,"Lauda broods, opens up to Marlene. ",Lauda keeps the private private.,70
+01:01:30,3,,A driver is badly hurt at Germany. ,A driver was killed that day.,44
+01:02:14,-1,Dramatic license,A fan asks Lauda for a dated autograph. ,No record of this.,23
+01:02:37,3,,"Race day at Germany, the track is soaked.",Nurburgring was drenched that day.,21
+01:02:58,2,,"Lauda wants the race cancelled, Hunt sways the vote. ",Lauda called for a vote on cancelling the race.,162
+01:05:40,3,,The teams fix their wet weather tyres.,All but one driver started on wet weather tyres.,106
+01:07:26,3,,Hunt & Lauda begin side by side. ,Hunt & Lauda started alongside one another.,71
+01:08:37,3,,Hunt & Lauda change tyres.,Everyone but Mass had to change tyres.,82
+01:09:59,3,,"Lauda crashes, his car in flames. ",Lauda crashed in flames.,146
+01:13:07,3,,"News of Lauda's injuries, worse than thought.",Lauda's burns were horrific.,12
+01:13:19,3,,A priest gives Lauda last rites.,A priest gave him last rites.,25
+01:13:44,3,,Hunt tries to write Lauda a letter.,Hunt kept in touch.,44
+01:14:28,3,,Lauda wakes up. ,Lauda woke up against expectations.,24
+01:14:52,3,,Marlene sees Lauda's disfigured face. ,Half of Lauda's face was destroyed.,36
+01:15:28,3,,Lauda watches old races.,Lauda watched from his bed.,50
+01:16:18,3,,Doctors vacuum his lungs.,His lungs were vacuumed.,95
+01:17:53,2,Dramatic license,"He tries to get his helmet on, it's agony. ",Lauda's skin was still raw.,71
+01:19:04,3,,Lauda joins the 1976 Italian Grand Prix practice. ,Lauda returned to the track within weeks.,37
+01:19:41,0,Character development,Hunt apologises to Lauda for the crash. ,It wasn't Hunt's fault.,84
+01:23:16,0,Dramatic license/character development,Hunt beats the crap out of the reporter. ,Hunt didn't assault a reporter.,43
+01:23:59,3,,Lauda gets into the car to cheers. ,Lauda was well-supported.,115
+01:25:54,3,,Lauda finishes fourth. ,Lauda finished fourth.,150
+01:21:05,2,,A reporter pisses Lauda off.,A reporter asked if his marriage could survive the scarring.,131
+01:28:24,2,,The track celebrates.,Lauda became a hero.,66
+01:29:30,3,,"Morning of Japanese Grand Prix, torrential rain. ",The track was drenched.,45
+01:30:15,3,,Hunt is nervous about the race.,"Hunt was the nervous type, Lauda not so much.",73
+01:31:28,3,,Hunt wants the race cancelled. ,TV rights were worth too much to cancel the race.,53
+01:32:21,3,,The atmosphere is tense. ,The rain was torrential.,40
+01:33:01,3,,Hunt's team drill holes in his visor.,Hunt had holes drilled in his visor.,70
+01:34:11,3,,Hunt & Lauda share a look. ,There was mutual respect between them.,41
+01:34:52,3,,"Lauda slows the car, pulls in. ",Lauda thought the risk unacceptably high.,190
+01:38:02,3,,"Lauda quits, says race is too risky. ",The mechanics blamed the car at first.,34
+01:38:36,3,,The team offer to blame it on the car. ,Lauda insisted on the truth.,32
+01:39:08,3,,"Tires shredding, Hunt pulls in. ",Hunt almost lost his tyres completely.,94
+01:40:42,1,Character development,Hunt's team suggest he give up. ,Hunt wasn't encouraged to give up.,80
+01:42:02,3,,Hunt's finishing position is unclear.,The pit board was faulty.,135
+01:44:17,3,,The stewards confer. ,Confirmation took a while.,36
+01:44:53,3,,"Hunt confirmed winner, to his shock. ",Hunt was stunned by his win.,56
+01:45:49,3,,"Lauda leaves the track, no regrets.",Lauda has no regrets.,53
+01:46:42,3,,Hunt enjoys his celebrity.],Hunt was a celebrity.,58
+01:47:40,1,Character development,Hunt meets Lauda at an airfield. ,Lauda had a thing for planes.,16
+01:47:56,1,,Hunt & Lauda reminisce. ,They remained friends.,249
+01:52:05,3,,"Hunt became a broadcaster, Lauda world champion again.","Hunt became a broadcaster, Lauda became world champion, again.",70

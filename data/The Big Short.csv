@@ -1,0 +1,94 @@
+start,truth int,fiction type ,film condensed,reality condensed,duration
+00:00:49,3,,Mark Twain quote. ,Refers to ignorance in housing market. ,27
+00:01:16,3,,"1970s, Ranieri comes up with mortgage bonds. ",Ranieri is the father of mortgage-backed securities.,65
+00:02:21,3,,Ranieri sells millions' worth of mortgage bonds. ,Ranieri was persuasive. ,43
+00:03:04,3,,Bankers at the strip club. ,Bankers keep strip clubs going. ,14
+00:03:18,3,,NYC skyline montage.,America was on the up until the bubble burst. ,28
+00:03:46,3,,The market crashes.,Bad loans collapsed the economy.,60
+00:04:46,3,,Burry interviews an analyst at Scion. ,Burry set up Scion capital. ,52
+00:05:38,2,Narrative device,Burry talks about his glass eye.,Burry had a glass eye.,130
+00:07:48,2,Narrative device,Burry orders the new guy to bring bond statements.,Burry got hold of hundreds of bond statements.,97
+00:09:25,3,,Baum interrupts a support-group meeting. ,Eisman often barged into his therapy sessions.,110
+00:11:15,3,,Burry reads mortgage bonds like a novel. ,"Burry read the lot, realised things were bad. ",55
+00:12:10,3, ,"Burry wants to short the market, Fields disapproves. ",Greenblatt didn't approve. ,97
+00:13:47,3,,Robbie cameo - explains mortgage bonds. ,Mortgage bonds were full of bad loans. ,67
+00:14:54,3,,Burry claims he's going to invent a way to short the market.,No instruments for betting against the housing market at that point.,54
+00:15:48,3,,Baum was always questioning things.,Eisman chased down BS. ,69
+00:16:57,1,we don't have a category for 'saving the family from further heartache'... ,Baum's wife asks him to talk about losing his brother. ,"Eisman lost his son, not his brother. ",122
+00:18:59,3,,Sachs sells Burry $100m in swaps. ,Goldman sold Burry $100m in swaps.,203
+00:22:22,3,,Deutsche sells Burry $200m in swaps. ,Deutsche let them buy $200m in swaps. ,16
+00:22:38,3,,Montage - Burry buying swaps. ,"Burry harrassed the banks, they loved it. ",50
+00:23:28,3,,A trader tells Vennett about Burry. ,Lippmann got wind of Burry's trades.,58
+00:24:26,3,,Fields is furious. ,Greenblatt was furious. ,88
+00:25:54,0,Character development,"Baum sees Tao, asks if she's pregnant. ",Tao is probably a fictional character. ,22
+00:26:16,2,,Vennett calls Baum's office by mistake. ,We can't find a source on this. ,149
+00:28:45,3,,Vennett presents credit default swaps to Baum. ,Lippmann pitched swaps to Eisman. ,319
+00:34:04,3,,Bourdain cameo - explains CDOs.,The book explains CDOs in detail. ,45
+00:34:49,3,,Baum is interested in Vennett's idea.,Lippmann had Eisman interested. ,67
+00:35:56,3,,Baum tells his team to research the housing market.,Eisman sent his team on a research mission. ,84
+00:37:20,3,,Geller & Shipley fail to get an ISDA.,They were way under the minimal capital. ,133
+00:39:33,3,,They find Vennett's prospectus.,A friend sent them Lippmann's prospectus. ,71
+00:40:44,3,,Shipley & Geller got rich from their garage. ,They turned $110k into $30m from their garage. ,50
+00:41:34,3,,They call Rickert for help. ,"Hockett quit Wall Street, joined Cornwall Capital Management. ",69
+00:42:43,2,Dramatic license,Baum's team do some research in Florida.,They went to Florida to figure out the housing market.,179
+00:45:42,3,,Fields wants his money back. ,Greenblatt wanted to withdraw his investment. ,230
+00:49:32,1,Character development,Baum gets a tour from an estate agent.,Eisman didn't take a tour with an estate agent. ,62
+00:50:34,1,Narrative device,Baum talks to two mortgage brokers. ,These mortgage brokers weren't in the book. ,166
+00:53:20,0,Narrative device,Baum asks a stripper about her home loans.,Eisman didn't interrogate a stripper about her loans.,80
+00:54:40,3,,Baum buys $50m in swaps from Vennett.,Eisman agreed to deal with Lippmann. ,32
+00:55:12,3,,Daniel calls Vennett.,Daniel arranged to buy the swaps. ,104
+00:56:56,3,,Rickert agrees to help them short the market. ,Hockett agreed to help. ,214
+01:00:30,2,Narrative device,Rickert gets them an ISDA. ,Hockett got Cornwall Capital an ISDA. ,26
+01:00:56,3,,"Mortgages start to fail, CDOs go up. ",CDOs went up while mortgages defaulted. ,170
+01:03:46,3,,Baum tells Deutsche to f*** off. ,Eisman told the risk guys to f*** off.,20
+01:04:06,3,,Baum meets with Hale.,She admitted the ratings agencies were corrupt. ,164
+01:06:50,3,,"Burry's office is near empty, Scion's value down. ","Scion's value went down, Burry fired staff. ",40
+01:07:30,3,,"Shipley & Geller shocked, talk to Rickert. ",They couldn't believe what they were seeing. ,49
+01:08:19,3,,Everyone panics. ,Everyone was freaking out. ,148
+01:10:47,3,,They all go to the ASF in Vegas. ,They attended the ASF to figure out the state of the market. ,135
+01:13:02,3,,Baum challenges Dantone at a the presentation. ,Eisman challenged the speaker. ,95
+01:14:37,2,Character development,Shipley & Geller go shooting with Bear Stearns. ,Ledley went shooting with Bear Stearns. ,70
+01:15:47,2,Narrative device,"Shipley talks to an SEC employee, she wants a job at a bank.",Ratings agency staff wanted jobs at the banks. ,58
+01:16:45,3,,Geller questions a Merrill rep. ,The Cornwall guys questioned loads of people. ,15
+01:17:00,2,Narrative device,An analyst asks Burry if he could be wrong. ,Investors thought Burry was wrong. ,138
+01:19:18,3,,Geller suggests buying up AA bonds.,They bought up AA bonds.,94
+01:20:52,3,,They buy as many as they can. ,They tried to buy as many AAs as they could.,44
+01:21:36,2,Character development,Rickert reminds the others how bad this is. ,They were aware of the catastrophe on the horizon. ,57
+01:22:33,3,,"Baum talks to a CDO manager, gets scared.",Eisman's talk with Chau got him really worried. ,107
+01:24:20,3,,Thaler/Gomez cameo - explain synthetic CDOs.,The book explains synthetic CDOs. ,211
+01:27:51,3,,Baum instructs his guys to short Chau's stuff. ,Eisman shorted Chau big time. ,59
+01:28:50,3,,They all leave the conference looking miserable.,The conference scared them. ,48
+01:29:38,1,we don't have a category for 'saving the family from further heartache'... ,Baum breaks down over his brother. ,"Eisman lost his son, not his brother. ",117
+01:31:35,3,,"Burry blasts heavy metal, plays drums. ",Burry blasted heavy metal music. ,76
+01:32:51,3,,"Burry restricts investors' withdrawals, they're not happy. ","Burry restricted withdrawals, got threatened with lawsuits. ",75
+01:34:06,3,?,Titles - Murakami end-of-the-world quote.,These guys were pretty scared. ,28
+01:34:34,3,,The crash begins. ,The crash began in 2007. ,44
+01:35:18,3,,Tao tells Baum to sell his swaps.,The risk people wanted Eisman to sell. ,46
+01:36:04,3,,Burry argues with Goldman on the phone. ,Burry insisted the banks were wrong. ,59
+01:37:03,2,,Geller calls his mother to warn her. ,Ledley's mother told him to go on Lithium. ,17
+01:37:20,3,,Geller & Shipley realise the system is criminal. ,Cornwall Capital realised the system was corrupt. ,38
+01:37:58,0,Narrative device,They try to get their friend at WSJ to print the story.,No friend at WSJ. ,72
+01:39:10,3,,"Vennett tells Baum to sell, swaps are hot. ",Everyone wanted credit swaps. ,88
+01:40:38,3,,"Goldman call Burry, making nice. ",Goldman got desperate. ,32
+01:41:10,3,,Goldman loses $15bn. ,Goldman lost $15bn in the crisis. ,150
+01:43:40,3,,Daniel wants Baum to sell. He won't. ,"Eisman was on a moral crusade, he wasn't selling. ",101
+01:45:21,3,,"Geller & Shipley need Rickert, he's in England.",Hockett was on holiday in England.,39
+01:46:00,3,,Rickert sells their swaps from a pub. ,Hockett sold their swaps from a pub in Exmouth. ,91
+01:47:31,2,Narrative device,Burry emails Fields re his massive profit. ,"Burry's email said only, 'you're welcome'. ",29
+01:48:00,3,,VENNETT gets a huge bonus check.,Lippmann was offered $50m bonus. ,34
+01:48:34,3,,Rickert sells the swaps to Europe. ,3/4 of the swaps went to UBS. ,54
+01:49:28,3,,"Deutsche HQ auditorium, Baum waits to speak. ",Eisman was invited to speak opposite Miller. ,44
+01:50:12,3,,"As Baum speaks, Bear Stearns crashes.",Bear Stearns crashed as they spoke. ,181
+01:53:13,3,,Everyone scrambles to leave.,"Everyone left in a panic, Stearns was crashing. ",57
+01:54:10,2,Narrative device,Lehman Brothers collapses.,Lehman Brothers went bankrupt. ,61
+01:55:11,3,,Daniel begs Baum to sell. ,Daniel was getting antsy. ,38
+01:55:49,3,,Burry closes Scion after making a huge profit. ,Burry closed the fund. ,138
+01:58:07,0,Narrative device,Geller & Shipley walk around the Lehman building. ,They didn't enter the Lehman building. ,43
+01:58:50,3,,Baum is depressed by the corruption he's seen. ,Eisman was saddened by the state of things. ,63
+01:59:53,3,,Narrator - the banks got away with it.,Only one guy went to jail. ,49
+02:00:42,3,,"Baum agrees to sell, makes $1bn profit. ",Eisman's fund made $1bn profit. ,59
+02:01:41,3,,"Titles - The collapse affected millions, cost trillions. ","The collapse affected millions, cost trillions. ",27
+02:02:08,3,,Titles - Baum turned humble. ,Eisman calmed down after the collapse. ,22
+02:02:30,3,,Titles - Geller & Shipley tried to sue. ,They were laughed out of law firms. ,23
+02:02:53,3,,Titles - Burry was raided & audited. ,The FBI raided Burry. ,27
+02:03:20,3,,Titles - banks are selling tranches now. ,Banks are selling tranches now. ,20

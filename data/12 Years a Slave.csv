@@ -1,0 +1,109 @@
+start,truth int,fiction type ,film condensed,reality condensed,duration
+00:00:54,3,,Slaves are briefed on sugar cane harvesting. ,Northup harvested cane during the season. ,41
+00:01:35,2,character development,The plantation owner supervises the slaves.,Slaves were closely supervised. ,42
+00:02:17,3,,The slaves sleep on the floor.,Northup was never allowed more than a blanket for sleeping.,13
+00:02:30,2,dramatic license,Northup tries to make pen & ink. ,Northup tried numerous means of creating pen & ink. ,32
+00:03:02,2,dramatic license,"Northup tries to write a letter, fails. ",Northup tried to write letters with various materials. ,41
+00:03:43,0,dramatic license,Northup pleasures a slave woman.,Made up by the filmmakers. ,115
+00:05:38,3,,Flashback - Northup gazes into his wife's eyes.,Northup & his wife were deeply in love.,18
+00:05:56,3,,Northup plays his violin.,Northup was an accomplished violinist.,41
+00:06:37,3,,Northup performs at a posh white party.,Northup played at events throughout the season.,28
+00:07:05,2,narrative convenience,Northup tucks his 2 kids in.,Northup had 3 kids. ,40
+00:07:45,3,,Anne is going away for a few weeks for work. ,Anne worked away as a chef occasionally.,29
+00:08:14,3,,Northup waves goodbye to his family.,The kids went away with Anne. ,24
+00:08:38,2,narrative convenience,Moon introduces Northup to Brown  & Hamilton.,"Northup met Brown  & Hamilton, but not through Moon.",40
+00:09:18,3,,They persuade him to join them as a travelling musician. ,"Northup accepted the offer, it was good money. ",53
+00:10:11,3,,They arrive in Washington.,They went to Washington. ,13
+00:10:24,2,narrative convenience,"They toast their success, refilling Northup's glass. ",They were successful  & happy about it. ,41
+00:11:05,3,,Northup wakes up chained in a dungeon.,"Northup was drugged, awoke in a dungeon. ",34
+00:11:39,3,,Northup protests his capture to Burch.,Northup refused to accept he was no longer free. ,284
+00:16:23,2,dramatic license,Radburn gives Northup a clean shirt.,Slaves for sale were kept presentable. ,69
+00:17:32,3,,Northup  & others made to wash naked outside. ,The slaves had to sponge off under supervision. ,35
+00:18:07,3,,"Northup talks to others, tries to find a solution.",Northup discussed escape options with two others.,55
+00:19:02,3,,Eliza  & her daughter are thrown in to the pen. ,Eliza  & her daughter were added to the sale group. ,15
+00:19:17,3,,The captives are lined up.,Northup  & the others were lined up for travel. ,31
+00:19:48,3,,"They arrive at a dock, moved onto a boat.",They were sent to the docks on a wagon.,45
+00:20:33,3,,Ray warns Northup to keep his identity quiet.,Ray advised Northup not to tell people who he was. ,75
+00:21:48,-1,dramatic license,A captor removes a muzzle from Roberts.,We couldn't find a source for this.,25
+00:22:13,2,narrative convenience,"Northup, Ray  & Robert plan their escape. ","Northup, Robert  & Arthur discussed escaping. ",57
+00:23:10,0,dramatic license,"Robert protects Eliza from rape, is stabbed to death.",Robert died of smallpox. ,75
+00:24:25,2,dramatic license,Northup  & Ray push Robert's body overboard. ,A sailor pushed the body overboard. ,34
+00:24:59,1,narrative convenience,"Ray's master awaits at the docks, claims him. ",Arthur was rescued by his friends at the dock. ,40
+00:25:39,3,,Northup sits looking at the slaves around him.,There were at least 50 waiting to be sold. ,23
+00:26:02,2,narrative convenience,Flashback - Northup shopping with his rich happy family. ,The Northups shopped at Parkers. ,80
+00:27:22,-1,dramatic license,"A slave enters the shop, his master apologises. ",We couldn't find a source for this.,24
+00:27:46,2,character development,Northup gets a slap when he doesn't respond to his slave name.,Nobody knew who Platt was supposed to be = confusion.,49
+00:28:35,3,,Freeman slaps slave flesh like livestock.,Freeman checked their 'soundness' like animals.,29
+00:29:04,3,,Freeman exhibits his 'stock' to buyers.,Freeman arranged his 'stock' carefully for viewing.,39
+00:29:43,2,narrative convenience,Ford wants to buy Eliza  & Northup.,Ford did want to buy Eliza  & Northup. ,34
+00:30:17,3,,"Freeman sells Eliza's son, Eliza begs they not be separated.",Randall was sold despite Eliza's begging. ,31
+00:30:48,3,,"Ford offers to buy Eliza's daughter, Freeman refuses.","Freeman kept Eliza's light-skinned daughter, a valuable girl.  ",78
+00:32:06,3,,"They arrive at Ford's, told to rest  & eat.",Ford's slaves were rested  & fed on arrival. ,48
+00:32:54,2,character development,Tibeats  & Chapin brief the slaves.,Tibeats was chief carpenter  & Chapin overseer.,68
+00:34:02,3,,"The slaves chop tries, saw wood etc.",Timber felling was the main job at Ford's.,63
+00:35:05,3,,Ford reads the slaves bible passages.,Ford read the bible to his slaves every sabbath. ,18
+00:35:23,3,,The slaves meet a group of Native Americans in the woods.,"Northup often joined the Native Americans, watched them dance. ",52
+00:36:15,2,narrative convenience,"Tibeats  & Northup debate a plan, Ford choses Northup's plan.",Ford did choose Northup's idea. ,75
+00:37:30,2,narrative convenience,"Northup's plan works, he's highly praised.",Ford praised Northup  & the other slaves cheered him.,65
+00:38:35,0,character development,Ford gives Northup a violin.,Ford didn't give Northup a violin.,62
+00:39:37,2,dramatic license,Eliza weeps for her children.,Eliza wept constantly for her children.,135
+00:41:52,3,,Eliza weeps as Ford reads from the bible. ,Eliza wept constantly. ,27
+00:42:19,3,,Tibeats antagonises Northup.,Tibeats was constantly on Northup's back.,80
+00:43:39,2,narrative convenience,"Two men drag Eliza away, she's sobbing.","Eliza was often sobbing,  & was moved from job to job as a result.",26
+00:44:05,3,,"Flashback - Eliza talks of her early life as a pampered slave, it how it ended.",Eliza's previous master was in love with her. His daughter sent her away.,70
+00:45:15,3,,"Tibeats goes to whip Northup for nothing, Northup attacks him.",Northup retaliated  & totally lost it. ,66
+00:46:21,3,,"Chapin intervenes, Tibeats runs off.",Chapin was sympathetic to Northup. ,73
+00:47:34,3,,Tibeats returns with two men.,Tibeats came back with two friends from nearby plantations.,28
+00:48:02,2,dramatic license,"They put a noose around Northup's neck, start hoisting. ",They would have hung Northup if Chapin hadn't stopped them. ,79
+00:49:21,2,dramatic license,Northup is left dangling for a really long time.,"Northup wasn't hanging by his neck, but was left tied for many hours. ",174
+00:52:15,3,,Ford gallops over  & slashes the rope.,"Ford galloped in, cut Northup's ropes. ",10
+00:52:25,2,narrative convenience,Northup rests in the great house as Ford guards him.,Chapin guarded Northup as he rested in the great house.,67
+00:53:32,0,dramatic license,"Northup tells Ford he's a freeman, Ford won't hear it.",Northup never told Ford of his status. ,60
+00:54:32,2,narrative convenience,Epps insists the bible prescribes lashes for disobedient slaves. ,"Tanner gave this speech, not Epps. ",68
+00:55:40,3,,"Northup picks cotton, an overseer cracks the whip.",The whip was cracked all day at Epps'. ,29
+00:56:09,3,,Epps' predeliction for Patsey becomes apparent. ,Epps lusted after Patsey. ,119
+00:58:08,3,,Northup is whipped for his low cotton yield.,The slaves were whipped for low yields.,16
+00:58:24,-1,character development,Patsey sits weaving dollies.,We couldn't find a source for this.,68
+00:59:32,3,,"Epps storms the slave huts at night, demanding dancing.",Epps frequently demanded dance parties. ,28
+01:00:00,3,,Northup plays violin while other slaves are made to dance.,Epps made them dance while Northup played.,25
+01:00:25,3,,Epps' wife throws a decanter at Patsey's face.,Mrs Epps often threw broken bottles etc at Patsey.,80
+01:01:45,2,character development,Epps' wife sends Northup for groceries. ,Northup fetched groceries for Mrs Epps.,100
+01:03:25,-1,dramatic license,Northup stumbles upon a lynching.,We couldn't find a source for this.,114
+01:05:19,3,,Northup reaches Bartholemew's store.,Northup picked things up from the store often.,28
+01:05:47,1,dramatic license,"Mrs Epps asks if there was any trouble, Northup lies no.",No trouble for Northup to lie about. ,15
+01:06:02,0,character development,"North fetches Patsey from Mrs Shaw's, where they all sit  & have tea.",This scene was invented to give Mrs Shaw a voice. ,232
+01:09:54,2,narrative convenience,Northup tells Patsey to walk away from Epps. Epps starts a fight with him. ,Epps started a fight in a jealous rage. ,172
+01:12:46,3,,Northup lies contemplating in his hut.,Northup contemplated his situation near constantly. ,38
+01:13:24,3,,Epps rapes Patsey.,Epps repeatedly raped & beat Patsey. ,121
+01:15:25,3,,Northup notes Mrs Epps has ordered paper from the store.,Northup noticed paper in his grocery collection.,23
+01:15:48,3,,"Northup steals a sheet of paper, hides it.","Northup stole a sheet of paper, hid it under boards. ",35
+01:16:23,2,character development,"Mrs Epps offers treats to all but Patsey, demands Patsey beaten.",Mrs Epps treated Patsey with violent jealousy. ,127
+01:18:30,0,misreading of source?,Patsey begs Northup to drown her.,Mrs Epps asked Northup to drown Patsey.,154
+01:21:04,2,character development,"Epps' fields are barren, blames the slaves.",The harvest was poor but we don't know who he blamed.,57
+01:22:01,2,narrative convenience,The pickers are rented to Judge Turner.,Northup was rented to Turner for a season. ,59
+01:23:00,2,narrative convenience,Flashback to failed letter-writing scene.,Northup tried many times to write a letter.,45
+01:23:45,3,,Turner says Northuo can keep proceeds from violin performances.,Turner allowed Northup to keep proceeds from fiddling. ,59
+01:24:44,1,dramatic license,Northup carves his family's names into his violin.,He doesn't mention carving their names. ,39
+01:25:23,3,,Northup plays fiddle at a masked ball.,He played at various events through the season. ,61
+01:26:24,-1,dramatic license,"Epps has a little black girl with him, his  & Patsey's daughter?",We couldn't find a source for this.,113
+01:28:17,3,,A white man joins the cotton pickers.,A white man hoping to be overseer was put with the pickers.,29
+01:28:46,-1,dramatic license,Armbsy is scolded for his low yield. ,We couldn't find a source for this.,47
+01:29:33,2,narrative convenience,Armbsy expresses sympathy for slaves to Northup.,Armsby said enough for Nothup to risk trusting him.,107
+01:31:20,3,,Northup pays Armbsy to mail a lettter.,Northup offered Armbsy his fiddling money to mail a letter.,123
+01:33:23,2,narrative convenience,Northup gets to writing a letter.,Northup wrote a letter with boiled maple juice  & a duck feather.,45
+01:34:08,3,,"Armbsy turns Northup in, Epps challenges him. Northup gets out of it.","Armsby turned Northup in, but he persuaded Epps Armsby was lying.",187
+01:37:15,3,,Northup burns the letter.,"Northup burnt the letter, afraid of being caught with it. ",57
+01:38:12,0,dramatic license,"Abram collapses in the field, dies.",Abram didn't die during Northup's tenure as a slave. ,48
+01:39:00,0,dramatic license,Northup buries Abram.,Abram didn't die during Northup's tenure as a slave. ,38
+01:39:38,0,,The slaves sing by Abram's graveside.,Abram didn't die during Northup's tenure as a slave. ,130
+01:41:48,3,,Bass debates the ethics of slavery with Epps.,Bass was anti-slavery  & argued it everywhere.,211
+01:45:19,3,,"Epps can't find Patsey, he's enraged.",Patsey was missing for a few hours.,79
+01:46:38,2,dramatic license,"Patsey returns, Epps forces Northup to lash her.",Northup was made to lash Patsey on her return.,390
+01:53:08,3,,The women clean Patsey's wounds.,Patsey's wounds were tended with melted tallow.,52
+01:54:00,-1,dramatic license,Northup destroys his violin.,We couldn't find a source for this.,44
+01:54:44,3,,"Northup asks Bass for help, he agrees.",Northup persuaded Bass to write to his friends. ,231
+01:58:35,3,,Time passes. Northup waits in agony.,"A lot of time passed, Northup began to give up.",105
+02:00:20,2,narrative convenience,"The sheriff arrives with Parker, rescue Northup.",Henry Northup  & the sheriff rescued Northup.,167
+02:03:07,3,,Patsey  & Northup embrace.,Patsey embraced Northup as he left.,59
+02:04:06,2,narrative convenience,"Northup rejoins his family, including a new grandson. ",Northup was reunited with his family. His grandson was named after him. ,200
+02:07:26,3,,Northup never got justice.,Northup never got justice. ,62

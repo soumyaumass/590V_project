@@ -1,0 +1,140 @@
+start,truth int,fiction type ,film condensed,reality condensed,duration
+00:00:41,1,Dramatic license,Stratton Oakmont on Wall St.,"Stratton Oakmont based in Long Island, not Wall Street.",34
+00:01:15,0,Dramatic license,"Inside, rowdy men throw little people at a target board.",Hired little people for entertainment. ,23
+00:01:38,3,,"Belfort, cocky, boasts of his lavish lifestyle.",Belfort enjoyed a depraved high life. ,93
+00:03:11,3,,A wasted Belfort badly lands a copter.,A wasted Belfort tried to fly his own helicopter.,40
+00:03:51,3,,Belfort boasts of his massive drug habit.,Belfort had a major drug habit.,83
+00:05:14,3,,Young Belfort looks intimidated by Wall St.,A rare glimpse at Belfort's insecurities. ,29
+00:05:43,3,,"Belfort told he is ""lower than pond scum"".",& he agreed. ,36
+00:06:19,3,,His new boss Hanna is impressed by him.,Hanna appreciated Belfort's initiative. ,38
+00:06:57,3,,Belfort starts making calls.,Belfort started on Wall Street in 1987. ,59
+00:07:56,3,,Hanna explains the dirty business to him.,Hanna told Belfort that brokers never stop 'churning & burning'. ,194
+00:11:10,3,,Hanna tells him to jerk off as much as possible.,Hanna asserted Belfort must masturbate & get high to survive.,125
+00:13:15,0,Dramatic license. ,Hanna starts pounding his chest.,McConaughey's acting exercise was incorporated into the scene. ,40
+00:13:55,2,Dramatic license. ,Belfort at a strip club.,Belfort loved strippers. ,22
+00:14:17,,,Belfort now a broker. Seems confident.,Belfort got his broker's license in 1987. ,20
+00:14:37,,,Belfort panicking as Black Wednesday kicks in.,"Black Wednesday, 1987. ",71
+00:15:48,2,Story coherence.,"Belfort, unemployed, looking for jobs.",His first wife supported him through unemployment.,69
+00:16:57,,,Belfort joins a low-key shabby 'Investor's Centre',Belfort's second job in the industry. ,173
+00:19:50,2,,Office is amazed by his selling ability.,He was really good at it. ,123
+00:21:53,0,Story coherence/dramatic license.,Azoff introduces himself to Belfort. Quits his job instantly.,Azoff's wife introduced him to Belfort.  ,117
+00:23:50,,,They smoke crack. Azoff married his cousin.,Azoff married his cousin. ,218
+00:27:28,,,Belfort starts his own firm.,Belfort set up his company in an old car dealership. ,199
+00:30:47,-1,Story coherence. ,Belfort's wife is concerned about the ethics of his work.,Not in the book. ,61
+00:31:48,3,,Belfort wants to sell to the rich.,Belfort manipulated the wealthy into investing in rubbish. ,20
+00:32:08,3,,Belfort trains his staff to sell.,Belfort's script seriously worked. ,245
+00:36:13,3,,It becomes a successful company.,Stratton Oakmont was wildly succesful. ,55
+00:37:08,3,,Office party. A woman shaves her head for $10K.,A head was shaved for $10k.,156
+00:39:44,3,,FBI agent Denham builds a case against Belfort.,Coleman hunted Belfort for years.,13
+00:39:57,,,Forbes do an article on Belfort.,Forbes did an article on Belfort in 1991. ,23
+00:40:20,,,"Forbes call him ""The Wolf of Wall St.""",Nobody called Belfort the Wolf of Wall Street.,27
+00:40:47,3,,Makes him a superstar.,Made him an attractively infamous employer.,39
+00:41:26,3,,Montage of debauchery at the ever-expanding office. ,"Plenty of sex, drugs, crazed behaviour in the office.",38
+00:42:04,0,,Office declared 'fuck-free zone' 8am-7pm.,"Belfort says it happened, Porush says it didn't. ",6
+00:42:10,0,Dramatic license.,Belfort & Azoff have a 3-way with young employee in the office. ,No three-way.,23
+00:42:33,1,Dramatic license.,"Jenner marries ""blowjob"" Pam.",A similar relationship did happen.,9
+00:42:42,3,,"Belfort hires his angry dad, Mad Max.",Quick-tempered Max was the firm's chief financial officer.,61
+00:43:43,3,,The guys discuss what they can do to little people.,The memoir dedicated three pages to this discussion. ,145
+00:46:08,3,,"Mad Max is furious about ""expenses""",Max was 'careful' with cash. ,117
+00:48:05,3,,Montage of prostitutes at the office. ,Several 'classes' of prostitutes graced the office. ,29
+00:48:34,-1,Story coherence. ,Belfort admits he's no longer attracted to his wife.,Not in the book. ,101
+00:50:15,2,,Big party. Belfort meets his future second wife.,Belfort met Nadine at a party. ,307
+00:55:22,3,,They have a date.,Belfort had an affair with Nadine. ,83
+00:56:45,2,Story coherence.,"His wife catches him on a date, leaves him.",Belfort left Denise for Nadine.,311
+01:01:56,2,,Belfort dining at home. Has a butler.,Belfort had a 'managerie' of domestic staff.,26
+01:02:22,-1,Dramatic license.,Butler is caught having a gay orgy at the home.,Not in the book. ,41
+01:03:03,-1,Dramatic license.,"Belfort interrogates the butler, hang him off the roof.",Not in the book. ,127
+01:05:10,2,,Belfort & his rathole Brad.,Garrett acted as a rathole for Belfort.,28
+01:05:38,3,,SEC investigate Stratton Oakmont.,SEC did investigate Stratton.,23
+01:06:01,3,,SEC officers pour through files in the conference room.,Belfort bugged & froze up the conference room. ,14
+01:06:15,3,,Strattion set up an illegal IPO. Is now very rich.,Stratton manipulated multiple IPOs.,45
+01:07:00,2,Story coherence.,BELFORT proposes to NAOMI. She says yes. ,Belfort married Nadine.,29
+01:07:29,3,Story coherence.,BELFORT's stag party. ,Belfort partied constantly. ,60
+01:08:29,2,,BELFORT & NAOMI's wedding. NAOMI's AUNT EMMA appears. ,Nadine had an English Aunt Patricia.,118
+01:10:27,3,,Belfort gives his wife a yacht. Buys a house in Long Island.,"Nadine' was a 167ft yacht, originally built for Coco Chanel.",62
+01:11:29,3,,Noami is furious over Belfort's affair with a prostitute.,Nadine threw cold water over a sleeping Belfort. ,35
+01:12:04,3,,BELFORT with a dominatrix named VENICE. ,Venice was Belfort's dominatrix prostitute. ,43
+01:12:47,3,,BELFORT tries to lie to NAOMI about VENICE. He is also now a father. ,"Belfort's lying failed. He had a baby daughter, Chandler.",45
+01:13:32,,,Wated Belfort badly lands a helicopter.,Belfort crash landed his helicopter.,8
+01:13:40,,Dramatic license.,BELFORT falls into his own pool. ,Belfort stumbled on the grass.,4
+01:13:44,3,,BELFORT & NAOMI argue in their bedroom. ,Nadine was furious about Venice. ,97
+01:15:21,3,,NOAMI spreads her legs to tease Belfort. It's caught on CCTV.,Nadine's candid camera moment really happened. ,131
+01:17:32,3,,Azoff swallows a goldfish.,Porush swallowed a guy's goldfish. Steve Madden & Belfort made millions together.,517
+01:26:09,3,,FBI subpoenaed the guy who shot BELFORT's wedding video.,FBI subpoenaed the wedding video. ,76
+01:27:25,3,,BELFORT discussing the FBI case with his PI.,Belfort's P.I. 'Bo' Dietl had his own little section in a Harlem restaurant. ,102
+01:29:07,-1,Dramatic license.,Belfort tries to bribe the FBI officer on his yacht.,Not in the book. ,520
+01:37:47,2,,Belfort is heading to Switzerland.,Belfort spent time in Switzerland setting up his dodgy Swiss accounts.,10
+01:37:57,3,,Belfort takes Quaaludes on the flight.,Belfort didn't feel like taking a long flight sober. ,48
+01:38:45,3,,The guys cause trouble with the stewardess.,"Belfort harassed Franca, a stewardess. ",77
+01:40:02,3,,Belfort wakes up to find himself tied down.,Belfort was tied down with 4 seatbelts.,30
+01:40:32,3,,Flashback: Belfort humps the stewardess like a dog.,Belfort groped & tongued his way through the flight.,15
+01:40:47,3,,Azoff tries to calm his boss down.,Porush tried to calm Belfort down.,48
+01:41:35,3,,Belfort is released in Switzerland.,Handali probably made the charges go away. ,17
+01:41:52,3,,They meet the Swiss banker.,Belfort & Handali met in the bank hallway. ,24
+01:42:16,3,,Meeting between the gang & Swiss banking team.,There was such a meeting.,9
+01:42:25,0,Dramatic license. ,Subtle power struggle between SAUREL & BELFORT.,Handali & Belfort got along great.,167
+01:45:12,3,,Belfort visits Aunt Emma. She agrees to open a Swiss bank account.,Aunt Patricia opened an account for Belfort. ,44
+01:45:56,0,Dramatic license.,Aunt Emma kinda kiss.,No kiss.,148
+01:48:24,3,,BELFORT & NAOMI have sex amidst piles of cash. ,A $3m pile of cash. ,10
+01:48:34,2,Dramatic license.,The gang smuggle cash into Switzerland.,Cash was taped to Chantalle. Porush wasn't there. ,94
+01:50:08,0,Dramatic license.,Azoff is punched out.,Porush (Azoff) wasn't there.,41
+01:50:49,3,,They smuggle cash over many trips.,Chantalle & her family smuggled millions in cash. ,45
+01:51:34,2,,"Azoff does a cash drop, pretending to be high.",Porush turned up actually stoned.,37
+01:52:11,1,Characterisation.,Azoff starts an argument.,Garret got aggressive. ,122
+01:54:13,3,,Briefcase dropped. Cash everywhere. Brad arrested.,Garret was arrested. ,27
+01:54:40,1,Story coherence/dramatic license.,Azoff tries to distract Belfort with ancient top-strength Quaaludes.,Belfort sources ancient quaaludes from a retired pharmacist. ,44
+01:55:24,3,,Belfort purges.,Belfort cleared his system to prep for a unique high.,12
+01:55:36,3,,Belfort & Azoff takes the drugs. But they seem to be duds. Take more.,Quaaludes took a while to kick in. The P.I. called. ,80
+01:56:56,2,,Belfort's PI wants him to call on a public phone.,Bo Dietl did make this call. ,34
+01:57:30,2,Dramatic license. ,Belfort drives to country club to make the call.,P.I. told Belfort the FBI were onto his Swiss accounts. Quaaludes kicked in. Drove home barely able to speak or move.,84
+01:58:54,3,,Quaaludes kick in. Belfort can't talk or walk.,"Quaaludes kicked in, hard.",180
+02:01:54,,Dramatic license. ,Noami calls. Azoff is wasted too.,"Nadine didn't call, Porush wasn't on the phone to Saurel. ",53
+02:02:47,3,,"BELFORT drives home, a drooling wreck. ",Belfort did drive home totally wasted.,14
+02:03:01,-1,Dramatic license. ,Azoff wasted.,Not in the book. ,18
+02:03:19,3,,BELFORT pulls up. Car unscathed. ,Belfort thought he made it home unscathed. ,14
+02:03:33,,Dramatic license. ,Huge scene at Belfort's house.,No interaction with Porush at this point.,102
+02:05:15,1,Dramatic license/story coherence.,Azoff chokes on ham. Belfort almost doesn't save him.,Belfort saved a different man from the same fate. ,123
+02:07:18,3,,Police wake Belfort.,The police turned up.,47
+02:08:05,3,,Car is smashed up.,Car was totalled. ,7
+02:08:12,1,Dramatic license.,Flashbacks to Belfort real Lamborghini drive home.,"Belfort had smashed into 7 cars on his drive home, but his car was a Mercedes.",27
+02:08:39,3,,Belfort questioned but no evidence.,Belfort arrested but weak evidence couldn't hold him.,21
+02:09:00,0,Dramatic license.,Brad arrested. won't snitch.,Garret cooporated with the FBI. ,10
+02:09:10,2,Story coherence.,Mad Max tells him to cut a deal with the SEC.,Belfort cut a deal with the SEC. ,89
+02:10:39,1,Dramatic license.,Belfort steps down. Then changes his mind.,Belfort stepped down from Stratton Oakmont.,395
+02:17:14,0,Dramatic license.,FBI hear Belfort has not stepped down.,Belfort did step down. ,17
+02:17:31,-1,Dramatic license?,Brad died 2 years later.,No info on Garret's level of aliveness. ,39
+02:18:10,3,,Subpoaenas roll in.,Plenty of Stratton subpoenas. Porush pissed on piles of them. ,33
+02:18:43,1,Dramatic license.,Montage of interrogations. Nobody cracks.,2 of 14 cracked under questioning.,85
+02:20:08,3,,Belfort hides in Italy. Steve Madden tries to unload shares.,Steve Madden did try to steal Belfort's shares. ,106
+02:21:54,3,,Aunt Emma has died.,Aunt Patricia died.,52
+02:22:46,2,Dramatic license.,They have to get to Switzerland ASAP.,Belfort ordered the captain to sail through chop while on vacation in Italy. ,218
+02:26:24,3,,Major storm. Yacht destroyed.,Yacht was wrecked off Sardinian coast. All onboard were rescued.,79
+02:27:43,3,Dramatic license. ,Party on Italian ship.,Italian navy threw them a party after the rescue. ,18
+02:28:01,2,Story coherence. ,Belfort watches his plane explode.,Belfort's private jet exploded a few days later.,34
+02:28:35,1,Dramatic license. ,Belfort shooting get-rich-quick infomercial.,FBI arrested Belfort at home. ,100
+02:30:15,3,,Belfort has been to rehab. Dry to 2 years.,Belfort did a succesful stint in rehab. ,9
+02:30:24,3,,Rugrat & Surel arrested in Miami.,Handali arrested while visiting clients in Miami.,24
+02:30:48,3,,Saurel arrested.,Handali arrested for money laundering. ,3
+02:30:51,-1,Dramatic license. ,Beni Hana & money laundering.,Not in the book. ,24
+02:31:15,3,,Saurel ratted out Belfort & Chantalle.,"Handali had an affair with Chantalle, ratted her & Belfort out.",26
+02:31:41,3,,Belfort's bail is $10m.,Belfort's bail set at $10m. ,28
+02:32:09,-1,Characterisation.,AZOFF visits BELFORT at home. ,Not in the book. ,29
+02:32:38,2,,BELFORT shows AZOFF his ankle monitor.,Belfort was placed under house arrest.,8
+02:32:46,0,Characterisation.,Belfort worried about money. Azoff says firm will supoort him.,Those two were more colleagues than friends.,88
+02:34:14,3,,Belfort sober.,Belfort attended rehab & was sober for a while.,38
+02:34:52,3,,FBI want Belfort to rat.,Belfort ratted on everybody. ,108
+02:36:40,3,,Noami wants a divorce. Belfort becomes violent.,Belfort crashed with his daughter in the car following a fight about custody. Nadine divorced him. ,459
+02:44:19,3,,Belfort wears a wire.,Belfort wore a wire under FBI orders.,18
+02:44:37,3,,Beflort agrees to rat.,Belfort ratted on everybody. ,19
+02:44:56,2,,"Beflort, wired, meets everyone.",Belfort ratted on everybody. ,26
+02:45:22,1,Dramatic license. ,Belfort slides Azoff a note warning he's wearing a wire.,"Belfort slid Dave Beall such a note, not Porush. ",94
+02:46:56,2,Dramatic license. ,Belfort has a visitor.,FBI arrested Belfort at home. ,25
+02:47:21,3,,FBI arrest Belfort at home.,The FBI got Belfort at his home.,4
+02:47:25,3,,He going to jail.,Belfort was eventually given jail time.,40
+02:48:05,2,,Azoff caught as FBI storm the office.,Porush was indicted & arrested. ,49
+02:48:54,3,,Belfort is idolised.,Belfort's people saw him as the diety of Stratton Disneyland.,25
+02:49:19,2,Dramatic license.,Belfort sentenced to 36 months.,"Sentenced to four years in prison, served 22 months. ",49
+02:50:08,3,,FBI agent Denham sees Belfort has been sent down.,Coleman finally caught Belfort after years of single-handed hunting.,26
+02:50:34,0,Dramatic license. ,BELFORT on prison bus. Scared. ,Belfort walked into the institution to self-surrender.,18
+02:50:52,3,,BELFORT playing tennis with other inmates in cushy rich-persons' prison. ,"The prison had tennis, fresh healthy meals, & plenty of socialising.",29
+02:51:21,3,,Belfort presents seminar in NZ.,Belfort is a highly succesful motivational speaker & consultant.,103

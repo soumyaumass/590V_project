@@ -1,0 +1,171 @@
+start,truth int,fiction type ,film condensed,reality condensed,duration
+00:00:41,3,,"Shots of India, where the story begins. ","This really is India, so we're off to a good start. ",109
+00:02:30,2,,A little boy is transfixed by a flight of butterflies. ,"The landscape is convincing, the butterflies less so. ",22
+00:02:52,3,,Someone appears nearby & shouts Saroo's name.,This is perfectly plausible. ,11
+00:03:03,1,,The brothers steal coal from a moving train. ,"Probably not, but they got up to similar scrapes. ",27
+00:03:30,1,,A guard spots & pursues the brothers. It is 1986. ,Not likely that this happened. Certainly not today. ,34
+00:04:04,2,,They swap their stolen coal for milk. ,"It didn't happen, but it could have. (But didn't.)",50
+00:04:54,0,,The brothers fantasise about jalebis. ,"No, this is totally made up. ",22
+00:05:16,1,,They present the milk to their mother. ,There was no milk on this particular evening. ,31
+00:05:47,1,,They drink the milk together. ,They had no milk to drink. ,39
+00:06:26,3,,His mum asks Saroo to look after Shekila. ,Saroo often had to care for his sister. ,15
+00:06:41,3,,Guddu gets ready to leave. Saroo asks to accompany him. ,Guddu was about to leave when Saroo asked to go too.,31
+00:07:12,1,,Guddu refuses to allow Saroo to go with him. ,Guddu didn't refuse. He accepted. ,11
+00:07:23,0,,Saroo convinces Guddu to let him go with him. ,Guddu had already accepted. ,35
+00:07:58,3,,Guddu takes Saroo into town on a bike.,Guddu did give Saroo a lift into town. ,15
+00:08:13,3,,They board a train. ,The did indeed board a train. ,3
+00:08:16,2,,They search around for anything of value. ,Saroo doesn't mention this in the book.,13
+00:08:29,3,,They sit together & Saroo falls asleep. ,"Pretty much, minus the coin. ",20
+00:08:49,3,,"At the station, Saroo sleeps on a bench. ",Saroo did continue to sleep on the platform bench. ,41
+00:09:30,3,,Guddu leaves Saroo & goes to look for work. ,Guddu did leave Saroo to go & do some things. ,37
+00:10:07,3,,"Saroo wakes up, calls his brother's name & boards the train. ",Saroo woke up & got on the train. ,71
+00:11:18,2,,Saroo looks for Guddu before falling asleep. ,Saroo went straight back to sleep. ,24
+00:11:42,3,,Saroo wakes up on a moving train & is scared. ,He woke up & was soon in a panic. ,67
+00:12:49,3,,Saroo is upset as the train takes him further away.,Saroo curled up in a ball & cried. Poor mite.,38
+00:13:27,2,,"At night, Saroo speaks to his family. ","He didn't mention this, but he's only human. ",14
+00:13:41,1,,The train stops & Saroo speaks to a young girl. ,There was no young girl — nobody saw him. ,47
+00:14:28,2,,"Nighttime, a storm, Saroo eats an apple core. ","Not mentioned in the book, but he probably ate something.",27
+00:14:55,3,,He arrives in Calcutta — lots of people. ,He arrived in Calcutta & there certainly were lots of people ,41
+00:15:36,2,,He leaves the train & looks for help. ,He did spend some time asking for help. ,83
+00:16:59,0,,Saroo queues up for help but is thwarted. ,He never queued up for a ticket. ,50
+00:17:49,2,,He follows a little girl & finds more street kids. ,He saw them a lot over a longer period. ,42
+00:18:31,0,,A little boy offers him cardboard to sleep on. ,Saroo tells of no such moment. ,64
+00:19:35,3,,Bad men grab the street kids. ,"Horribly, yes. This was the case. ",15
+00:19:50,2,,He meets the little girl & runs with her. ,He ran off alone. ,33
+00:20:23,1,,He runs through a metal gate. ,He jumped onto the train tracks. ,22
+00:20:45,2,,He is almost hit by a bus. ,Almost. It was a train. ,11
+00:20:56,2,,Saroo finds a temple. ,"He found holy men, & then a temple another time.",53
+00:21:49,2,,Saroo eats some of the offerings. ,"He did, but not yet. ",37
+00:22:26,2,,Saroo wakes to noisy devotions.,He woke to meditation. ,23
+00:22:49,3,,Saroo sees the river & associated hubbub. ,"He did, yes, also the night before. ",28
+00:23:17,0,,Saroo returns for his cardboard.,The cardboard scene wasn't real. ,10
+00:23:27,3,,"Saroo wanders about, looks at train tracks. ",He did frequently gravitate towards the tracks. ,34
+00:24:01,2,,Saroo meets a woman named Noor on the train tracks. ,Saroo met a male railway worker on the tracks. ,49
+00:24:50,1,,Noor takes Saroo to her apartment. ,The railway worker took Saroo to his shack. ,21
+00:25:11,1,,Noor feeds Saroo at her apartment. ,The railway worker fed Saroo in his shack. ,35
+00:25:46,0,,Noor & Saroo share a soft drink.,No. None of this happened. ,44
+00:26:30,,,Noor washes Saroo. ,Noor wasn't real. ,15
+00:26:45,2,,Noor tells Saroo a man will come to help him. ,The railway man said something similar. ,43
+00:27:28,3,,"Rama arrives, makes promises, acts creepy. ",A man did arrive & act in a creepy manner. ,109
+00:29:17,1,,Noor tells Saroo to thank Rama. ,This is an embellishment. ,19
+00:29:36,,,Noor notices Saroo is a little subdued. ,All of this scene is totally made up. ,46
+00:30:22,2,,"When Noor is distracted, Saroo bolts. ","He did run away, but not from Noor. ",17
+00:30:39,2,,"Noor runs after him, but he escapes. ",He was pursued by railway workers. ,14
+00:30:53,3,,"Saroo lies in the dirt, remembering his mother. ",Of course he must have done this a lot. ,106
+00:32:39,3,,Two months pass. ,Two months passed. ,18
+00:32:57,1,,"Saroo traipses through rubbish, near a funeral.",There is no mention of this in the book. ,9
+00:33:06,0,,Saroo has a moment with a butterfly. ,This doesn't happen in the book. ,7
+00:33:13,0,,Saroo finds a spoon. ,Saroo never found a spoon. ,11
+00:33:24,1,,Saroo sees a young dead boy. ,Saroo never observed a young boy's funeral. ,10
+00:33:34,0,,Saroo sits under a flyover with his spoon. ,There was no spoon. ,17
+00:33:51,0,,Saroo charms a man with his spoon. ,"Honestly, there was no spoon. ",49
+00:34:40,0,,The man leaves the café & approaches Saroo. ,This man never really existed.,11
+00:34:51,2,,Saroo is taken to a police station by the man from the café. ,Saroo was taken to a police station by a teenage boy. ,33
+00:35:24,1,,A photo of Saroo is attached to a missing person form. ,No such photo or form is mentioned in the book. ,5
+00:35:29,3,,Saroo is taken to a children's home. ,"True, but in reality, this place was much worse.",55
+00:36:24,3,,Saroo finds a bed in a packed dorm. ,Saroo shared beds with 3 or 4 other kids. ,27
+00:36:51,0,,Saroo meets a little girl called Amita. ,Saroo mentions no friendships in this place. ,36
+00:37:27,3,,Saroo watches a disturbed boy self-harm. ,There were many mentally ill children there. ,14
+00:37:41,2,,"The boy is removed, struggling. ","No exact allusion is made, but it rings true. ",23
+00:38:04,2,,Shondeep is taken away at night. ,This is the kind of thing that went down. ,44
+00:38:48,0,,The kids sing together in solidarity. ,There was no singing.,64
+00:39:52,3,,Saroo is taken to see Mrs Sood. ,"He was taken to see her in a different place, much later. ",19
+00:40:11,3,,Mrs Sood shows Saroo a clipping.,"Saroo was featured in 2 papers, to no avail.",68
+00:41:19,3,,Mrs Sood tells Saroo an Australian family want him. ,She did tell him about the Brierleys. ,50
+00:42:09,3,,Saroo takes the photo of his would-be parents.,He was given a photo album.,39
+00:42:48,1,,Saroo questions the search. ,He asked no such question. ,6
+00:42:54,2,,Amita & Saroo have a tender moment. ,Saroo made no friends at the detention centre. ,50
+00:43:44,2,,Mrs Sood teaches some English in a nice house. ,"""Aunty Ula"" taught table manners in a nice house. ",52
+00:44:36,3,,Saroo flies to Australia.,"There were other kids too, but yes, he did. ",57
+00:45:33,2,,Saroo meets his new parents in Australia. ,"He did, yes, but in Melbourne. ",59
+00:46:32,3,,"They drive home together, fascinated by Saroo.","They did, a little later, but sure.",28
+00:47:00,3,,Saroo explores his new home. ,"Not mentioned in the book, but he must have. ",63
+00:48:03,0,,Saroo shows off a little English at dinner. ,He had no English on arrival. ,36
+00:48:39,3,,Sue speaks kindly words to Saroo. ,Of course she must have. ,51
+00:49:30,3,,Saroo is taken out on a boat. ,Saroo was often taken out on the family catamaran. ,20
+00:49:50,3,,Saroo plays cricket with his Mum & Dad. ,He had a very active outdoor life with his new parents. ,33
+00:50:23,2,,"They adopt another boy, Mantosh. ","They did adopt another boy, but much later. ",16
+00:50:39,3,,Mantosh is much more withdrawn than Saroo. ,Mantosh had been affected by repeated trauma. ,32
+00:51:11,-1,,Sue invited the adoption lady to eat. ,This is not known but seems reasonable. ,12
+00:51:23,3,,Mantosh is violent & John has to restrain him. ,Mantosh did act out physically. ,27
+00:51:50,3,,Saroo is left alone as Mantosh goes berserk. ,Saroo did have to watch as his parents dealt with Mantosh. ,41
+00:52:31,-1,,"Saroo comforts Sue, who is sad. ",It may have happened. ,55
+00:53:26,3,,Saroo grows up & swims in the ocean. ,He did grow up & he did love the ocean. ,33
+00:53:59,1,,Mantosh misses a goodbye lunch. ,There is no record of this in Saroo's account. ,85
+00:55:24,-1,,Saroo visits Mantosh & berates him. ,"May have happened, but is not recorded. ",82
+00:56:46,2,,Saroo goes to Melbourne to study. ,Saroo went to Canberra to study. ,16
+00:57:02,0,,He sees Lucy for the first time.,There was no Lucy. ,28
+00:57:30,1,,"In a seminar, Lucy & Saroo introduce themselves. ",Lucy didn't. Saroo probably did. ,35
+00:58:05,2,,Saroo talks about his past in a seminar. ,Saroo talked about his past more in Canberra.,19
+00:58:24,0,,Lucy jokes about cricket & Saroo is smitten. ,Nah. Lucy is a screenwriter's contrivance. ,14
+00:58:38,0,,Saroo & Lucy meet at a distance. ,They did not. ,38
+00:59:16,,,Saroo & Lucy arrive together. ,There was no Saroo & Lucy. ,16
+00:59:32,3,,The hosts of the party are Indian. ,Saroo knew a lot of Indians at college.,32
+01:00:04,0,,Saroo is taught how to use naan bread. ,"He ate Indian food growing up, but maybe not properly. ",19
+01:00:23,0,,Saroo is entranced by jalebis.,Jalebis do not appear in Saroo's account. ,49
+01:01:12,0,,Saroo admits he is suffering because of his past. ,"Nah. Mostly he was fine, & none of this happened. ",31
+01:01:43,1,,Someone mentioned Google Earth & a plan is hatched. ,"Saroo would have written about this scene, & he didn't. ",74
+01:02:57,0,,Saroo doesn't want to talk about it. ,Saroo was very happy to talk about it. ,26
+01:03:23,0,,Lucy tells Saroo about her mother. ,Lucy's mother is as fictitious as Lucy. ,39
+01:04:02,,,Lucy asks about Google Earth. ,She didn't exist to ask such a thing. ,23
+01:04:25,0,,Saroo has a mango memory in bed with Lucy. ,"No mango memory, no Lucy. ",35
+01:05:00,2,,"Saroo gets up & Googles, all forlorn. ","He Googled, but not in these circumstances. ",115
+01:06:55,2,,Saroo returns to Hobart. ,"He did, but a year earlier. ",8
+01:07:03,0,,"Saroo is depressed, Lucy concerned. ","He was fine, & Lucy wasn't real. ",39
+01:07:42,0,,Saroo & Lucy up a mountain. ,Nope. This didn't happen either. ,81
+01:09:03,2,,"At dinner, Saroo silences Lucy. ",Saroo didn't tell his parents about the search. ,98
+01:10:41,0,,"Things escalate, the atmosphere deteriorates. ","Thankfully, this is not real. ",118
+01:12:39,0,,Saroo apologises to Lucy. ,No need. She isn't real. ,25
+01:13:04,1,,He is becoming obsessed & depressed. ,"Later he became obsessed, but never depressed. ",34
+01:13:38,0,,Saroo & Lucy row about things. ,"No Lucy, no party, no row. ",85
+01:15:03,0,,Saroo & Lucy row in the street. ,They didn't row anywhere. ,55
+01:15:58,0,,Saroo leaves Lucy. ,Saroo never even met Lucy. ,17
+01:16:15,1,,Saroo continues his search. ,Not in these circumstances. ,107
+01:18:02,3,,He is excited by a red herring. ,This happened often. ,21
+01:18:23,1,,Saroo gets quite depressed about his lack of success. ,He got on with his life & never got depressed about it. ,48
+01:19:11,0,,John visits but is ignored. ,No such visit took place. ,43
+01:19:54,0,,We learn that Saroo has quit his job. ,Saroo worked in the family business. ,7
+01:20:01,,,"Saroo, in a daze, bumps into Lucy. ",No. This simply didn't happen. ,38
+01:20:39,2,,Saroo discusses his obsession. ,"He did, years later, with somebody else. ",43
+01:21:22,,,Lucy talks about her life. ,"Lucy had no life, being made-up & all. ",58
+01:22:20,3,,Saroo is hit by a motorbike.,Saroo was knocked over whilst carrying a watermelon.,16
+01:22:36,2,,Saroo runs home.,Saroo was given a lift. ,9
+01:22:45,,,Lucy caresses Saroo's scar. ,"She definitely didn't, for reasons mentioned earlier. ",15
+01:23:00,3,,Lucy is afraid: what if his family are gone? ,"This was his partner Lisa, much later.",49
+01:23:49,1,,His mum tends to him & shouts at Guddu. ,His mum took him to the doctor. ,33
+01:24:22,3,,Saroo remembers his past. ,"He did, frequently & deliberately. ",10
+01:24:32,-1,,Sue is upset about Mantosh. ,We don't know anything about this. ,38
+01:25:10,3,,Sue had always wanted to adopt. ,She had indeed. It was very important to her. ,86
+01:26:36,3,,Sue talks about a vision she had aged 12. ,This is exactly as Saroo explains it in the book. ,124
+01:28:40,0,,Sue worries about her family.,This is never mentioned in the book. ,31
+01:29:11,0,,Saroo apologises to a sleeping Mantosh. ,Not backed up anywhere. Not very believable. ,62
+01:30:13,0,,Saroo gets frustrated & throws a wobbly. ,He seems much more even-tempered in real life. ,30
+01:30:43,3,,He idly flicks around the map. ,"He did, taking a break from his usual method. ",48
+01:31:31,2,,"Maudlin, he zooms in and out. ","Not really, certainly not maudlin.",64
+01:32:35,2,,He recognises the terrain. ,He didn't. He just got lucky. ,43
+01:33:18,3,,He finds the water tank. ,He did indeed find the water tank. ,84
+01:34:42,3,,He finds his old neighbourhood. ,He traced the path & found home.,57
+01:35:39,2,,He finds Ganesh Talai. ,"He actually found Khandwa, not Galesh Talai. ",69
+01:36:48,2,,He goes to see Lucy. ,He called out to Lisa. ,56
+01:37:44,2,,He shows his parents what he's found. ,"He did, yes, although not quite like this. ",45
+01:38:29,3,,Saroo travels to India. ,He did go to India in 2012.,49
+01:39:18,2,,He finds his home & it is uninhabited. ,"His house was uninhabited, but also free from goats. ",144
+01:41:42,0,,He steps inside & gets angry. ,He just looked through the window. ,23
+01:42:05,2,,A woman approaches but doesn't speak English.,A woman approached but did speak English. ,14
+01:42:19,3,,An English-speaking man arrives.,"Two men arrived, one with good English. ",21
+01:42:40,2,,The man wanders off in rather a vague way. ,"The man went to tell Saroo's mum, then came back.",74
+01:43:54,3,,"The meeting is milked, to emotional music. ",His mum is just round the corner. ,47
+01:44:41,2,,"It takes them a while, but they eventually meet. ",His mum leads him to her home. ,64
+01:45:45,3,,Saroo's mum checks for his scar. ,"She did, yes, but later. ",26
+01:46:11,3,,Saroo finds out that Guddu is dead. ,"He did find out, yes, but much later. ",61
+01:47:12,3,,Saroo's sister turns up. There is rejoicing. ,"Again, it happened, but not for a few hours. ",33
+01:47:45,3,,The locals whoop & holler like Americans. ,Eventually there was ostentatious joy. ,25
+01:48:10,3,,He leaves a lovely message for SUE & JOHN. ,He actually sent a text. ,40
+01:48:50,3,,They listen to his message in bed. ,They may very well have read it in bed. ,30
+01:49:20,3,,Saroo refamiliarises himself with the area. ,He did spend some time reacquainting himself.,123
+01:51:23,3,,Guddu was killed the same night Saroo got lost. ,He was never seen alive agin. ,18
+01:51:41,3,,Saroo's mother was thunderstruck & overjoyed. ,She was indeed. Of course she was. 25 years!,14
+01:51:55,3,,He'd pronounced his name wrong all his life. ,He had indeed. How cool is that?,15
+01:52:10,3,,Family photos. ,Awwwwww. ,36
+01:52:46,3,,"Saroo & his 2 mums, meeting. ","They met, in Galesh Talai. ",25
+01:53:11,3,,Read about the relevant charities online. ,"You probably should. 80,000 kids. Jesus.",13

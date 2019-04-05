@@ -1,0 +1,172 @@
+start,truth int,fiction type ,film condensed,reality condensed,duration
+00:00:21,0,,Zuckerberg out drinking with his GF.,Erica didn't exist.,105
+00:02:06,3,,He claims to have scored 1600 on his SAT.,Zuckerberg did score a perfect 1600 on his test.,29
+00:02:35,0,,He's obsessed with joining a Final Club.,Zuckerberg was obsessed with computers!,46
+00:03:21,2,character development,Zuckerberg is being an ass. ,Zuckerberg had no social skills. ,19
+00:03:40,0,character development,Erica breaks up with Zuck.,Zuckerberg was dating his current girlfriend throughout.,104
+00:05:24,2,,Zuckerberg flees the bar,Zuckerberg lived at Kirkland House.,147
+00:07:51,3,,Zuckeberg pens a nasty blogpost about Erica,Zuckerberg called Jessica Alona a bitch on his blog.,49
+00:08:40,3,,Zuckeberg pens another nasty blogpost about Erica,That was exactly what he wrote. ,10
+00:08:50,3,,Zuckerbergs has an ideas for a headshot comparison website.,Zuckerberg got the idea of a headshot comparison site from Kirkland Face Book.,23
+00:09:13,3,,He starts hacking together FaceMash,Zuckerberg created Facemash without animals.,31
+00:09:44,3,,Busload of college girls dressed ot party.,The 'fuck truck' ferried students to/from parties. ,16
+00:10:00,3,,Zuck hacks Kirkland House's server.,Kirkland was an easy hack.,0
+00:10:00,2,dramatic license,More girls.,"Book says buses shipped girls in, some deny this.",27
+00:10:27,3,,Zuck hacks Eliot house.,Eliot was a pretty easy hack.,13
+00:10:40,3,,The Phoenix Club looks hot.,The Phoenix Club was real.,20
+00:11:00,3,,Zuck hacks the remaining Harvard houses.,Zuckerberg hacked most houses the first night.,54
+00:11:54,0,character development,Zuckerberg bounces the FaceMash idea off his friend Saverin.,Saverin wasn't really in the picture at this stage.,53
+00:12:47,0,character development,Saverin supplies an essential algorithm,"Saverin was business only, no tech. ",15
+00:13:02,-1,,Saverin writes the algorithm on the wall,We couldn't find a source for this.,4
+00:13:06,0,dramatic license,It's getting debauched down at the Pheonix Club,Final Club parties weren't that exciting. ,10
+00:13:16,3,,Zuckerberg releases FaceMash,Zuckerberg mailed the site to a few people.,44
+00:14:00,3,,Guys like Facemash. Girls don't.,Women's groups not impressed.,27
+00:14:27,0,,Erica hears about the blogpost.,Erica was a fictional character.,22
+00:14:49,3,,Facemash going viral.,"The site reached approx. 450 students in 4 hours, logging 22,000 votes.",21
+00:15:10,0,dramatic license,Harvard IT chief woken in the middle of the night.,Such a crash was technically unlikely. ,35
+00:15:45,0,dramatic license,Network goes down. ,Zuckerberg shut it down himself.,33
+00:16:18,0,character development,Erica gives testimony against Zuckerberg.,There wasn't an Erica.,42
+00:17:00,3,,Legal team are impressed with the number of hits.,The site got that many hits.,15
+00:17:15,3,,Winklewoss twins rowing.,The twins trained constantly.,43
+00:17:58,3,,Winklewoss team want Zuckerberg for their site.,"Winklewoss twins & Narendra wanted Zuckerberg for their site, HarvardConnection.",47
+00:18:45,3,,Winklewoss team are suing Zuckerberg.,The Harvard Connections team did sue Zuckerberg. ,12
+00:18:57,3,,Zuckerberg facing a disciplinary hearing.,Zuckerberg faced the ad board.,23
+00:19:20,3,,Zuckerberg wants recognitions for exposing Harvard's security holes.,He asserted that his breach did them a favour.,33
+00:19:53,1,,Network guy defends his network.,Network guys were at the hearing.,23
+00:20:16,0,dramatic license,Zuckerberg given 6 months academic probation.,Not in the book.,28
+00:20:44,0,character development,Zuckerberg insulted in class.,This wasn't in the book. ,46
+00:21:30,2,,Winklevoss accost Zuckerberg.,The twins emailed Zuckerberg.,42
+00:22:12,2,,The twins taken him to the Porcelian club.,The twins met Narendra in the bike room.,9
+00:22:21,3,,"We hear about Zuckerberg's other projects, like Coursematch.",Zuckerberg gave coursematch away for free.,46
+00:23:07,3,,Winklevosses pitch their idea: HarvardConnection.,Zuckerberg agreed to help.,73
+00:24:20,3,,Zuckerberg admits pitching the idea of Facebook to Saverin at a party.,Zuckerberg presented his idea to Saverin in a restaurant.,47
+00:25:07,2,,Saverin was punched by the Phoenix Club.,Saverin was punched by the Phoenix Club.,92
+00:26:39,3,,Zuckerberg pitches Facebook idea to Saverin.,"TheFacebook would be exclusive, like Final Clubs.",51
+00:27:30,-1,,Saverin recounts being pitched Facebook.,"Deposition has remained private, with other a few details leaked online.",25
+00:27:55,0,story coherence,"Saverin wonders why Zuck didn't go to Moskovitz, the coder.",Moskovitz found code challenging.,6
+00:28:01,3,,Zuckeberg says they will need startup money.,Zuckerberg asked Saverin for $1k to start things up.,5
+00:28:06,3,,Saverin claims Zuck wanted him because of his money.,Zuckerberg did ask Saverin for money. ,3
+00:28:09,3,,Zuckerberg offers Saverin 30%.,Zuckerberg offered Saverin 30%.,7
+00:28:16,3,,Saverin agrees to 30% of Facebook.,He thought those terms were reasonable. ,6
+00:28:22,0,character development,Zuck says the Phoenix Club want him for diversity reasons.,Not in the book.,9
+00:28:31,0,character development,Suggested that jealousy made Zuck wanted to screw Saverin over.,Saverin didn't think Zuckerberg had planned to screw him over.,25
+00:28:56,-1,character development,Saverin walks away amicably.,Not in the book.,13
+00:29:09,-1,,Saverin gives testimony about Zuck's knowledge of the WInklevoss twins.,We couldn't find a source for this.,57
+00:30:06,3,,Zuck accused of pretending to work for Team Winklevoss while creating Facebook.,Zuckerberg did work on Facebook while supposedly working on HarvardConnection.,11
+00:30:17,3,,Zuckerberg creates Facebook while fobbing off the twins.,Zuckerberg continuously put off meetings.,48
+00:31:05,3,,Saverin gets into the Phoenix Club.,Saverin did get into the Phoenix Club.,31
+00:31:36,2,,Saverin visits Zuck in his dorm.,Facebook was started from Zuckerberg's dorm.,40
+00:32:16,3,,Zuckerberg continues to blow off Team Winklevoss.,Zuckerberg continuously put off meetings.,27
+00:32:43,3,,Saverin answers questions about the John Harvard statue.,The statue formed part of the club admission test.,41
+00:33:24,3,,Zuckerberg registers the domain TheFacebook.com,11th Jan 2004 Zuckerberg registered TheFacebook domain name. ,20
+00:33:44,2,,Zuckerberg seems not to have done anything on HarvardConnection.,Difficult to know exactly what Zuckerberg had done on HarvardConnection.,8
+00:33:52,3,,Team Winklevoss receive an skeptical email about he site from Zuck.,Zuckerberg finally told them didn't think it could be a success.,18
+00:34:10,0,"character development, story coherence",Winklevoss accuse Zuckerberg of stealing their code.,Not in the book.,41
+00:34:51,2,,"Zuck has a eureka moment over ""relationship status""",Zuckerberg enthused by a last-minute idea. ,51
+00:35:42,3,,Zuc runs back to the dorm.,Saverin was waiting for him.,15
+00:35:57,3,,Zuckerberg relates the idea to Saverin.,This was the site's finishing touch.,48
+00:36:45,0,character development ,Zuckerberg adds Saverin's name to the masthead.,Only Zuckerberg's name was on the masthead.,14
+00:36:59,2,,Zuckerberg persuades Saverin to send Facebook out on the Pheonix club mailing list.,TheFacebook went out to the Phoenix Club mailing list.,69
+00:38:08,0,drama,Narendra discovers Facebook.,This scene wasn't in the book.,62
+00:39:10,3,,Narendra races to the boat house to tell the Winklevosses.,Narendra told the twins Zuckerberg had stolen their idea.,36
+00:39:46,3,,Narenda & Tyler want to sue. Cameron blocks them.,They didn't want to resort to legal action or public shaming.,175
+00:42:41,0,"character development, story coherence",Zuckerberg says he wanted Saverin as an investor.,We don't know Zuckerberg's motivations. ,71
+00:43:52,3,,The Facebook exploded after launch.,Facebook reached a million users within the first year.,12
+00:44:04,3,,"People start using the phrase 'Facebook Me""",Christy used 'Facebook me' in the book.,23
+00:44:27,2,,Zuck meets some girls at a Bill Gates lecture.,Bill Gates gave a speech & some girls in the audience recognised Zuckerberg & Saverin.,75
+00:45:42,3,,A group of college guys recognise Zuck. Are impressed.,They had become local celebs.,53
+00:46:35,3,,Saverin wants to monetize Facebook through advertising. Zuck doesn't.,Zuckerberg just wasn't interested in money.,55
+00:47:30,3,,Saverin discovers a cease & desist letter.,The twins sent Zuckerberg a cease & desist in 2004.,85
+00:48:55,1,"character development, story coherence",Zuckeberg only raised concerns about the Winkelvoss project late in the day.,Email details are cloudy.,107
+00:50:42,3,,Christy & Alice want to go for drinks.,Saverin passed on the message.,14
+00:50:56,3,,Saverin & Zuckerberg make out in the toilets with the girls.,Saverin & Zuckerberg hooked up with Kelly & Alice in a club bathroom.,44
+00:51:40,1,,Some cool guys approve of their making out.,Facebook got them action.,27
+00:52:07,0,character development,Zuck spots his ex Erica in the club.,No Erica Albright.,99
+00:53:46,3,,They want to expand to our colleges.,Moskovitz & Hughes got hired for the expansion.,46
+00:54:32,-1,"character development, story coherence",Zuck believes the lawyers are suing because things didn't go their way.,No Marylin character in the book. ,68
+00:55:40,3,,Team Winklevoss decide to go to the president of Harvard.,The twins used their connections to meet Summers.,77
+00:56:57,2,,Sean Parker wakes up after a one-night stand.,"Parker had a lot of women, & did get sued by Napster. ",131
+00:59:08,3,,Parker sees Facebook for the first time.,"Parker saw Facebook on a girl's laptop, emailed Zuckerberg.",68
+01:00:16,3,,The Winklevosses wait to meet the president.,The twins met with Summers.,23
+01:00:39,3,,The Winklevosses attempt to get Zuck expelled. Summers is not interested.,Summers wasn't interested.,205
+01:04:04,1,dramatic license,Angry twins break doorknob.,They didn't break the doorknob.,11
+01:04:15,3,,Zuck & Saverin visit advertisers in NYC.,They met advertisers together.,32
+01:04:47,3,,Zuckerberg is antisocial in the meeting.,Zuckerberg couldn't be bothered with advertisers.,32
+01:05:19,3,,Lawyers asks about meeting with Sean Parker.,They met Parker in NY.,11
+01:05:30,2,,They wait for Sean Parker at 66 in NY.,They met at 66 in NY.,30
+01:06:00,3,,"Saverin was nervous about meeting ""wildcard"" Parker.",Saverin didn't trust Parker.,15
+01:06:15,3,,"Parker arrives, confident & suave.",Parker was super-popular.,45
+01:07:00,3,,It was a Shaunathon.,Parker told them his recent life story.,2
+01:07:02,3,,Good times.,The bar was a real hotspot.,8
+01:07:10,3,,Saverin rolls his eyes over Parker.,Saverin thought Parker was narcissistic.,7
+01:07:17,3,,Only Saverin is not having any fun.,All but Saverin had fun.,9
+01:07:26,3,,Parker takes them through Napster.,"Parker was open with them about everything, including Napster's implosion. ",2
+01:07:28,3,,Parker takes them through Napster & bankruptcy.,"Parker was open with them about everything, including Napster's implosion. ",21
+01:07:49,3,,Parker talks about his second venture.,Parker told them everything.,8
+01:07:57,3,,Parker talks about being at the top of a hot dot com.,Parker gave them all the details.,8
+01:08:05,0,,Saverin claims Parker was paranoid.,Not in the book.,8
+01:08:13,3,,Parker tells everyone he's been followed & bugged.,Parker thought he was being followed.,26
+01:08:39,0,,Saverin says Parker was delusional.,Not in the book.,1
+01:08:40,2,,Parker claims he brought the record companies down.,Parker thought he brought the record companies down. ,20
+01:09:00,3,,Parker tells story after story.,Parker told them everything. ,14
+01:09:14,3,,A million dollars isn't cool.,Parker & Zuckerberg hit it off instantly.,54
+01:10:08,2,,A Billion dollars is cool.,Parker had always aimed for a billion dollars.,10
+01:10:18,2,,Parker advises them to get a billion dollar valuation.,Parker aimed at $1bn.,32
+01:10:50,3,,Parker pays for dinner.,Parker paid for dinner.,10
+01:11:00,2,,"Parker suggests dropping the ""The"" from ""TheFacebook""",Parker wanted to dispense with the 'The'.,18
+01:11:18,2,,Saverin & Zuck disagreeing about how to monetise Facebook.,Saverin & Zuckerberg disagreed.,23
+01:11:41,-1,,Saverin is accused of animal cruelty.,Not in the book.,57
+01:12:38,0,,Zuckerberg reading an article in The Crimson that incriminates Saverin for something.,Zuckerberg didn't read the article.,5
+01:12:43,3,,Saverin explains he had to carry a chicken around.,Phoenix Club chicken rituals were well known.,10
+01:12:53,0,dramatic license,The Crimson mentions Saverin.,Saverin was never mentioned explicitly. ,7
+01:13:00,3,,Saverine says he has never tortured a chicken.,Saverin had been cluelessly trying to keep it alive.,9
+01:13:09,0,dramatic license,Zuck points out how scathing the article is.,Zuckerberg didn't read the article.,4
+01:13:13,-1,,Saverin tries to explain the chicken thing.,The depositions details aren't in the book. ,7
+01:13:20,0,dramatic license,Zuckerberg says someone has to answer for this.,Zuckerberg didn't care.,2
+01:13:22,3,,Saverin already had to deal with the animal rights group.,Animal rights group complained.,22
+01:13:44,2,,Zuckerberg says he is using Facebook to cheat on a paper.,Zuckerberg used a website to cheat on a paper.,31
+01:14:15,-1,,Saverin upset that Zuck mentioned the chicken.,The depositions details aren't in the book. ,28
+01:14:43,3,,They fight about spending the summer in California.,Zuckerberg wanted to spend the summer in Silicon Valley.,85
+01:16:08,3,,Boozy coding competition.,The internship interviews involved coding & drinking.,102
+01:17:50,3,,Saverin agrees to summer in Silicon Valley.,Saverin agreed to the summer in Silicon Valley.,39
+01:18:29,3,,Crazy antics in Palo Alto house.,They took a house in suburban Palo Alto. ,47
+01:19:16,2,,Parker is unexpectedly at the door.,Zuckerberg ran into Parker unexpectedly.,28
+01:19:44,3,,Saverin isn't around. He's on an internship in NY.,Saverin was offered an intership in NY.,43
+01:20:27,3,,Zuck offers Parker a room in their house. Parker accepts.,Parker moved in with Zuckerberg & the team.,235
+01:24:22,3,,The twins loose to the Dutch in London.,The twins lost the Regatta to the Dutch.,102
+01:26:04,3,,The twins find out Facebook has spready to the UK.,The twins found out TheFacebook had gone international while in London.,119
+01:28:03,2,,The twins finally decide to sue.,They decided a lawsuit was inevitable.,56
+01:28:59,3,,California house is trashed.,They trashed the house.,39
+01:29:38,0,character development,Saverin is drenched at the door. Zuck didn't pick him up from the airport.,Zuckerberg did pick Saverin up from the airport.,62
+01:30:40,3,,Saverin not happy with Parker's presence.,Saverin resented Parker's involvement in the business side.,70
+01:31:50,3,,Zuck & Saverin argue. Saverin has quit his internship to support Facebook.,Saverin quit his internship to focus on Facebook.,87
+01:33:17,3,,Saverin freezes the Facebook account.,Saverin froze the account. ,19
+01:33:36,3,,Zuck has a meeting where they filmed The Towering Inferno.,"The meeting was at 555 California Street, where the movie was filmed. ",13
+01:33:49,3,,Investor Thiel offers them $500K.,Thiel invested $500k. ,38
+01:34:27,1,character development,Christy in a jealous rage with Saverin.,Not in the book.,97
+01:36:04,3,,Zuck is furious. Christy sets fire to her gift from Saverin.,Kelly set fire to Saverin's gift in her own dorm.,45
+01:36:49,3,,Zuck tells Saverin he needs him in San Francisco.,Zuckerberg & Saverin made up on the phone.,59
+01:37:48,2,,Saverine breaks up with his jealous girlfriend.,Saverin broke up with Kelly.,9
+01:37:57,2,,Zuck smiling.,He was pretty happy with events.,7
+01:38:04,3,,Saverin reels off the initial share ratios.,These were the initial share ratios.,66
+01:39:10,3,,"Saverin didn't realise he was ""signing his own death sentence""",Saverin felt betrayed. ,62
+01:40:12,3,,Zuckeberg is not going back to Harvard.,Zuckerberg dropped out of Harvard in 2004.,22
+01:40:34,3,,"Zuckerberg, in pyjamas, about to pull a prank on an investor.",They did pull such a prank. ,54
+01:41:28,3,,Saverin attends the millionth member party.,Saverin was handed papers unexpectedly. ,47
+01:42:15,3,dramatic license,Saverin finds his shares have been diluted. Angry.,"Saverin's shares were diluted, but he didn't smash things up. ",52
+01:43:07,1,dramatic license,Saverin's shares diluted to 0.03%.,"Saverin's shares were diluted to below 10%, not as low as 0.03%. ",2
+01:43:09,0,character development,Saverin furious about being squeezed out. Thinks Zuck is jealous.,Zuckerberg didn't act on jealousy.,99
+01:44:48,0,dramatic license,Parker offers him a cheque for $19K. Saverin takes a swing at him.,Saverin & Parker weren't the violent type.,30
+01:45:18,0,character development,Zuck annoyed with parker for being too rough.,Not in the book.,42
+01:46:00,0,character development,Parker mentions an intern Zuck is interested in.,Not in the book.,40
+01:46:40,3,,Facebook passes its millionth member mark.,Facebook reached one million members within 10 months.,30
+01:47:10,3,,Parker at a party excited about new Facebook features.,Parker was partying with a young employee.,40
+01:47:50,3,,The police arrive.,The police broke up the party. ,14
+01:48:04,3,,Parker enthused. People around him take coke.,Parker had ideas about life itself moving online.,35
+01:48:39,3,,Parker tries to get rid of the drug evidence.,Parker was arrested in 2005. ,64
+01:49:43,0,character development,Zucker looks stressed.,This wasn't in the book.,6
+01:49:49,2,,Parker calls Zuck from the police station.,Zuckerberg realised Parker had to leave Facebook at this point. ,72
+01:51:01,3,,"Zuck's business card says ""I'm the CEO, bitch...""","Zuckerberg had two sets of business cards, one read 'CEO' & the other, 'I'm CEO... bitch'.",16
+01:51:17,3,,Zuck is advised to take a settlement.,The case ended in a settlement.,147
+01:53:44,1,character development ,Zuckerberg friends his ex-GF Erica on Facebook.,Zuckerberg became the world's youngest billionaire in 2010.,52
+01:54:36,3,character development ,Zuckerberg becomes the youngest billionaire in the world.,Zuckerberg became the world's youngest billionaire in 2010.,119
