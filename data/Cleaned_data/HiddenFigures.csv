@@ -1,0 +1,112 @@
+,truth_int,fiction type ,film_condensed,reality_condensed,duration
+0,3,,Young Katherine recites prime numbers. ,She loved numbers from childhood. ,20
+1,3,,"Katherine gets into the WVCI, skipping 2 grades.","She won a spot at WVCI, jumping from 6th to 8th grade.",29
+2,3,,Katherine wows the classroom with her skills.,She was top of her class. ,63
+3,3,,Katherine's parents collect her from school.,Her parents supported her education in every way.,23
+4,0,,"Katherine, Mary & Dorothy fix their broken-down car on the way to work. ",They didn't commute together. ,64
+5,0,,The women get pulled by a police officer.,"Didn't happen, but wouldn't have been unusual. ",143
+6,0,,Mary tailgates the officer all the way to Langley.,Didn't happen. ,47
+7,3,,The Russians launch Sputnik.,It launched in 1957.,52
+8,3,,Sputnik manages its first orbit. ,"It eventually completed several, although earlier on. ",13
+9,3,,NASA director is furious the Russians are winning. ,Everybody feared what would happen if the US didn't catch up. ,69
+10,3,,Harrison awaits the IBM. ,Langley got its first IBM machines in the mid-1950s.,54
+11,3,,Dorothy recommends Katherine for the Space Task Group.,"She did, but much earlier when it was still the Flight Research Division. ",104
+12,3,,Dorothy chases the supervisor position. ,She had to wait two years to get it. ,52
+13,3,,Mary works on the Mach 1 tunnel tests.,She was offered the job by Czarnecki. ,24
+14,1,,Mary's shoe gets stuck in the vent. ,Didn't happen. ,28
+15,2,,Zielinski encourages Mary to join the engineer training program.,Her boss did support her application for the program. ,122
+16,3,,Katherine joins the Space Task Group as the first & only black woman. ,She was chosen for her mathematical brilliance. ,50
+17,2,,The office is full of white men - she really stands out.,"There were a few women actually, but Katherine was the only black woman. ",65
+18,1,,Stafford resents a black woman checking his work. ,Katherine never experienced racist attitudes at Langley.,90
+19,3,,Mercury 7 are due to arrive for training. ,The 7 set up at NASA HQ to train & prepare for their missions. ,65
+20,-1,,Katherine is asked to check redacted reports. ,We couldn't find sources for this. ,45
+21,2,,Katherine sets out to find the black bathrooms.,Katherine never used the black bathrooms. ,38
+22,2,,Katherine runs the half mile to the black bathrooms. ,Katherine never used the black bathrooms. ,111
+23,0,,Katherine gets yelled out for taking so long in the bathroom.,Katherine never used the black bathrooms. ,17
+24,1,,"Katherine grabs a coffee from the dispenser, it doesn't go down well. ",This isn't in the book.,57
+25,1,,Harrison & Katherine stay late & talk.,She didn't work that closely with the directors. ,116
+26,1,,"Dorothy & Mary wait for Katherine, drive home together. ",They didn't share the commute. ,113
+27,3,,"Katherine gets home, talks to her mother. ",She lived with her mother at some point. ,68
+28,3,,Katherine talks to her 3 children.,She had three kids with her first husband. ,156
+29,3,,The pastor at church introduces Johnson. ,Katherine met Johnson in church. ,71
+30,-1,,Mary & Jackson argue about the training program. ,We couldn't find sources for this. ,80
+31,2,,Katherine & Johnson talk at a church lunch. ,They did attend meet through church. ,84
+32,-1,,"Johnson asks Katherine about work, unintentionally insults her. ",She was private about her private life. ,84
+33,-1,,Glenn insists on meeting the black staff as well as the white. ,We couldn't find sources for this. ,104
+34,1,,Katherine discovers the coffee table has been segregated. ,This didn't happen. ,27
+35,0,,"Katherine makes out a redacted word, has a lightbulb moment. ",Not in the book. ,58
+36,0,,They have to smash the wall to fit the IBM in the room. ,Not in the book. ,32
+37,3,,Dorothy asks Vivian about the IBM.,Dorothy was keen to learn all there was to know about the IBM. ,88
+38,3,,Katherine cracks the numbers for Shepard's trajectory. ,She did the calcs for his mission. ,70
+39,0,,Katherine is questioned about the information she used. ,Not in the book. ,132
+40,2,,"Katherine, Mary & Dorothy take lunch in the black canteen.",The canteens were segregated. ,30
+41,3,,Mary needs an extension course to apply for the program. ,She had to do the course to get onto the training program. ,49
+42,2,,Dorothy tells Mary to petition for access to the extension course. ,"As a black woman, Mary needed permission to attend classes.",36
+43,1,,"The women bake, drink hooch & dance. ",The three women didn't hang out much. ,59
+44,2,,Dorothy & sons see an anti-segregation protest.,Protests were everywhere in the 1960s. ,28
+45,1,,Dorothy is thrown out of the white section of the library.,Not in the book. ,44
+46,1,,Dorothy has stolen the book she was after. ,Not in the book. ,50
+47,1,,Dorothy invites Johnson to a party so he can talk to Katherine. ,Not in the book. ,34
+48,-1,,Johnson apologises to Katherine for his earlier comments. ,She was private about her private life. ,114
+49,3,,Yuri Gagarin becomes the first man in space.,He won the title in 1961 when he orbitted the earth. ,23
+50,3,,The NASA team watch TV footage of Russia's win. ,They followed every second. ,30
+51,3,,Harrison tells his team it's game on. ,"JFK promised the USA would get to the moon, the pressure was on. ",114
+52,3,,Katherine calls home to say she'd be late. ,Johnson understood Katherine's commitment. ,28
+53,3,,"Montage of testing, calcs, press conferences...","It took 1.2m tests, calcs, experiments etc to get the US into space. ",9
+54,3,,Mary petitions the court.,She filed with the City of Hampton. ,81
+55,2,,Dorothy sneaks into the IBM room to figure out the programming.,"She did learn the programming, but she didn't have to 'sneak'. ",47
+56,2,,Dorothy starts teaching her 'girls' to program the IBM.,Dorothy did train others to use the IBM. ,22
+57,3,,Mary tells her boss she got a court date.,Czarnecki supported her application. ,13
+58,1,,"The IBM wasn't working, Dorothy fixes it. ",It was working fine. ,23
+59,2,,Katherine runs to the black bathrooms in torrential rain.,Katherine never used the black bathrooms. ,69
+60,1,,Katherine rages to Harrisson about the injustices of segregation. ,She didn't personally experience the effects of racism at Langley. ,116
+61,1,,Harrison removes the 'coloured' label from the coffee pot.,The directors themselves didn't remove any labels. ,20
+62,0,,Harrison smashes the 'coloured bathroom' signs. ,"The NASA directors didn't smash any signs, but they were removed.",66
+63,-1,,"Katherine & Johnson eat with the family, she has flu.",She was private about her private life. ,58
+64,3,,Shepard launches. ,His flight lasted 15m22s & covered 303miles. ,25
+65,3,,The launch is a success.,Everybody celebrated. ,134
+66,3,,Harrrison congratulated the team.,We're assuming NASA bigwigs congratulated their teams. ,33
+67,2,,Johnson & Katherine kiss for the first time. ,"At some stage yeah, likely. ",77
+68,3,,4 white men are arrested for bombing a freedom rider bus.,It happened in May 1961.,39
+69,3,,Mary wins her court case.,The City granted her special access to the course.,165
+70,3,,Katherine adds her name to a report.,Her name was one of few women's to be included on a report at the time.,24
+71,3,,Katherine persuades Harrison to let her work on Glenn's trajectory.,The bosses trusted her to get it right. ,65
+72,2,,Stafford tears the author page off the report.,Women didn't author reports.,10
+73,3,,Grissom's Liberty Bell 7 sinks in the ocean. ,It wasn't salvaged until 1999. ,43
+74,3,,Harrison points out it's worth the money to get ahead of Russia.,NASA's budget was crazy high at the time.,48
+75,3,,They try to figure out getting Glenn back down from orbit.,This was the toughest calculation to date. ,123
+76,3,,"Katherine begs to attend briefings, is turned down.",She was initially told no. ,29
+77,0,,Dorothy singlehandedly gets the IBM working.,A whole team worked on getting the IBM going. ,52
+78,3,,"Katherine asks, again, to attend briefings. ","Again, her plea is rejected. ",34
+79,3,,Katherine adds her name to a report.,Her name was one of few women's to be included on a report at the time.,15
+80,2,,Stafford & Katherine argue about the names on the report.,Women didn't author reports.,23
+81,3,,Finally Katherine is allowed to attend briefings.,The engineers eventually got sick of her asking & said yes. ,67
+82,0,,Katherine wows a room of bigwigs with her calcs.,Not in the book. ,242
+83,3,,Harrison tells the IBM guys to find more programmers.,The IBM needed a huge team of programmers. ,31
+84,2,,Dorothy is officially assigned to the IBM.,She ended up in the IBM team. ,60
+85,0,,Dorothy's team file over to the IBM room.,A throwback to an earlier movie. ,59
+86,2,,Harrison reminds Stafford to play nicely. ,NASA nurtured genius. ,51
+87,-1,,Jackson & Mary share a tender moment. ,We don't know much about Mary's relationship with her husband. ,74
+88,2,,Mary enters a classroom of white men. ,"She was the first & only woman, & black person, in those classes. ",51
+89,3,,Katherine uses Euler's method to crack the trajectory.,Katherine did use Euler's method to calculate the trajectory they needed. ,103
+90,3,,Katherine omits her name from the report. ,Women computers' names were usually left off reports. ,11
+91,2,,Dorothy & Vivian have an awkward chat in the ladies'. ,Desegration was uncomfortable. ,150
+92,2,,Johnson proposes to Katherine in front of her family.,"We don't know how the proposal went down, but it did happen. ",93
+93,3,,Glenn prepares for launch.,He had days' worth of preparation for the launch.,23
+94,1,,Harrison tells Katherine she's no longer needed now they have the IBM.,The IBM needed humans & vice versa. ,92
+95,1,,Ruth hands Katherine pearls from Harrison.,Harrison didn't give Katherine pearls. ,64
+96,2,,Katherine's wedding day.,This was her second marriage.,28
+97,2,,The women tune in to watch Glenn's launch.,Unprecedented numbers tuned it to follow the event. ,25
+98,2,,Glenn refuses to take off without Katherine checking the numbers.,He trusted Katherine more than the IBM.,66
+99,2,,Katherine rushes through the numbers last minute.,"She did check the numbers, but not last minute. ",126
+100,2,,Katherine races to get the numbers to control.,Katherine confirmed Glenn's numbers.,74
+101,0,,Harrison gives Katherine a pass for the control room.,Not in the book. ,34
+102,3,,"With the numbers confirmed by Katherine, Glenn is happy to launch.",Glenn trusted her calcs totally. ,60
+103,3,,The launch is a success.,Glenn launched at 9.47am on Feb 20th 1962 & made it into orbit. ,103
+104,2,,Dorothy finally gets her supervisor title.,"It happened earlier than this, but she waited 2yrs for it. ",85
+105,3,,A heat shield warning light appears in Glenn's capsule.,Glenn was in huge danger. ,48
+106,3,,Communication is lost & a fireball consumes the capsule.,Glenn prepared himself for death at that point. ,187
+107,3,,"Glenn makes it, splashes down safely. ",Glenn came back online 14m after losing the protective rocket pack. ,119
+108,2,,Harrison asks Katherine if they can get to the moon next.,Katherine was kept on board for the moon mission.,37
+109,3,,The three women had amazing careers.,All achieved big things. ,50
+110,3,,Katherine won the Presidential Medal of Freedom at 97 years old.,She was given the country's highest honour in 2015.,68
