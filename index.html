@@ -20,9 +20,8 @@
 					<header id="header" class="alt">
 						<span class="logo"><img src="images/logo.svg" alt="" /></span>
 						<h1>How true are "True Stories"?</h1>
-						<p>Just another 590V Project<br />
-						built by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a>.</p>
-					</header>
+						<p> Soumya Saha, Sreeparna Mukherjee, Subhajit Naskar <br />
+						</header>
 
 				<!-- Nav -->
 					<nav id="nav">
@@ -80,6 +79,7 @@
 
 					</div>
 
+
 				<!-- Footer -->
 					<footer id="footer">
 						<section>
@@ -108,9 +108,10 @@
 			var w = 900;
 			var h = 300;
 			var padding = 0;
-			
-
-			d3.csv("/data/Cleaned_data/Selma.csv", function(data) {
+			var dataset = ["Selma.csv","TheSocialNetwork.csv","12YearsaSlave.csv","AmericanSniper.csv","BohemianRhapsody.csv","BridgeofSpies.csv","CaptainPhillips.csv","DallasBuyersClub.csv","HiddenFigures.csv","Lion.csv","Philomena.csv","Rush.csv","Spotlight.csv","TheBigShort.csv","TheImitationGame.csv","TheKingsSpeech.csv","WolfofWallStreet.csv"];
+			for(i = 0; i < 17; i++){
+				// d3.csv("./dallas.csv", function(data) {
+				d3.csv("./data/Cleaned_data/"+dataset[i], function(data) {
 
 				var dataset = data;
 				var sum = 0;
@@ -168,7 +169,10 @@
 				   });
 
 			});
+			}
 
 			</script>
 	</body>
 </html>
+
+
