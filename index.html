@@ -11,6 +11,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			#wgtmsr{
+			 width:150px;
+			 float: right;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 		<!-- Wrapper -->
@@ -27,9 +33,10 @@
 					<nav id="nav">
 						<ul>
 							<li><a href="#intro" class="active">Introduction</a></li>
-							<li><a href="#first">First Section</a></li>
-							<li><a href="#second">Second Section</a></li>
-							<li><a href="#cta">Get Started</a></li>
+							<li><a href="#Primary">Primary Analysis</a></li>
+							<li><a href="#first">Biographical</a></li>
+							<li><a href="#second">True Events</a></li>
+							<li><a href="#cta">Conclusion</a></li>
 						</ul>
 					</nav>
 
@@ -45,34 +52,120 @@
 								</div>
 							</section>
 
-						<!-- First Section -->
-							<section id="first" class="main special">
-								<header class="major">
-									<h2>Magna veroeros</h2>
+						<section id="first" class="main special">
+								<header class="major0">
+									<h2>Primary Analysis</h2>
 								</header>
 								
-								<footer class="major">
+								<footer class="major0">
+									
+								</footer>
+							</section>
+
+						<!-- First Section -->
+
+							<section id="first" class="main special">
+								<header class="major1">
+									<h1><b>Biographical Movies</b></h1>
+									<select name="wgtmsr" id="wgtmsr">
+									  <option value="volvo">Volvo</option>
+									  <option value="saab">Saab</option>
+									  <option value="mercedes">Mercedes</option>
+									  <option value="audi">Audi</option>
+									</select>
+									
+								</header>
+
+								<div class="TheSocialNetwork">
+									<h3 align = LEFT> The Social Network</h3>
+								</div>
+								<div class="Selma">
+									<h3 align = LEFT> Selma</h3>
+
+								</div>
+
+								<div class="TYearsaSlave">
+									<h3 align = LEFT> 12 Years a Slave</h3>
+								</div>
+
+								<div class="AmericanSniper">
+									<h3 align = LEFT> American Sniper</h3>
+								</div>
+
+								<div class="Lion">
+									<h3 align = LEFT> Lion</h3>
+								</div>
+
+								<div class="BohemianRhapsody">
+									<h3 align = LEFT> Bohemian Rhapsody</h3>
+								</div>
+
+								<div class="DallasBuyersClub">
+									<h3 align = LEFT> Dallas Buyers Club</h3>
+								</div>
+
+								<div class="TheKingsSpeech">
+									<h3 align = LEFT> The Kings Speech</h3>
+								</div>
+
+								<div class="WolfofWallStreet">
+									<h3 align = LEFT>Wolf of Wall Street</h3>
+								</div>
+
+								<div class="TheImitationGame">
+									<h3 align = LEFT>The Imitation Game</h3>	
+								</div>
+
+								<footer class="major1">
 									
 								</footer>
 							</section>
 
 						<!-- Second Section -->
 							<section id="second" class="main special">
-								<header class="major">
-									
+								<header class="major2">
+									<h1><b>True events</b></h1>
 								</header>
+
+								<div class="BridgeofSpies">
+									<h3 align = LEFT> Bridge of Spies</h3>
+								</div>
+
+								<div class="CaptainPhillips">
+									<h3 align = LEFT> Captain Phillips</h3>
+								</div>
+
+								<div class="HiddenFigures">
+									<h3 align = LEFT> Hidden Figures</h3>
+								</div>
+
+								<div class="Philomena">
+									<h3 align = LEFT> Philomena</h3>
+								</div>
+
+								<div class="Rush">
+									<h3 align = LEFT> Rush</h3>
+								</div>
+
+								<div class="Spotlight">
+									<h3 align = LEFT> Spotlight</h3>
+								</div>
+
+								<div class="TheBigShort">
+									<h3 align = LEFT> The Big Short</h3>
+								</div>
 								
-								<footer class="major">
+								<footer class="major2">
 									
 								</footer>
 							</section>
 
 						<!-- Get Started -->
 							<section id="cta" class="main special">
-								<header class="major">
+								<header class="major3">
 									
 								</header>
-								<footer class="major">
+								<footer class="major3">
 									
 								</footer>
 							</section>
@@ -105,13 +198,93 @@
 			<script type="text/javascript">
 
 			//Width and height
-			var w = 900;
-			var h = 300;
+			var w = 1200;
+			var h = 200;
 			var padding = 0;
-			var dataset = ["Selma.csv","TheSocialNetwork.csv","12YearsaSlave.csv","AmericanSniper.csv","BohemianRhapsody.csv","BridgeofSpies.csv","CaptainPhillips.csv","DallasBuyersClub.csv","HiddenFigures.csv","Lion.csv","Philomena.csv","Rush.csv","Spotlight.csv","TheBigShort.csv","TheImitationGame.csv","TheKingsSpeech.csv","WolfofWallStreet.csv"];
-			for(i = 0; i < 17; i++){
+			var bio_id = 0;
+			var event_id = 0;
+			var bio_dataset = ["TheSocialNetwork.csv","Selma.csv","12YearsaSlave.csv","AmericanSniper.csv","Lion.csv","BohemianRhapsody.csv","DallasBuyersClub.csv","TheKingsSpeech.csv","WolfofWallStreet.csv", "TheImitationGame.csv"];
+			var event_dataset = ["BridgeofSpies.csv","CaptainPhillips.csv","HiddenFigures.csv","Philomena.csv","Rush.csv","Spotlight.csv","TheBigShort.csv"];
+			for(i = 0; i < 10; i++){
 				// d3.csv("./dallas.csv", function(data) {
-				d3.csv("./data/Cleaned_data/"+dataset[i], function(data) {
+				d3.csv("./data/Cleaned_data/"+bio_dataset[i], function(data) {
+				//var id = 0
+				var div_names = ["TheSocialNetwork", "Selma","TYearsaSlave","AmericanSniper","Lion","BohemianRhapsody","DallasBuyersClub","TheKingsSpeech","WolfofWallStreet", "TheImitationGame"];
+				var dataset = data;
+				var sum = 0;
+				var prev_sum = 0;
+
+				xScale = d3.scaleTime()
+							   .domain([
+									0,
+									d3.sum(dataset, function(d) { return d.duration; })  // 7137
+								])
+							   .range([padding, w - padding]);
+
+				var div_name = "." + div_names[bio_id]; //bio_dataset[i].slice(0, -4);
+				console.log(div_name);
+				bio_id++;
+				var svg = d3.select(div_name)
+					.append("svg")
+					.attr("width", w)
+					.attr("height", h);
+
+				svg.selectAll("rect")
+				   .data(dataset)
+				   .enter()
+				   .append("rect")
+				   .attr("x", function(d) {
+				   		prev_sum = sum;
+				   		sum += +d.duration;
+				   		//console.log(xScale(prev_sum));
+				   		return xScale(prev_sum);
+				   })
+				   .attr("y", 0)
+				   .attr("width", function(d) {
+				   		//console.log(d.duration, xScale(d.duration));
+				   		return xScale(+d.duration);
+				   })
+				   .attr("height", 100)
+				   .attr("fill",  function(d) {
+				   		switch(+d.truth_int) {
+				   			case 0:
+	   							return "#FF1493";
+	   							break;
+	   						case 1:
+	   							return "#FFC0CB";
+	   							break;
+	   						case 2:
+	   							return "#87CEFA";
+	   							break;
+	   						case 3:
+	   							return "#00BFFF";
+	   							break;
+	   						case -1:
+	   							return "#B0C4DE";
+	   							break;
+	   						default:
+	   							return "#bdbf91";
+	   							break;
+				   		} 
+				   });
+
+				   /*svg.selectAll("text")
+				   	  .data(dataset)
+				   	  .enter()
+				   	  .append("text")
+				   	  .attr("x", 0)
+				   	  .attr("y", 0)
+				   	  .text(fucntion(d){return "movie name";})
+				   	  .attr('font-size', 12)
+                      .attr('text-anchor', 'end');*/
+
+			});
+			}
+
+			for(j = 0; j < 7; j++){
+				// d3.csv("./dallas.csv", function(data) {
+				d3.csv("./data/Cleaned_data/"+event_dataset[j], function(data) {
+				var div_names = ["BridgeofSpies","CaptainPhillips","HiddenFigures","Philomena","Rush","Spotlight","TheBigShort"];
 
 				var dataset = data;
 				var sum = 0;
@@ -124,7 +297,11 @@
 								])
 							   .range([padding, w - padding]);
 
-				var svg = d3.select(".content")
+				var div_name = "." + div_names[event_id]; //bio_dataset[i].slice(0, -4);
+				console.log(div_name);
+				event_id++;
+
+				var svg = d3.select(div_name)
 					.append("svg")
 					.attr("width", w)
 					.attr("height", h);
@@ -136,35 +313,35 @@
 				   .attr("x", function(d) {
 				   		prev_sum = sum;
 				   		sum += +d.duration;
-				   		console.log(xScale(prev_sum));
+				   		//console.log(xScale(prev_sum));
 				   		return xScale(prev_sum);
 				   })
 				   .attr("y", 0)
 				   .attr("width", function(d) {
-				   		console.log(d.duration, xScale(d.duration));
+				   		//console.log(d.duration, xScale(d.duration));
 				   		return xScale(+d.duration);
 				   })
 				   .attr("height", 100)
 				   .attr("fill",  function(d) {
 				   		switch(+d.truth_int) {
-				   			case 3:
-				   				return "#05103f";
-				   				break;
-				   			case 2:
-				   				return "#5162ad";
-				   				break;
-				   			case 1:
-				   				return "#a84a58";
-				   				break;
 				   			case 0:
-				   				return "#540410";
-				   				break;
-				   			case -1:
-				   				return "#bdbf91";
-				   				break;
-				   			default:
-				   				return "#bdbf91";
-				   				break;
+	   							return "#FF1493";
+	   							break;
+	   						case 1:
+	   							return "#FFC0CB";
+	   							break;
+	   						case 2:
+	   							return "#87CEFA";
+	   							break;
+	   						case 3:
+	   							return "#00BFFF";
+	   							break;
+	   						case -1:
+	   							return "#B0C4DE";
+	   							break;
+	   						default:
+	   							return "#bdbf91";
+	   							break;
 				   		} 
 				   });
 
