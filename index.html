@@ -86,42 +86,61 @@
 
 								<div class="TheSocialNetwork">
 									<h3 align = LEFT> The Social Network</h3>
+									<div class = "Comparison">
+									</div>
 								</div>
 								<div class="Selma">
 									<h3 align = LEFT> Selma</h3>
-
+									<div class = "Comparison">
+									</div>
 								</div>
 
 								<div class="TYearsaSlave">
 									<h3 align = LEFT> 12 Years a Slave</h3>
+									<div class = "Comparison">
+									</div>
 								</div>
 
 								<div class="AmericanSniper">
 									<h3 align = LEFT> American Sniper</h3>
+									<div class = "Comparison">
+									</div>
 								</div>
 
 								<div class="Lion">
 									<h3 align = LEFT> Lion</h3>
+									<div class = "Comparison">
+									</div>
 								</div>
 
 								<div class="BohemianRhapsody">
 									<h3 align = LEFT> Bohemian Rhapsody</h3>
+									<div class = "Comparison">
+									</div>
 								</div>
 
 								<div class="DallasBuyersClub">
 									<h3 align = LEFT> Dallas Buyers Club</h3>
+									<div class = "Comparison">
+									</div>
 								</div>
 
 								<div class="TheKingsSpeech">
 									<h3 align = LEFT> The Kings Speech</h3>
+									<div class = "Comparison">
+									</div>
 								</div>
 
 								<div class="WolfofWallStreet">
 									<h3 align = LEFT>Wolf of Wall Street</h3>
+									<div class = "Comparison">
+									</div>
 								</div>
 
 								<div class="TheImitationGame">
 									<h3 align = LEFT>The Imitation Game</h3>	
+									<div class = "Comparison">
+									</div>
 								</div>
 
 								<footer class="major1">
@@ -212,7 +231,7 @@
 			//Width and height
 			var bio_dataset = ["TheSocialNetwork.csv","Selma.csv","12YearsaSlave.csv","AmericanSniper.csv","Lion.csv","BohemianRhapsody.csv","DallasBuyersClub.csv","TheKingsSpeech.csv","WolfofWallStreet.csv", "TheImitationGame.csv"];
 			var event_dataset = ["BridgeofSpies.csv","CaptainPhillips.csv","HiddenFigures.csv","Philomena.csv","Rush.csv","Spotlight.csv","TheBigShort.csv"];
-			var w = 1200;
+			var w = 0.9*document.getElementById("first").offsetWidth;
 			var h = 200;
 			var padding = 0;
 
@@ -226,7 +245,6 @@
 					var sum = 0;
 					var prev_sum = 0;
 
-
 					xScale = d3.scaleTime()
 								   .domain([
 										0,
@@ -237,6 +255,30 @@
 					var div_name = "." + div_names[bio_id]; //bio_dataset[i].slice(0, -4);
 					console.log(div_name);
 					bio_id++;
+
+					var tooltip = d3.select(div_name)
+                            .append("div")
+                            .style("position", "absolute")
+                            //.style("z-index", "10")
+                            .style("visibility", "hidden")
+                            .style("text-align", "left")
+                            .text("a simple tooltip")
+                            .attr("fill", "#FF1491")
+                            .attr("x", 0)
+                            .attr("y", 0);
+
+                    var tooltip2 = d3.select(div_name)
+                            .append("div")
+                            //.style("position", "absolute")
+                            //.style("z-index", "10")
+                            .style("visibility", "hidden")
+                            .style("text-align", "right")
+                            .text("a simple tooltip")
+                            .attr("fill", "#FF1491")
+                            .attr("x", 500)
+                            .attr("y", 0);
+
+
 					var svg = d3.select(div_name)
 						.append("svg")
 						.attr("width", w)
@@ -281,7 +323,36 @@
 		   							return "#bdbf91";
 		   							break;
 					   		} 
-						});
+						})
+					   .on("mouseenter", function(d) {
+			   				console.log(d);  
+			   				tooltip.style("visibility", "visible");
+			   				tooltip.html("<b>Film</b> : " + d.film_condensed);
+			   				
+			   				tooltip2.style("visibility", "visible");
+			   				tooltip2.html("<b>Reality</b> : " + d.reality_condensed);
+			   				/*var tooltip = tooltip_div.selectAll("text")
+			   										.append("text")
+			   										.text(function(d) {
+			   											console.log("inside tooltip");
+			   											return d.film_condensed;
+			   										})
+			   										.attr("fill", "black")
+			   										.style("opacity", 100);
+			   				console.log(tooltip);*/
+			   				/*var svg2 = d3.select(div_name)
+			   							.append("svg");
+			   				svg2.selectAll("rect")
+			   					.enter()
+			   					.append("text")
+			   					.text(function(d) {console.log(d.film_condensed); alert(d.film_condensed);});*/
+			  		 	})
+					   .on("mouseleave", function() {
+					   		console.log("mouse leaves");
+					   		tooltip.style("visibility", "hidden");
+					   		tooltip2.style("visibility", "hidden");
+					   })
+					   ;   
 				});
 			}
 
