@@ -232,10 +232,14 @@
 			var bio_dataset = ["TheSocialNetwork.csv","Selma.csv","12YearsaSlave.csv","AmericanSniper.csv","Lion.csv","BohemianRhapsody.csv","DallasBuyersClub.csv","TheKingsSpeech.csv","WolfofWallStreet.csv", "TheImitationGame.csv"];
 			var event_dataset = ["BridgeofSpies.csv","CaptainPhillips.csv","HiddenFigures.csv","Philomena.csv","Rush.csv","Spotlight.csv","TheBigShort.csv"];
 			var w = 0.9*document.getElementById("first").offsetWidth;
-			var h = 200;
+			var h = 100;
 			var padding = 0;
 
+			
+
 			// for biography movies default pedantry
+			var bio_film_tooltip = [];
+			var bio_real_tooltip = [];
 			var bio_pedantry = "Flexible";
 			var bio_id = 0;
 			for(i = 0; i < 10; i++) {
@@ -267,6 +271,8 @@
                             .attr("fill", "#FF1491")
                             .attr("x", 0)
                             .attr("y", 0);
+                    bio_film_tooltip.push(tooltip);
+
 
                     var tooltip2 = d3.select(div_name)
                             .append("div")
@@ -279,6 +285,8 @@
                             .attr("fill", "#FF1491")
                             .attr("x", 500)
                             .attr("y", 0);
+
+                    bio_real_tooltip.push(tooltip2);
 
 
 					var svg = d3.select(div_name)
@@ -299,7 +307,7 @@
 					   .attr("width", function(d) {
 					   		return xScale(+d.duration);
 					   })
-					   .attr("height", 100)
+					   .attr("height", 70)
 					   .attr("fill",  function(d) {
 					   		switch(+d.truth_int) {
 					   			case 0:
@@ -328,6 +336,9 @@
 						})
 					   .on("mouseenter", function(d) {
 			   				console.log(d);  
+			   				//var rectsvg = svg.selectAll("rect").attr("height", function(d) {return 100;});
+			   				//var test = svg.selectAll("rect").__proto__; //select(this);
+			   				//console.log(test);
 			   				tooltip.transition()
 			   					   .style("visibility", "visible")
 			   					   .style("font-family", "sans-serif")
@@ -342,6 +353,11 @@
 			   					case 1:
 			   						tooltip.style("color", "red");
 			   						break;
+			   					case 2:{
+			   						if(bio_pedantry == "Pedantic") tooltip.style("color", "red");
+			   						else tooltip.style("color", "green");
+			   						break;
+			   					} 
 			   					default:
 			   						tooltip.style("color", "green");
 			   						break;
@@ -357,6 +373,8 @@
 			  		 	})
 					   .on("mouseleave", function() {
 					   		console.log("mouse leaves");
+
+					   		var rectsvg = svg.selectAll("rect").attr("height", 70);
 					   		tooltip.style("visibility", "hidden");
 					   		tooltip2.style("visibility", "hidden");
 					   })
@@ -386,10 +404,12 @@
 								   .range([padding, w - padding]);
 
 					var div_name = "." + div_names[bio_id];
+					var tooltip = bio_film_tooltip[bio_id]
+                    var tooltip2 = bio_real_tooltip[bio_id]
 					bio_id++;
 
 					d3.select(div_name).select("svg").remove();
-
+                   
 					var svg = d3.select(div_name)
 						.append("svg")
 						.attr("width", w)
@@ -408,7 +428,7 @@
 					   .attr("width", function(d) {
 					   		return xScale(+d.duration);
 					   })
-					   .attr("height", 100)
+					   .attr("height", 70)
 					   .attr("fill",  function(d) {
 					   		switch(+d.truth_int) {
 					   			case 0:
@@ -434,7 +454,47 @@
 		   							return "#bdbf91";
 		   							break;
 					   		} 
-					   });
+					   })
+					   .on("mouseenter", function(d) {
+			   				console.log(d);  
+			   				tooltip.transition()
+			   					   .style("visibility", "visible")
+			   					   .style("font-family", "sans-serif")
+			   					   .style("font-weight", "bold");
+			   					   //.style("font-style", "italic")
+			   					   //.style("color", "red");
+
+			   				switch(+d.truth_int) {
+			   					case 0: 
+			   						tooltip.style("color", "red");
+			   						break;
+			   					case 1:
+			   						tooltip.style("color", "red");
+			   						break;
+			   					case 2:{
+			   						if(bio_pedantry == "Pedantic") tooltip.style("color", "red");
+			   						else tooltip.style("color", "green");
+			   						break;
+			   					} 
+			   					default:
+			   						tooltip.style("color", "green");
+			   						break;
+			   				}
+			   				tooltip.html(d.film_condensed);
+			   				
+			   				tooltip2.transition()
+			   						.style("visibility", "visible")
+			   						.style("font-weight", "bold")
+			   						.style("font-family", "sans-serif");
+			   						//.style("font-style", "italic");
+			   				tooltip2.html(d.reality_condensed);
+			  		 	})
+					   .on("mouseleave", function() {
+					   		console.log("mouse leaves");
+					   		tooltip.style("visibility", "hidden");
+					   		tooltip2.style("visibility", "hidden");
+					   })
+					   ;
 					});
 				}
 			});
@@ -444,6 +504,8 @@
 
 
             // for event movies default pedantry
+            var event_film_tooltip = [];
+			var event_real_tooltip = [];
 			var event_pedantry = "Flexible";
 			var event_id = 0;
 			for(j = 0; j < 7; j++) {
@@ -464,6 +526,36 @@
 					var div_name = "." + div_names[event_id];
 					event_id++;
 
+
+					var tooltip = d3.select(div_name)
+                            .append("div")
+                            .style("position", "absolute")
+                            //.style("z-index", "10")
+                            .style("visibility", "hidden")
+                            .style("text-align", "left")
+                            //.style("color", "red")
+                            .text("a simple tooltip")
+                            .attr("fill", "#FF1491")
+                            .attr("x", 0)
+                            .attr("y", 0);
+                    event_film_tooltip.push(tooltip);
+
+
+                    var tooltip2 = d3.select(div_name)
+                            .append("div")
+                            //.style("position", "absolute")
+                            //.style("z-index", "10")
+                            .style("visibility", "hidden")
+                            .style("text-align", "right")
+                            .style("color", "green")
+                            .text("a simple tooltip")
+                            .attr("fill", "#FF1491")
+                            .attr("x", 500)
+                            .attr("y", 0);
+
+                    event_real_tooltip.push(tooltip2);
+
+
 					var svg = d3.select(div_name)
 						.append("svg")
 						.attr("width", w)
@@ -482,7 +574,7 @@
 					   .attr("width", function(d) {
 					   		return xScale(+d.duration);
 					   })
-					   .attr("height", 100)
+					   .attr("height", 70)
 					   .attr("fill",  function(d) {
 					   		switch(+d.truth_int) {
 					   			case 0:
@@ -506,7 +598,47 @@
 		   							return "#bdbf91";
 		   							break;
 					   		} 
-					   });
+					   })
+					   .on("mouseenter", function(d) {
+			   				console.log(d);  
+			   				tooltip.transition()
+			   					   .style("visibility", "visible")
+			   					   .style("font-family", "sans-serif")
+			   					   .style("font-weight", "bold");
+			   					   //.style("font-style", "italic")
+			   					   //.style("color", "red");
+
+			   				switch(+d.truth_int) {
+			   					case 0: 
+			   						tooltip.style("color", "red");
+			   						break;
+			   					case 1:
+			   						tooltip.style("color", "red");
+			   						break;
+			   					case 2:{
+			   						if(event_pedantry == "Pedantic") tooltip.style("color", "red");
+			   						else tooltip.style("color", "green");
+			   						break;
+			   					} 
+			   					default:
+			   						tooltip.style("color", "green");
+			   						break;
+			   				}
+			   				tooltip.html(d.film_condensed);
+			   				
+			   				tooltip2.transition()
+			   						.style("visibility", "visible")
+			   						.style("font-weight", "bold")
+			   						.style("font-family", "sans-serif");
+			   						//.style("font-style", "italic");
+			   				tooltip2.html(d.reality_condensed);
+			  		 	})
+					   .on("mouseleave", function() {
+					   		console.log("mouse leaves");
+					   		tooltip.style("visibility", "hidden");
+					   		tooltip2.style("visibility", "hidden");
+					   })
+					   ;
 				});
 			}
 
@@ -534,6 +666,8 @@
 								   .range([padding, w - padding]);
 
 					var div_name = "." + div_names[event_id];
+					var tooltip = event_film_tooltip[event_id]
+                    var tooltip2 = event_real_tooltip[event_id]
 					event_id++;
 
 					d3.select(div_name).select("svg").remove();
@@ -556,7 +690,7 @@
 					   .attr("width", function(d) {
 					   		return xScale(+d.duration);
 					   })
-					   .attr("height", 100)
+					   .attr("height", 70)
 					   .attr("fill",  function(d) {
 					   		switch(+d.truth_int) {
 					   			case 0:
@@ -580,7 +714,48 @@
 		   							return "#bdbf91";
 		   							break;
 					   		} 
-					   });
+					   })
+					   .on("mouseenter", function(d) {
+			   				console.log(d);  
+			   				tooltip.transition()
+			   					   .style("visibility", "visible")
+			   					   .style("font-family", "sans-serif")
+			   					   .style("font-weight", "bold");
+			   					   //.style("font-style", "italic")
+			   					   //.style("color", "red");
+
+			   				switch(+d.truth_int) {
+			   					case 0: 
+			   						tooltip.style("color", "red");
+			   						break;
+			   					case 1:
+			   						tooltip.style("color", "red");
+			   						break;
+			   					case 2:{
+			   						if(event_pedantry == "Pedantic") tooltip.style("color", "red");
+			   						else tooltip.style("color", "green");
+			   						break;
+			   					} 
+			   					default:
+			   						tooltip.style("color", "green");
+			   						break;
+			   				}
+			   				tooltip.html(d.film_condensed);
+			   				
+			   				tooltip2.transition()
+			   						.style("visibility", "visible")
+			   						.style("font-weight", "bold")
+			   						.style("font-family", "sans-serif");
+			   						//.style("font-style", "italic");
+			   				tooltip2.html(d.reality_condensed);
+			  		 	})
+					   .on("mouseleave", function() {
+					   		console.log("mouse leaves");
+					   		tooltip.style("visibility", "hidden");
+					   		tooltip2.style("visibility", "hidden");
+					   })
+
+					   ;
 				});
 			}
               	});
