@@ -262,6 +262,7 @@
                             //.style("z-index", "10")
                             .style("visibility", "hidden")
                             .style("text-align", "left")
+                            //.style("color", "red")
                             .text("a simple tooltip")
                             .attr("fill", "#FF1491")
                             .attr("x", 0)
@@ -273,6 +274,7 @@
                             //.style("z-index", "10")
                             .style("visibility", "hidden")
                             .style("text-align", "right")
+                            .style("color", "green")
                             .text("a simple tooltip")
                             .attr("fill", "#FF1491")
                             .attr("x", 500)
@@ -326,26 +328,32 @@
 						})
 					   .on("mouseenter", function(d) {
 			   				console.log(d);  
-			   				tooltip.style("visibility", "visible");
-			   				tooltip.html("<b>Film</b> : " + d.film_condensed);
+			   				tooltip.transition()
+			   					   .style("visibility", "visible")
+			   					   .style("font-family", "sans-serif")
+			   					   .style("font-weight", "bold");
+			   					   //.style("font-style", "italic")
+			   					   //.style("color", "red");
+
+			   				switch(+d.truth_int) {
+			   					case 0: 
+			   						tooltip.style("color", "red");
+			   						break;
+			   					case 1:
+			   						tooltip.style("color", "red");
+			   						break;
+			   					default:
+			   						tooltip.style("color", "green");
+			   						break;
+			   				}
+			   				tooltip.html(d.film_condensed);
 			   				
-			   				tooltip2.style("visibility", "visible");
-			   				tooltip2.html("<b>Reality</b> : " + d.reality_condensed);
-			   				/*var tooltip = tooltip_div.selectAll("text")
-			   										.append("text")
-			   										.text(function(d) {
-			   											console.log("inside tooltip");
-			   											return d.film_condensed;
-			   										})
-			   										.attr("fill", "black")
-			   										.style("opacity", 100);
-			   				console.log(tooltip);*/
-			   				/*var svg2 = d3.select(div_name)
-			   							.append("svg");
-			   				svg2.selectAll("rect")
-			   					.enter()
-			   					.append("text")
-			   					.text(function(d) {console.log(d.film_condensed); alert(d.film_condensed);});*/
+			   				tooltip2.transition()
+			   						.style("visibility", "visible")
+			   						.style("font-weight", "bold")
+			   						.style("font-family", "sans-serif");
+			   						//.style("font-style", "italic");
+			   				tooltip2.html(d.reality_condensed);
 			  		 	})
 					   .on("mouseleave", function() {
 					   		console.log("mouse leaves");
