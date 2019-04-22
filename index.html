@@ -14,12 +14,17 @@
 		<style>
 			#bio_options{
 			 width:250px;
-			 height:70px;
+			 height:30px;
 			 float: right;
 			}
 			#event_options{
 			 width:250px;
-			 height:70px;
+			 height:30px;
+			 float: right;
+			}
+			#movie_names{
+			 width:250px;
+			 height:30px;
 			 float: right;
 			}
 		</style>
@@ -40,7 +45,7 @@
 					<nav id="nav">
 						<ul>
 							<li><a href="#intro" class="active">Introduction</a></li>
-							<li><a href="#Primary">Does truth matter?</a></li>
+							<li><a href="#Primary">Primary Analysis</a></li>
 							<li><a href="#first">Biographical</a></li>
 							<li><a href="#second">True Events</a></li>
 							<li><a href="#cta">Conclusion</a></li>
@@ -61,16 +66,11 @@
 
 						<section id="Primary" class="main special">
 								<header class="major0">
-									<h1><b>Does truth matter?</b>
-									<select name="bio_options" id="bio_options">
-									  <option value="Flexible">Flexible</option>
-									  <option value="Creative freedom">Creative freedom</option>
-									  <option value="Pedantic">Pedantic</option>
-									</select></h1>
+									<h1><b>Primary Analysis</b></h1>
 								</header>
 								
-
 								<footer class="major0">
+									
 								</footer>
 							</section>
 
@@ -199,7 +199,31 @@
 						<!-- Get Started -->
 							<section id="cta" class="main special">
 								<header class="major3">
-									
+									<select name="movie_names" id="movie_names">
+									  <option value="TheSocialNetwork">TheSocialNetwork</option>
+									  <option value="CaptainPhillips">CaptainPhillips</option>
+									  <option value="HiddenFigures">HiddenFigures</option>
+									  <option value="Selma">Selma</option>
+									  <option value="AmericanSniper">AmericanSniper</option>
+									  <option value="BohemianRhapsody">BohemianRhapsody</option>
+									</select>
+
+									<div class="first_level">
+
+									</div>
+									<div class="second_level">
+
+									</div>
+									<div class="third_level">
+
+									</div>
+									<div class="fourth_level">
+
+									</div>
+									<div class="fifth_level">
+
+									</div>
+
 								</header>
 								<footer class="major3">
 									
@@ -237,10 +261,8 @@
 			var bio_dataset = ["TheSocialNetwork.csv","Selma.csv","12YearsaSlave.csv","AmericanSniper.csv","Lion.csv","BohemianRhapsody.csv","DallasBuyersClub.csv","TheKingsSpeech.csv","WolfofWallStreet.csv", "TheImitationGame.csv"];
 			var event_dataset = ["BridgeofSpies.csv","CaptainPhillips.csv","HiddenFigures.csv","Philomena.csv","Rush.csv","Spotlight.csv","TheBigShort.csv"];
 			var w = 0.9*document.getElementById("first").offsetWidth;
-			var h = 100;
+			var h = 70;
 			var padding = 0;
-
-			
 
 			// for biography movies default pedantry
 			var bio_film_tooltip = [];
@@ -382,8 +404,7 @@
 					   		var rectsvg = svg.selectAll("rect").attr("height", 70);
 					   		tooltip.style("visibility", "hidden");
 					   		tooltip2.style("visibility", "hidden");
-					   })
-					   ;   
+					   });   
 				});
 			}
 
@@ -498,8 +519,7 @@
 					   		console.log("mouse leaves");
 					   		tooltip.style("visibility", "hidden");
 					   		tooltip2.style("visibility", "hidden");
-					   })
-					   ;
+					   });
 					});
 				}
 			});
@@ -642,47 +662,149 @@
 					   		console.log("mouse leaves");
 					   		tooltip.style("visibility", "hidden");
 					   		tooltip2.style("visibility", "hidden");
-					   })
-					   ;
+					   });
 				});
 			}
 
 
-
+		//	var movie_names = ["Selma.csv","TheSocialNetwork.csv","12YearsaSlave.csv","AmericanSniper.csv","BohemianRhapsody.csv","BridgeofSpies.csv","CaptainPhillips.csv","DallasBuyersClub.csv","HiddenFigures.csv","Lion.csv","Philomena.csv","Rush.csv","Spotlight.csv","TheBigShort.csv","TheImitationGame.csv","TheKingsSpeech.csv","WolfofWallStreet.csv"];
 			// for event movies changeable pedantry
 			d3.select('#event_options')
-                .on('change', function() {
+			    .on('change', function() {
               	event_pedantry = d3.select(this).property('value');
               	event_id = 0;
 
-              	for(j = 0; j < 7; j++) {
-				d3.csv("./data/Cleaned_data/"+event_dataset[j], function(data) {
-					var div_names = ["BridgeofSpies","CaptainPhillips","HiddenFigures","Philomena","Rush","Spotlight","TheBigShort"];
+	              	for(j = 0; j < 7; j++) {
+						d3.csv("./data/Cleaned_data/"+event_dataset[j], function(data) {
+							var div_names = ["BridgeofSpies","CaptainPhillips","HiddenFigures","Philomena","Rush","Spotlight","TheBigShort"];
 
-					var dataset = data;
+							var dataset = data;
+							var sum = 0;
+							var prev_sum = 0;
+
+							xScale = d3.scaleTime()
+										   .domain([
+												0,
+												d3.sum(dataset, function(d) { return d.duration; }) 
+											])
+										   .range([padding, w - padding]);
+
+							var div_name = "." + div_names[event_id];
+							var tooltip = event_film_tooltip[event_id]
+		                    var tooltip2 = event_real_tooltip[event_id]
+							event_id++;
+
+							d3.select(div_name).select("svg").remove();
+
+							var svg = d3.select(div_name)
+								.append("svg")
+								.attr("width", w)
+								.attr("height", h);
+
+							svg.selectAll("rect")
+							   .data(dataset)
+							   .enter()
+							   .append("rect")
+							   .attr("x", function(d) {
+							   		prev_sum = sum;
+							   		sum += +d.duration;
+							   		return xScale(prev_sum);
+							   })
+							   .attr("y", 0)
+							   .attr("width", function(d) {
+							   		return xScale(+d.duration);
+							   })
+							   .attr("height", 70)
+							   .attr("fill",  function(d) {
+							   		switch(+d.truth_int) {
+							   			case 0:
+				   							return "#FF1493";
+				   							break;
+				   						case 1:
+				   							if(event_pedantry == "Flexible") return "#FFC0CB";
+				   							else return "#FF1493";
+				   							break;
+				   						case 2:
+				   							if(event_pedantry == "Pedantic") return "#FF1493";
+				   							else return "#87CEFA";
+				   							break;
+				   						case 3:
+				   							return "#00BFFF";
+				   							break;
+				   						case -1:
+				   							return "#B0C4DE";
+				   							break;
+				   						default:
+				   							return "#bdbf91";
+				   							break;
+							   		} 
+							   })
+							   .on("mouseenter", function(d) {
+					   				console.log(d);  
+					   				tooltip.transition()
+					   					   .style("visibility", "visible")
+					   					   .style("font-family", "sans-serif")
+					   					   .style("font-weight", "bold");
+					   					   //.style("font-style", "italic")
+					   					   //.style("color", "red");
+
+					   				switch(+d.truth_int) {
+					   					case 0: 
+					   						tooltip.style("color", "red");
+					   						break;
+					   					case 1:
+					   						tooltip.style("color", "red");
+					   						break;
+					   					case 2:{
+					   						if(event_pedantry == "Pedantic") tooltip.style("color", "red");
+					   						else tooltip.style("color", "green");
+					   						break;
+					   					} 
+					   					default:
+					   						tooltip.style("color", "green");
+					   						break;
+					   				}
+					   				tooltip.html(d.film_condensed);
+					   				
+					   				tooltip2.transition()
+					   						.style("visibility", "visible")
+					   						.style("font-weight", "bold")
+					   						.style("font-family", "sans-serif");
+					   						//.style("font-style", "italic");
+					   				tooltip2.html(d.reality_condensed);
+					  		 	})
+							   .on("mouseleave", function() {
+							   		console.log("mouse leaves");
+							   		tooltip.style("visibility", "hidden");
+							   		tooltip2.style("visibility", "hidden");
+							   });
+						});
+					}
+              	});
+
+
+			    //icicle start 1
+			    var w = 0.9*document.getElementById("first").offsetWidth;
+			    var max_val;
+			    d3.csv("./data/Cleaned_data/TheSocialNetwork.csv", function(data) {
+	      			var dataset = data;
 					var sum = 0;
 					var prev_sum = 0;
-
+					var ice_h = 60;
+					max_val = d3.sum(dataset, function(d) { return d.duration; });
 					xScale = d3.scaleTime()
 								   .domain([
 										0,
-										d3.sum(dataset, function(d) { return d.duration; }) 
+										d3.sum(dataset, function(d) { return d.duration; })  // 7137
 									])
 								   .range([padding, w - padding]);
 
-					var div_name = "." + div_names[event_id];
-					var tooltip = event_film_tooltip[event_id]
-                    var tooltip2 = event_real_tooltip[event_id]
-					event_id++;
-
-					d3.select(div_name).select("svg").remove();
-
-					var svg = d3.select(div_name)
+					var level1 = d3.select(".first_level")
 						.append("svg")
 						.attr("width", w)
-						.attr("height", h);
+						.attr("height", ice_h);
 
-					svg.selectAll("rect")
+					level1.selectAll("rect")
 					   .data(dataset)
 					   .enter()
 					   .append("rect")
@@ -691,82 +813,324 @@
 					   		sum += +d.duration;
 					   		return xScale(prev_sum);
 					   })
-					   .attr("y", 0)
+					   .attr("y", 10)
 					   .attr("width", function(d) {
 					   		return xScale(+d.duration);
 					   })
-					   .attr("height", 70)
+					   .attr("height", 50)
 					   .attr("fill",  function(d) {
 					   		switch(+d.truth_int) {
 					   			case 0:
-		   							return "#FF1493";
-		   							break;
-		   						case 1:
-		   							if(event_pedantry == "Flexible") return "#FFC0CB";
-		   							else return "#FF1493";
-		   							break;
-		   						case 2:
-		   							if(event_pedantry == "Pedantic") return "#FF1493";
-		   							else return "#87CEFA";
-		   							break;
-		   						case 3:
-		   							return "#00BFFF";
-		   							break;
-		   						case -1:
-		   							return "#B0C4DE";
-		   							break;
-		   						default:
-		   							return "#bdbf91";
-		   							break;
+					   				return "#FF1493";
+					   				break;
+					   			case 1:
+					   				return "#FFC0CB";
+					   				break;
+					   			case 2:
+					   				return "#87CEFA";
+					   				break;
+					   			case 3:
+					   				return "#00BFFF";
+					   				break;
+					   			case -1:
+					   				return "#B0C4DE";
+					   				break;
+					   			default:
+					   				return "#bdbf91";
+					   				break;
 					   		} 
-					   })
-					   .on("mouseenter", function(d) {
-			   				console.log(d);  
-			   				tooltip.transition()
-			   					   .style("visibility", "visible")
-			   					   .style("font-family", "sans-serif")
-			   					   .style("font-weight", "bold");
-			   					   //.style("font-style", "italic")
-			   					   //.style("color", "red");
-
-			   				switch(+d.truth_int) {
-			   					case 0: 
-			   						tooltip.style("color", "red");
-			   						break;
-			   					case 1:
-			   						tooltip.style("color", "red");
-			   						break;
-			   					case 2:{
-			   						if(event_pedantry == "Pedantic") tooltip.style("color", "red");
-			   						else tooltip.style("color", "green");
-			   						break;
-			   					} 
-			   					default:
-			   						tooltip.style("color", "green");
-			   						break;
-			   				}
-			   				tooltip.html(d.film_condensed);
-			   				
-			   				tooltip2.transition()
-			   						.style("visibility", "visible")
-			   						.style("font-weight", "bold")
-			   						.style("font-family", "sans-serif");
-			   						//.style("font-style", "italic");
-			   				tooltip2.html(d.reality_condensed);
-			  		 	})
-					   .on("mouseleave", function() {
-					   		console.log("mouse leaves");
-					   		tooltip.style("visibility", "hidden");
-					   		tooltip2.style("visibility", "hidden");
-					   })
-
-					   ;
+					   });
 				});
-			}
-              	});
+				
+				d3.csv("./data/Cleaned_data/TheSocialNetwork_ice8.csv", function(data) {
+					var dataset = data;
+					var sum = 0;
+					var prev_sum = 0;
+					var ice_h = 50;
+					xScale_ice = d3.scaleTime()
+								   .domain([
+										0,
+										max_val
+									])
+								   .range([padding, w - padding]);
+					
+					var level2 = d3.select(".second_level")
+						.append("svg")
+						.attr("width", w)
+						.attr("height", ice_h);
 
+					level2.selectAll("rect")
+					   .data(dataset)
+					   .enter()
+					   .append("rect")
+					   .attr("x", function(d) {
+					   		prev_sum = sum;
+					   		sum += +(max_val * 0.125);
+					   		return xScale_ice(prev_sum);
+					   })
+					   .attr("y", 0)
+					   .attr("width", function(d) {
+					   		return xScale_ice(+(max_val * 0.125));
+					   })
+					   .attr("height", 50)
+					   .attr("fill",  function(d) {
+					   		switch(+d.ice) {
+					   			case 0:
+					   				return "#FF1493";
+					   				break;
+					   			case 1:
+					   				return "#FFC0CB";
+					   				break;
+					   			case 2:
+					   				return "#87CEFA";
+					   				break;
+					   			case 3:
+					   				return "#00BFFF";
+					   				break;
+					   			case -1:
+					   				return "#B0C4DE";
+					   				break;
+					   			default:
+					   				return "#bdbf91";
+					   				break;
+					   		} 
+					   });
+				});
+
+				
+				d3.csv("./data/Cleaned_data/TheSocialNetwork_ice4.csv", function(data) {
+					var dataset = data;
+					var sum = 0;
+					var prev_sum = 0;
+					var ice_h = 50;
+					xScale_ice = d3.scaleTime()
+								   .domain([
+										0,
+										max_val
+									])
+								   .range([padding, w - padding]);
+
+					var level3 = d3.select(".third_level")
+						.append("svg")
+						.attr("width", w)
+						.attr("height", ice_h);
+
+					level3.selectAll("rect")
+					   .data(dataset)
+					   .enter()
+					   .append("rect")
+					   .attr("x", function(d) {
+					   		prev_sum = sum;
+					   		sum += +(max_val * 0.25);
+					   		return xScale_ice(prev_sum);
+					   })
+					   .attr("y", 0)
+					   .attr("width", function(d) {
+					   		return xScale_ice(+(max_val * 0.25));
+					   })
+					   .attr("height", 50)
+					   .attr("fill",  function(d) {
+					   		switch(+d.ice) {
+					   			case 0:
+					   				return "#FF1493";
+					   				break;
+					   			case 1:
+					   				return "#FFC0CB";
+					   				break;
+					   			case 2:
+					   				return "#87CEFA";
+					   				break;
+					   			case 3:
+					   				return "#00BFFF";
+					   				break;
+					   			case -1:
+					   				return "#B0C4DE";
+					   				break;
+					   			default:
+					   				return "#bdbf91";
+					   				break;
+					   		} 
+					   });
+				});
+				
+				d3.csv("./data/Cleaned_data/TheSocialNetwork_ice2.csv", function(data) {
+					var dataset = data;
+					var sum = 0;
+					var prev_sum = 0;
+					var ice_h = 50;
+					xScale_ice = d3.scaleTime()
+								   .domain([
+										0,
+										max_val
+									])
+								   .range([padding, w - padding]);
+					
+					var level4 = d3.select(".fourth_level")
+						.append("svg")
+						.attr("width", w)
+						.attr("height", ice_h);
+
+					level4.selectAll("rect")
+					   .data(dataset)
+					   .enter()
+					   .append("rect")
+					   .attr("x", function(d) {
+					   		prev_sum = sum;
+					   		sum += +(max_val * 0.5);
+					   		return xScale_ice(prev_sum);
+					   })
+					   .attr("y", 0)
+					   .attr("width", function(d) {
+					   		return xScale_ice(+(max_val * 0.5));
+					   })
+					   .attr("height", 50)
+					   .attr("fill",  function(d) {
+					   		switch(+d.ice) {
+					   			case 0:
+					   				return "#FF1493";
+					   				break;
+					   			case 1:
+					   				return "#FFC0CB";
+					   				break;
+					   			case 2:
+					   				return "#87CEFA";
+					   				break;
+					   			case 3:
+					   				return "#00BFFF";
+					   				break;
+					   			case -1:
+					   				return "#B0C4DE";
+					   				break;
+					   			default:
+					   				return "#bdbf91";
+					   				break;
+					   		} 
+					   });
+				});
+				
+				d3.csv("./data/Cleaned_data/TheSocialNetwork_ice1.csv", function(data) {
+
+					var dataset = data;
+					var sum = 0;
+					var prev_sum = 0;
+					var ice_h = 50;
+					xScale_ice = d3.scaleTime()
+								   .domain([
+										0,
+										max_val
+									])
+								   .range([padding, w - padding]);
+					
+					var level5 = d3.select(".fifth_level")
+						.append("svg")
+						.attr("width", w)
+						.attr("height", ice_h);
+
+					level5.selectAll("rect")
+					   .data(dataset)
+					   .enter()
+					   .append("rect")
+					   .attr("x", function(d) {
+					   		prev_sum = sum;
+					   		sum += +(max_val);
+					   		return xScale_ice(prev_sum);
+					   })
+					   .attr("y", 0)
+					   .attr("width", function(d) {
+					   		return xScale_ice(+(max_val));
+					   })
+					   .attr("height", 50)
+					   .attr("fill",  function(d) {
+					   		switch(+d.ice) {
+					   			case 0:
+					   				return "#FF1493";
+					   				break;
+					   			case 1:
+					   				return "#FFC0CB";
+					   				break;
+					   			case 2:
+					   				return "#87CEFA";
+					   				break;
+					   			case 3:
+					   				return "#00BFFF";
+					   				break;
+					   			case -1:
+					   				return "#B0C4DE";
+					   				break;
+					   			default:
+					   				return "#bdbf91";
+					   				break;
+					   		} 
+					   });
+		      		});
+
+
+
+				
+			    d3.select('#movie_names')
+			      .on('change', function() {
+
+			      		movie_name = d3.select(this).property('value');
+              			console.log(movie_name);
+			      		d3.csv("./data/Cleaned_data/"+ movie_name+".csv", function(data) {
+
+			      			var dataset = data;
+							var sum = 0;
+							var prev_sum = 0;
+							var ice_h = 50;
+							
+							xScale = d3.scaleTime()
+										   .domain([
+												0,
+												d3.sum(dataset, function(d) { return d.duration; })  // 7137
+											])
+										   .range([padding, w - padding]);
+
+							d3.select(".first_level").select("svg").remove();
+
+							var svg = d3.select(".first_level")
+								.append("svg")
+								.attr("width", w)
+								.attr("height", ice_h);
+
+							svg.selectAll("rect")
+							   .data(dataset)
+							   .enter()
+							   .append("rect")
+							   .attr("x", function(d) {
+							   		prev_sum = sum;
+							   		sum += +d.duration;
+							   		return xScale(prev_sum);
+							   })
+							   .attr("y", 30)
+							   .attr("width", function(d) {
+							   		return xScale(+d.duration);
+							   })
+							   .attr("height", 70)
+							   .attr("fill",  function(d) {
+							   		switch(+d.truth_int) {
+							   			case 0:
+							   				return "#FF1493";
+							   				break;
+							   			case 1:
+							   				return "#FFC0CB";
+							   				break;
+							   			case 2:
+							   				return "#87CEFA";
+							   				break;
+							   			case 3:
+							   				return "#00BFFF";
+							   				break;
+							   			case -1:
+							   				return "#B0C4DE";
+							   				break;
+							   			default:
+							   				return "#bdbf91";
+							   				break;
+							   		} 
+							   });
+			      		});
+			      	});
 			</script>
 	</body>
 </html>
-
-
