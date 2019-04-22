@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Stellar by HTML5 UP</title>
+		<title>590V Project Demo</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -14,22 +14,24 @@
 		<style>
 			#bio_options{
 			 width:200px;
-			 height:30px;
+			 height:40px;
 			 float: right;
 			 position: relative;
 			 left: -75px;
 			}
 			#event_options{
 			 width:200px;
-			 height:30px;
+			 height:40px;
 			 float: right;
 			 position: relative;
 			 left: -75px;
 			}
 			#movie_names{
 			 width:200px;
-			 height:30px;
+			 height:40px;
 			 float: right;
+			 position: relative;
+			 left: -75px;
 			}
 			#bar_chart{
 			 width:200px;
@@ -58,6 +60,10 @@
 			 left: 75px;
 			}
 			.major2 {
+			 position: relative;
+			 left: 75px;
+			}
+			.major3 {
 			 position: relative;
 			 left: 75px;
 			}
@@ -93,8 +99,8 @@
 	<body class="is-preload">
 		<!-- Wrapper -->
 			<div id="tooltipx" class="hidden">
-				<p><strong>Important Label Heading1</strong></p>
-				<p><span id="value">100</span>%</p>
+				<p><strong>Start : </strong><span id="value1">100</span></p>
+				<p><strong>End : </strong><span id="value2">100</span></p>
 			</div>
 			<div id="wrapper">
 
@@ -112,7 +118,7 @@
 							<li><a href="#Primary">Primary Analysis</a></li>
 							<li><a href="#first">Biographical</a></li>
 							<li><a href="#second">True Events</a></li>
-							<li><a href="#cta">Icicle Plots</a></li>
+							<li><a href="#cta">Icicle Plot</a></li>
 						</ul>
 					</nav>
 
@@ -123,7 +129,7 @@
 							<section id="intro" class="main">
 								<div class="spotlight">
 									<div class="content">
-										
+										<h2><b>In this visualization project, we explored different visualization techniques on the dataset of few Biography and true event based Hollywood movies. The dataset has been curated by David McCandless, Omid Kashan, Dr. Stephanie Tomasevic</b></h2>
 									</div>
 								</div>
 							</section>
@@ -174,60 +180,60 @@
 								</header>
 
 								<div class="TheSocialNetwork">
-									<h3 align = LEFT> The Social Network</h3>
+									<h3 align = LEFT><b>The Social Network (2010)</b></h3>
 									<div class = "Comparison">
 									</div>
 								</div>
 								<div class="Selma">
-									<h3 align = LEFT> Selma</h3>
+									<h3 align = LEFT><b>Selma (2014)</b></h3>
 									<div class = "Comparison">
 									</div>
 								</div>
 
 								<div class="TYearsaSlave">
-									<h3 align = LEFT> 12 Years a Slave</h3>
+									<h3 align = LEFT><b>12 Years a Slave (2013)</b></h3>
 									<div class = "Comparison">
 									</div>
 								</div>
 
 								<div class="AmericanSniper">
-									<h3 align = LEFT> American Sniper</h3>
+									<h3 align = LEFT><b>American Sniper (2014)</b></h3>
 									<div class = "Comparison">
 									</div>
 								</div>
 
 								<div class="Lion">
-									<h3 align = LEFT> Lion</h3>
+									<h3 align = LEFT><b>Lion (2016)</b></h3>
 									<div class = "Comparison">
 									</div>
 								</div>
 
 								<div class="BohemianRhapsody">
-									<h3 align = LEFT> Bohemian Rhapsody</h3>
+									<h3 align = LEFT><b>Bohemian Rhapsody (2018)</b></h3>
 									<div class = "Comparison">
 									</div>
 								</div>
 
 								<div class="DallasBuyersClub">
-									<h3 align = LEFT> Dallas Buyers Club</h3>
+									<h3 align = LEFT><b>Dallas Buyers Club (2013)</b></h3>
 									<div class = "Comparison">
 									</div>
 								</div>
 
 								<div class="TheKingsSpeech">
-									<h3 align = LEFT> The Kings Speech</h3>
+									<h3 align = LEFT><b>The King's Speech (2010)</b></h3>
 									<div class = "Comparison">
 									</div>
 								</div>
 
 								<div class="WolfofWallStreet">
-									<h3 align = LEFT>Wolf of Wall Street</h3>
+									<h3 align = LEFT><b>The Wolf of Wall Street (2013)</b></h3>
 									<div class = "Comparison">
 									</div>
 								</div>
 
 								<div class="TheImitationGame">
-									<h3 align = LEFT>The Imitation Game</h3>	
+									<h3 align = LEFT><b>The Imitation Game (2014)</b></h3>	
 									<div class = "Comparison">
 									</div>
 								</div>
@@ -240,7 +246,7 @@
 						<!-- Second Section -->
 							<section id="second" class="main special">
 								<header class="major2">
-									<h1><b>True events</b><select name="event_options" id="event_options">
+									<h1><b>True Events</b><select name="event_options" id="event_options">
 									  <option value="Flexible">Flexible</option>
 									  <option value="Creative freedom">Creative freedom</option>
 									  <option value="Pedantic">Pedantic</option>
@@ -248,31 +254,31 @@
 								</header>
 
 								<div class="BridgeofSpies">
-									<h3 align = LEFT> Bridge of Spies</h3>
+									<h3 align = LEFT><b>Bridge of Spies (2015)</b></h3>
 								</div>
 
 								<div class="CaptainPhillips">
-									<h3 align = LEFT> Captain Phillips</h3>
+									<h3 align = LEFT><b>Captain Phillips (2013)</b></h3>
 								</div>
 
 								<div class="HiddenFigures">
-									<h3 align = LEFT> Hidden Figures</h3>
+									<h3 align = LEFT><b>Hidden Figures (2016)</b></h3>
 								</div>
 
 								<div class="Philomena">
-									<h3 align = LEFT> Philomena</h3>
+									<h3 align = LEFT><b>Philomena (2013)</b></h3>
 								</div>
 
 								<div class="Rush">
-									<h3 align = LEFT> Rush</h3>
+									<h3 align = LEFT><b>Rush (2013)</b></h3>
 								</div>
 
 								<div class="Spotlight">
-									<h3 align = LEFT> Spotlight</h3>
+									<h3 align = LEFT><b>Spotlight (2015)</b></h3>
 								</div>
 
 								<div class="TheBigShort">
-									<h3 align = LEFT> The Big Short</h3>
+									<h3 align = LEFT><b>The Big Short (2015)</b></h3>
 								</div>
 								
 								<footer class="major2">
@@ -283,7 +289,7 @@
 						<!-- Get Started -->
 							<section id="cta" class="main special">
 								<header class="major3">
-									<select name="movie_names" id="movie_names">
+									<h1><b>Icicle Plot</b> <select name="movie_names" id="movie_names">
 									  <option value="TheSocialNetwork">The Social Network</option>
 									  <option value="BridgeofSpies">Bridge of Spies</option>
 									  <option value="HiddenFigures">Hidden Figures</option>
@@ -296,8 +302,10 @@
 									  <option value="TheBigShort">The Big Short</option>
 									  <option value="TheImitationGame">The Imitation Game</option>
 									  <option value="12YearsaSlave">12 Years a Slave</option>
+									  <option value="Lion">Lion</option>
 									</select>
-
+									</h1>
+									</header>
 									<div class="first_level">
 
 									</div>
@@ -314,7 +322,6 @@
 
 									</div>
 
-								</header>
 								<footer class="major3">
 									
 								</footer>
@@ -475,8 +482,7 @@
 									])
 								   .range([padding, w - padding]);
 
-					var div_name = "." + div_names[bio_id]; //bio_dataset[i].slice(0, -4);
-					console.log(div_name);
+					var div_name = "." + div_names[bio_id]; 
 					bio_id++;
 
 					var tooltip = d3.select(div_name)
@@ -594,8 +600,11 @@
 							.style("left", (d3.event.pageX) + "px")
 							.style("top", (d3.event.pageY) + "px")
 							.style("visibility", "visible")						
-							.select("#value")
-							.text(d.duration);
+							.select("#value1")
+							.text(d.start);
+							d3.select("#tooltipx")
+							.select("#value2")
+							.text(d.end);
 			  		 	})
 					   .on("mouseleave", function() {
 					   		console.log("mouse leaves");
@@ -718,8 +727,11 @@
 							.style("left", (d3.event.pageX) + "px")
 							.style("top", (d3.event.pageY) + "px")
 							.style("visibility", "visible")						
-							.select("#value")
-							.text(d.duration);
+							.select("#value1")
+							.text(d.start);
+							d3.select("#tooltipx")
+							.select("#value2")
+							.text(d.end);
 			  		 	})
 					   .on("mouseleave", function() {
 					   		console.log("mouse leaves");
@@ -868,8 +880,11 @@
 							.style("left", (d3.event.pageX) + "px")
 							.style("top", (d3.event.pageY) + "px")
 							.style("visibility", "visible")						
-							.select("#value")
-							.text(d.duration);
+							.select("#value1")
+							.text(d.start);
+							d3.select("#tooltipx")
+							.select("#value2")
+							.text(d.end);
 			  		 	})
 					   .on("mouseleave", function() {
 					   		console.log("mouse leaves");
@@ -990,8 +1005,11 @@
 									.style("left", (d3.event.pageX) + "px")
 									.style("top", (d3.event.pageY) + "px")
 									.style("visibility", "visible")						
-									.select("#value")
-									.text(d.duration);
+									.select("#value1")
+									.text(d.start);
+									d3.select("#tooltipx")
+									.select("#value2")
+									.text(d.end);
 					  		 	})
 							   .on("mouseleave", function() {
 							   		console.log("mouse leaves");
@@ -1066,8 +1084,11 @@
 							.style("left", (d3.event.pageX) + "px")
 							.style("top", (d3.event.pageY) + "px")
 							.style("visibility", "visible")						
-							.select("#value")
-							.text(d.duration);
+							.select("#value1")
+							.text(d.start);
+							d3.select("#tooltipx")
+							.select("#value2")
+							.text(d.end);
 					   })
 					   .on("mouseleave", function() {
 					   		d3.select("#tooltipx").style("visibility", "hidden");
@@ -1132,8 +1153,11 @@
 							.style("left", (d3.event.pageX) + "px")
 							.style("top", (d3.event.pageY) + "px")
 							.style("visibility", "visible")						
-							.select("#value")
-							.text(d.duration);
+							.select("#value1")
+							.text(d.start);
+							d3.select("#tooltipx")
+							.select("#value2")
+							.text(d.end);
 					   })
 					   .on("mouseleave", function() {
 					   		d3.select("#tooltipx").style("visibility", "hidden");
@@ -1199,8 +1223,11 @@
 							.style("left", (d3.event.pageX) + "px")
 							.style("top", (d3.event.pageY) + "px")
 							.style("visibility", "visible")						
-							.select("#value")
-							.text(d.duration);
+							.select("#value1")
+							.text(d.start);
+							d3.select("#tooltipx")
+							.select("#value2")
+							.text(d.end);
 					   })
 					   .on("mouseleave", function() {
 					   		d3.select("#tooltipx").style("visibility", "hidden");
@@ -1265,8 +1292,11 @@
 							.style("left", (d3.event.pageX) + "px")
 							.style("top", (d3.event.pageY) + "px")
 							.style("visibility", "visible")						
-							.select("#value")
-							.text(d.duration);
+							.select("#value1")
+							.text(d.start);
+							d3.select("#tooltipx")
+							.select("#value2")
+							.text(d.end);
 					   })
 					   .on("mouseleave", function() {
 					   		d3.select("#tooltipx").style("visibility", "hidden");
@@ -1332,8 +1362,11 @@
 							.style("left", (d3.event.pageX) + "px")
 							.style("top", (d3.event.pageY) + "px")
 							.style("visibility", "visible")						
-							.select("#value")
-							.text(d.duration);
+							.select("#value1")
+							.text(d.start);
+							d3.select("#tooltipx")
+							.select("#value2")
+							.text(d.end);
 					   })
 					   .on("mouseleave", function() {
 					   		d3.select("#tooltipx").style("visibility", "hidden");
@@ -1409,8 +1442,11 @@
 									.style("left", (d3.event.pageX) + "px")
 									.style("top", (d3.event.pageY) + "px")
 									.style("visibility", "visible")						
-									.select("#value")
-									.text(d.duration);
+									.select("#value1")
+							.text(d.start);
+							d3.select("#tooltipx")
+							.select("#value2")
+							.text(d.end);
 							   })
 							   .on("mouseleave", function() {
 							   		d3.select("#tooltipx").style("visibility", "hidden");
@@ -1477,8 +1513,11 @@
 									.style("left", (d3.event.pageX) + "px")
 									.style("top", (d3.event.pageY) + "px")
 									.style("visibility", "visible")						
-									.select("#value")
-									.text(d.duration);
+									.select("#value1")
+							.text(d.start);
+							d3.select("#tooltipx")
+							.select("#value2")
+							.text(d.end);
 							   })
 							   .on("mouseleave", function() {
 							   		d3.select("#tooltipx").style("visibility", "hidden");
@@ -1545,8 +1584,11 @@
 									.style("left", (d3.event.pageX) + "px")
 									.style("top", (d3.event.pageY) + "px")
 									.style("visibility", "visible")						
-									.select("#value")
-									.text(d.duration);
+									.select("#value1")
+							.text(d.start);
+							d3.select("#tooltipx")
+							.select("#value2")
+							.text(d.end);
 							   })
 							   .on("mouseleave", function() {
 							   		d3.select("#tooltipx").style("visibility", "hidden");
@@ -1613,8 +1655,11 @@
 									.style("left", (d3.event.pageX) + "px")
 									.style("top", (d3.event.pageY) + "px")
 									.style("visibility", "visible")						
-									.select("#value")
-									.text(d.duration);
+									.select("#value1")
+							.text(d.start);
+							d3.select("#tooltipx")
+							.select("#value2")
+							.text(d.end);
 							   })
 							   .on("mouseleave", function() {
 							   		d3.select("#tooltipx").style("visibility", "hidden");
@@ -1681,8 +1726,11 @@
 									.style("left", (d3.event.pageX) + "px")
 									.style("top", (d3.event.pageY) + "px")
 									.style("visibility", "visible")						
-									.select("#value")
-									.text(d.duration);
+									.select("#value1")
+							.text(d.start);
+							d3.select("#tooltipx")
+							.select("#value2")
+							.text(d.end);
 							   })
 							   .on("mouseleave", function() {
 							   		d3.select("#tooltipx").style("visibility", "hidden");
