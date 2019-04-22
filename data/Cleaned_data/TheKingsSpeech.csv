@@ -1,91 +1,91 @@
-,truth_int,fiction type ,film_condensed,reality_condensed,duration
-0,3,,Duke of York (Bertie) asked to give speech at the Empire exhibition.,Bertie gave the speech.,12
-1,-,-,-,-,30
-2,3,,Bertie looks very anxious.,Bertie was anxious before speeches.,16
-3,3,,The BBC crew prepare.,BBC folk take their voices seriously.,32
-4,3,,Bertie looks terrified.,Bertie was terrified of public speaking.,9
-5,3,,The BBC introduce Bertie.,The BBC broadcast the ceremony.,79
-6,3,,"Bertie stammers, is humiliated.",The speech went badly.,116
-7,3,,Sir Bentham arrives. ,Bertie saw a lot of doctors.,5
-8,-1,character development,Bertie is encouraged to put marbles in his mouth by Sir Bentham.,No record of a Blandine-Bentham.,93
-9,-1,character development,Elizabeth curtly thanks the Dr.  ,No record of a Blandine-Bentham.,7
-10,3,,Elizabeth calms Bertie down.,Elizabeth always calmed Bertie.,36
-11,0,character development,Elizabeth is driven to Harley Street,Elizabeth didn't set up the meeting in person.,38
-12,0,character development,"Elizabeth enters, looks dubious.",Elizabeth didn't set up the meeting in person.,64
-13,1,character development,Elizabeth & Lionel speak.,Elizabeth didn't set up the meeting in person.,93
-14,1,character development,Elizabeth demands Lionel attend their home. Lionel refuses.,Lionel knew who Bertie was from day one.,82
-15,3,,LionelS arrives at his small family home.,Lionel lived in a small house with his wife & 3 kids.,67
-16,2,character development,Bertie struggles to read a bedtime story.,Bertie loved his kids & may have struggled to speak around them.,148
-17,3,,Elizabeth mentions new doctor at dinner. Bertie refuses.,Bertie was reluctant.,32
-18,1,character development,Lionel endures a humiliating audition.,Lionel was an actor but not while he was a speech therapist.,89
-19,3,dramatic license,Elizabeth & Bertie cram into Lionel'S elevator.,"Bertie & Elizabeth did visit. The practice had stairs, not an elevator.",31
-20,-1,character development,A young boy greets them.,Not in the memoir. ,62
-21,1,character development,"Bertie starts treatment but is angry, resistant.",Bertie wasn't angry.,418
-22,2,character development,"Bertie is persuaded to read aloud while listening to music, is recorded.",Lionel did use gramophone recordings.,147
-23,3,,Bertie & Elizabeth leave. ,They arrived together & presumably left together. ,26
-24,3,,King George broadcasts a Christmas speech.,George started the xmas tradition.,43
-25,3,,George compains about his son's limitations.,George was frustrated by David's antics.,134
-26,3,,"Bertie stammers while reading George's speech, is shouted at.",George was impatient with Bertie's stammering.,39
-27,-1,character development,A stressed Bertie listens to the recording of himself.,Not in the memoir.,92
-28,0,character development,Bertie refuses to discuss anything personal with Lionel.,Bertie did discuss personal stuff with Lionel.,116
-29,3,,Montage of speech therapy methods.,They had 82 appointments .,143
-30,-1,"dramatic license, character development",Bertie's brother David lands in a light aircraft.,Not in the memoir.,34
-31,3,,David has returned home to visit their dying father.,David returned from Africa.,32
-32,-1,character development,David insists their father is dying to scupper his relationship with Wallis.,Not in the memoir.,23
-33,3,,The King is confused & bewildered.,The king wasn't with it in his final days .,83
-34,2,character development,David points out the clocks are set half an hour forward.,The king invented 'Sandringham Time' .,62
-35,2,character development,Archbishop Lang sucks up to David,Lang was a problem.,60
-36,3,,The King dies.,The king died 15th Jan 1936.,18
-37,0,character development,"David breaks down, crying, holds onto his mother. It's awkward.",David didn't cry like that.,77
-38,2,character development,David is upset that as King he cannot marry Wallis.,David wanted Wallis more than kingship.,30
-39,-1,character development,Lionel acts a scene from Shakespeare.,Not in the memoir.,92
-40,3,,Lionel is surprised to have Bertie visit him.,Bertie did have extra duties that kept him away from LIONEL.,165
-41,-1,,We learn Bertie was bullied by his family & nurse.,We don't know.,367
-42,2,character development,Elizabeth is unhappy that Wallis has ordered old trees to be felled.,A similar incident happened at Windsor.,51
-43,3,,Elizabeth snubs Wallis due to lapse in protocol.,Wallis broke protocol in doing so.,57
-44,0,dramatic license,Elizabeth & Churchill speak. Churchill doesn't like Wallis.,Churchill was on David's side.,29
-45,2,,Wallis calls to David to fetch her more wine. ,David doted on Wallis.,15
-46,1,character development,"David tells Bertie he plans to marry Wallis. Bertie is shocked, stammers.",Their conversations aren't in the memoir.,140
-47,-1,dramatic license,Bertie dejected over his lack of progress. Is encouraged to swear.,Not in the memoir. No mention of fuckety-fuck.,94
-48,0,dramatic license,Lionel encourages Bertie to step up & be great. Bertie offended.,Lionel wasn't involved. No such scene.,145
-49,3,,David must abdicate if he marries a commonwoman.,If David married Wallis he must abdicate.,88
-50,2,character development,"Lionel at home, upset. His concerned wife offers support.",Myrtle supported Lionel in his work. Did know he had a royal client.,54
-51,-1,dramatic license,"Lionel waits to see Bertie, is sent away.",Not in the memoir.,43
-52,0,dramatic license,Churchill suggests Bertie take over as King.,Nope. Churchill supported his brother David.,81
-53,3,,"David wants to marry Wallis, no matter what.",David chose Wallis over kingship.,46
-54,3,,David abdicates.,David abdicated 10th Dec 1936.,100
-55,2,dramatic license,Bertie speaks disastrously before the Accession Council.,The declaration was halting but not disastrous.,103
-56,3,,Elizabeth & kids pack their rocKing horses.,Bertie's daughters had rocking horses.,21
-57,3,,Bertie arrives. His daughters curtsy.,Bertie adored his daughters.,39
-58,3,,Bertie breaks down. He doesn't want to be King.,Bertie cried when he found out he had to be king.,123
-59,3,,"Posters line the streets: ""Stand by our King""",David had a lot of supporters.,10
-60,-1,dramatic license,Bertie & Elizabeth visit Lionel's home.,Not in the memoir.,56
-61,1,character development,Bertie & Lionel apologise to each other.,There was no big apology.,123
-62,0,dramatic license,Myrtle arrives home to find Elizabeth sitting at her table.,"Nope, but Lionel's family did meet the royals on several occasions..",62
-63,0,dramatic license,Lionel introduces the King to his stunned wife.,Nope. Myrtle already knew he was working with the king.,38
-64,3,,Bertie & Lionel enter Westminister Abbey to rehearse the coronation.,Lionel & Bertie rehearsed in the abbey.,59
-65,2,character development,Bertie insists Lionel sits in the King's box. Lang is unhappy.,Lionel & Myrtle sat in the royal box.,39
-66,3,,Lionel & Bertie rehearse in the abbey.,Lionel & Bertie rehearsed in the abbey.,41
-67,1,dramatic license,"Lang has Lionel vetted, challenges his qualifications.",Lionel never misrepresented himself. Was not challenged by LANG.,191
-68,1,dramatic license,Lionel requests Lang clear the premise. Lang is indignant.,Bertie insisted on Lionel.,32
-69,0,dramatic license,Lionel slouches in the royal chair. Bertie is enraged.,Lionel was too deferent for this behaviour.,64
-70,3,,Lang informs Lionel he's being replaced. Bertie asserts his authority.,Lang did suggest an alternative. Bertie insisted on Lionel.,60
-71,3,,Lionel & Bertie rehearse. It goes well.,Bertie was pleased with his progress.,93
-72,3,,HITLER speaking at Nuremberg.,Hitler spoke at Nuremberg.,48
-73,3,character development,The coronation went well.,Yep. The coronation went well.,48
-74,2,dramatic license,Prime Minister Baldwin resigns over handling of Hitler.,Baldwin resigned.,67
-75,3,,War is announced.,Chamberlain announced war 3rd Sep 1939.,50
-76,3,,Bertie must give a long speech to the nation. He calls for Lionel.,Lionel was summoned for the address.,34
-77,3,,Lionel's son drives him to the palace.,Laurie drove Lionel to the palace.,174
-78,3,,They have just 40m to broadcast.,They had 40m to rehearse.,14
-79,2,dramatic license,"Bertie's confidence is low, does some practices.",Bertie crammed in some practise.,18
-80,1,dramatic license,Bertie in the state room. Churchill offers support.,Churchill wasn't involved.,101
-81,2,character development,Broadcast room has been redecorated.,Lionel took care of the broadcast setting.,90
-82,3,,Lionel stands right in front of him. Bertie thanks him.,Lionel supported Bertie throughout. & stood right with him.,47
-83,3,,The broadcast goes smoothly.,The speech went smoothly.,308
-84,3,,"Lionel says he did ""quite well""",Bertie was congratulated.,34
-85,2,dramatic license,Bertie is applauded as he poses for an official photo.,Bertie posed for 'the' photo afterwards. Officials were not there.,33
-86,3,,Bertie thanks & congratulates Lionel,Bertie remained grateful to Lionel.,39
-87,3,,"Elizabeth enters, is proud & relieved.",Elizabeth was a proud wife.,29
-88,0,dramatic license,Bertie received contratulations from officials.,Those officials weren't present.,96
-89,3,,Title: Bertie made Lionel a CVO. Remained friends etc.,"Lionel got a CVO, remained close to Bertie.",31
+,truth_int,fiction type ,film_condensed,reality_condensed,duration,start,end
+0,3,,Duke of York (Bertie) asked to give speech at the Empire exhibition.,Bertie gave the speech.,12,0:00:25,0:00:37
+1,-,-,-,-,30,0:00:37,0:01:07
+2,3,,Bertie looks very anxious.,Bertie was anxious before speeches.,16,0:01:07,0:01:23
+3,3,,The BBC crew prepare.,BBC folk take their voices seriously.,32,0:01:23,0:01:55
+4,3,,Bertie looks terrified.,Bertie was terrified of public speaking.,9,0:01:55,0:02:04
+5,3,,The BBC introduce Bertie.,The BBC broadcast the ceremony.,79,0:02:04,0:03:23
+6,3,,"Bertie stammers, is humiliated.",The speech went badly.,116,0:03:23,0:05:19
+7,3,,Sir Bentham arrives. ,Bertie saw a lot of doctors.,5,0:05:19,0:05:24
+8,-1,character development,Bertie is encouraged to put marbles in his mouth by Sir Bentham.,No record of a Blandine-Bentham.,93,0:05:24,0:06:57
+9,-1,character development,Elizabeth curtly thanks the Dr.  ,No record of a Blandine-Bentham.,7,0:06:57,0:07:04
+10,3,,Elizabeth calms Bertie down.,Elizabeth always calmed Bertie.,36,0:07:04,0:07:40
+11,0,character development,Elizabeth is driven to Harley Street,Elizabeth didn't set up the meeting in person.,38,0:07:40,0:08:18
+12,0,character development,"Elizabeth enters, looks dubious.",Elizabeth didn't set up the meeting in person.,64,0:08:18,0:09:22
+13,1,character development,Elizabeth & Lionel speak.,Elizabeth didn't set up the meeting in person.,93,0:09:22,0:10:55
+14,1,character development,Elizabeth demands Lionel attend their home. Lionel refuses.,Lionel knew who Bertie was from day one.,82,0:10:55,0:12:17
+15,3,,LionelS arrives at his small family home.,Lionel lived in a small house with his wife & 3 kids.,67,0:12:17,0:13:24
+16,2,character development,Bertie struggles to read a bedtime story.,Bertie loved his kids & may have struggled to speak around them.,148,0:13:24,0:15:52
+17,3,,Elizabeth mentions new doctor at dinner. Bertie refuses.,Bertie was reluctant.,32,0:15:52,0:16:24
+18,1,character development,Lionel endures a humiliating audition.,Lionel was an actor but not while he was a speech therapist.,89,0:16:24,0:17:53
+19,3,dramatic license,Elizabeth & Bertie cram into Lionel'S elevator.,"Bertie & Elizabeth did visit. The practice had stairs, not an elevator.",31,0:17:53,0:18:24
+20,-1,character development,A young boy greets them.,Not in the memoir. ,62,0:18:24,0:19:26
+21,1,character development,"Bertie starts treatment but is angry, resistant.",Bertie wasn't angry.,418,0:19:26,0:26:24
+22,2,character development,"Bertie is persuaded to read aloud while listening to music, is recorded.",Lionel did use gramophone recordings.,147,0:26:24,0:28:51
+23,3,,Bertie & Elizabeth leave. ,They arrived together & presumably left together. ,26,0:28:51,0:29:17
+24,3,,King George broadcasts a Christmas speech.,George started the xmas tradition.,43,0:29:17,0:30:00
+25,3,,George compains about his son's limitations.,George was frustrated by David's antics.,134,0:30:00,0:32:14
+26,3,,"Bertie stammers while reading George's speech, is shouted at.",George was impatient with Bertie's stammering.,39,0:32:14,0:32:53
+27,-1,character development,A stressed Bertie listens to the recording of himself.,Not in the memoir.,92,0:32:53,0:34:25
+28,0,character development,Bertie refuses to discuss anything personal with Lionel.,Bertie did discuss personal stuff with Lionel.,116,0:34:25,0:36:21
+29,3,,Montage of speech therapy methods.,They had 82 appointments .,143,0:36:21,0:38:44
+30,-1,"dramatic license, character development",Bertie's brother David lands in a light aircraft.,Not in the memoir.,34,0:38:44,0:39:18
+31,3,,David has returned home to visit their dying father.,David returned from Africa.,32,0:39:18,0:39:50
+32,-1,character development,David insists their father is dying to scupper his relationship with Wallis.,Not in the memoir.,23,0:39:50,0:40:13
+33,3,,The King is confused & bewildered.,The king wasn't with it in his final days .,83,0:40:13,0:41:36
+34,2,character development,David points out the clocks are set half an hour forward.,The king invented 'Sandringham Time' .,62,0:41:36,0:42:38
+35,2,character development,Archbishop Lang sucks up to David,Lang was a problem.,60,0:42:38,0:43:38
+36,3,,The King dies.,The king died 15th Jan 1936.,18,0:43:38,0:43:56
+37,0,character development,"David breaks down, crying, holds onto his mother. It's awkward.",David didn't cry like that.,77,0:43:56,0:45:13
+38,2,character development,David is upset that as King he cannot marry Wallis.,David wanted Wallis more than kingship.,30,0:45:13,0:45:43
+39,-1,character development,Lionel acts a scene from Shakespeare.,Not in the memoir.,92,0:45:43,0:47:15
+40,3,,Lionel is surprised to have Bertie visit him.,Bertie did have extra duties that kept him away from LIONEL.,165,0:47:15,0:50:00
+41,-1,,We learn Bertie was bullied by his family & nurse.,We don't know.,367,0:50:00,0:56:07
+42,2,character development,Elizabeth is unhappy that Wallis has ordered old trees to be felled.,A similar incident happened at Windsor.,51,0:56:07,0:56:58
+43,3,,Elizabeth snubs Wallis due to lapse in protocol.,Wallis broke protocol in doing so.,57,0:56:58,0:57:55
+44,0,dramatic license,Elizabeth & Churchill speak. Churchill doesn't like Wallis.,Churchill was on David's side.,29,0:57:55,0:58:24
+45,2,,Wallis calls to David to fetch her more wine. ,David doted on Wallis.,15,0:58:24,0:58:39
+46,1,character development,"David tells Bertie he plans to marry Wallis. Bertie is shocked, stammers.",Their conversations aren't in the memoir.,140,0:58:39,1:00:59
+47,-1,dramatic license,Bertie dejected over his lack of progress. Is encouraged to swear.,Not in the memoir. No mention of fuckety-fuck.,94,1:00:59,1:02:33
+48,0,dramatic license,Lionel encourages Bertie to step up & be great. Bertie offended.,Lionel wasn't involved. No such scene.,145,1:02:33,1:04:58
+49,3,,David must abdicate if he marries a commonwoman.,If David married Wallis he must abdicate.,88,1:04:58,1:06:26
+50,2,character development,"Lionel at home, upset. His concerned wife offers support.",Myrtle supported Lionel in his work. Did know he had a royal client.,54,1:06:26,1:07:20
+51,-1,dramatic license,"Lionel waits to see Bertie, is sent away.",Not in the memoir.,43,1:07:20,1:08:03
+52,0,dramatic license,Churchill suggests Bertie take over as King.,Nope. Churchill supported his brother David.,81,1:08:03,1:09:24
+53,3,,"David wants to marry Wallis, no matter what.",David chose Wallis over kingship.,46,1:09:24,1:10:10
+54,3,,David abdicates.,David abdicated 10th Dec 1936.,100,1:10:10,1:11:50
+55,2,dramatic license,Bertie speaks disastrously before the Accession Council.,The declaration was halting but not disastrous.,103,1:11:50,1:13:33
+56,3,,Elizabeth & kids pack their rocKing horses.,Bertie's daughters had rocking horses.,21,1:13:33,1:13:54
+57,3,,Bertie arrives. His daughters curtsy.,Bertie adored his daughters.,39,1:13:54,1:14:33
+58,3,,Bertie breaks down. He doesn't want to be King.,Bertie cried when he found out he had to be king.,123,1:14:33,1:16:36
+59,3,,"Posters line the streets: ""Stand by our King""",David had a lot of supporters.,10,1:16:36,1:16:46
+60,-1,dramatic license,Bertie & Elizabeth visit Lionel's home.,Not in the memoir.,56,1:16:46,1:17:42
+61,1,character development,Bertie & Lionel apologise to each other.,There was no big apology.,123,1:17:42,1:19:45
+62,0,dramatic license,Myrtle arrives home to find Elizabeth sitting at her table.,"Nope, but Lionel's family did meet the royals on several occasions..",62,1:19:45,1:20:47
+63,0,dramatic license,Lionel introduces the King to his stunned wife.,Nope. Myrtle already knew he was working with the king.,38,1:20:47,1:21:25
+64,3,,Bertie & Lionel enter Westminister Abbey to rehearse the coronation.,Lionel & Bertie rehearsed in the abbey.,59,1:21:25,1:22:24
+65,2,character development,Bertie insists Lionel sits in the King's box. Lang is unhappy.,Lionel & Myrtle sat in the royal box.,39,1:22:24,1:23:03
+66,3,,Lionel & Bertie rehearse in the abbey.,Lionel & Bertie rehearsed in the abbey.,41,1:23:35,1:24:16
+67,1,dramatic license,"Lang has Lionel vetted, challenges his qualifications.",Lionel never misrepresented himself. Was not challenged by LANG.,191,1:24:16,1:27:27
+68,1,dramatic license,Lionel requests Lang clear the premise. Lang is indignant.,Bertie insisted on Lionel.,32,1:23:03,1:23:35
+69,0,dramatic license,Lionel slouches in the royal chair. Bertie is enraged.,Lionel was too deferent for this behaviour.,64,1:27:27,1:28:31
+70,3,,Lang informs Lionel he's being replaced. Bertie asserts his authority.,Lang did suggest an alternative. Bertie insisted on Lionel.,60,1:28:31,1:29:31
+71,3,,Lionel & Bertie rehearse. It goes well.,Bertie was pleased with his progress.,93,1:29:31,1:31:04
+72,3,,HITLER speaking at Nuremberg.,Hitler spoke at Nuremberg.,48,1:31:52,1:32:40
+73,3,character development,The coronation went well.,Yep. The coronation went well.,48,1:31:04,1:31:52
+74,2,dramatic license,Prime Minister Baldwin resigns over handling of Hitler.,Baldwin resigned.,67,1:32:40,1:33:47
+75,3,,War is announced.,Chamberlain announced war 3rd Sep 1939.,50,1:33:47,1:34:37
+76,3,,Bertie must give a long speech to the nation. He calls for Lionel.,Lionel was summoned for the address.,34,1:34:37,1:35:11
+77,3,,Lionel's son drives him to the palace.,Laurie drove Lionel to the palace.,174,1:35:11,1:38:05
+78,3,,They have just 40m to broadcast.,They had 40m to rehearse.,14,1:38:05,1:38:19
+79,2,dramatic license,"Bertie's confidence is low, does some practices.",Bertie crammed in some practise.,18,1:38:19,1:38:37
+80,1,dramatic license,Bertie in the state room. Churchill offers support.,Churchill wasn't involved.,101,1:38:37,1:40:18
+81,2,character development,Broadcast room has been redecorated.,Lionel took care of the broadcast setting.,90,1:40:18,1:41:48
+82,3,,Lionel stands right in front of him. Bertie thanks him.,Lionel supported Bertie throughout. & stood right with him.,47,1:41:48,1:42:35
+83,3,,The broadcast goes smoothly.,The speech went smoothly.,308,1:42:35,1:47:43
+84,3,,"Lionel says he did ""quite well""",Bertie was congratulated.,34,1:47:43,1:48:17
+85,2,dramatic license,Bertie is applauded as he poses for an official photo.,Bertie posed for 'the' photo afterwards. Officials were not there.,33,1:48:17,1:48:50
+86,3,,Bertie thanks & congratulates Lionel,Bertie remained grateful to Lionel.,39,1:48:50,1:49:29
+87,3,,"Elizabeth enters, is proud & relieved.",Elizabeth was a proud wife.,29,1:49:29,1:49:58
+88,0,dramatic license,Bertie received contratulations from officials.,Those officials weren't present.,96,1:49:58,1:51:34
+89,3,,Title: Bertie made Lionel a CVO. Remained friends etc.,"Lionel got a CVO, remained close to Bertie.",31,1:51:34,1:52:05

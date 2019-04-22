@@ -1,2 +1,2 @@
-,truth_int,duration
-0,3,7654
+,truth_int,duration,start,end
+0,3,7654,0:00:54,2:08:28
