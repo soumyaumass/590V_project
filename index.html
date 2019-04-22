@@ -174,10 +174,12 @@
 									  <option value="Creative freedom">Creative freedom</option>
 									  <option value="Pedantic">Pedantic</option>
 									</select></h1>
-									
-
-
+							
 								</header>
+
+								<div class="FuckYou!" >
+									 <img src="logo.jpg" align="right">
+								</div>
 
 								<div class="TheSocialNetwork">
 									<h3 align = LEFT><b>The Social Network (2010)</b></h3>
@@ -252,7 +254,9 @@
 									  <option value="Pedantic">Pedantic</option>
 									</select></h1>
 								</header>
-
+								<div class="FuckYou!" >
+									 <img src="logo.jpg" align="right">
+								</div>
 								<div class="BridgeofSpies">
 									<h3 align = LEFT><b>Bridge of Spies (2015)</b></h3>
 								</div>
@@ -358,9 +362,22 @@
 			var chart = new CanvasJS.Chart("chart", {
 						animationEnabled: true,
 						title:{
-							text: "12 Years a Slave",
-							horizontalAlign: "left"
+							text: "12 Years a Slave (2013)",
+							horizontalAlign: "left",
+							fontFamily: "tahoma",
+							 // "left", "right", "center"
+							
 						},
+						subtitles:[
+						{
+							text: "Directed by: Steve McQueen",
+							//Uncomment properties below to see how they behave
+							//fontColor: "red",
+							//fontSize: 30
+							fontFamily: "tahoma",
+							fontWeight:"bold"
+						}
+						],
 						data: [{
 							type: "doughnut",
 							startAngle: 60,
@@ -383,62 +400,112 @@
 
 					if ( movie_name == '12 Years a Slave'){
 						var data = [ 21, 19, 9]
+						var movie_year = '2013'
+						var director = 'Steve McQueen'
 					}       
 					else if(movie_name == 'Lion'){
 						var data = [ 5,	1,	4]
+						var movie_year = '2016'
+						var director = 'Garth Davis'
 					}
 					else if(movie_name == 'American Sniper'){
 						var data = [ 5	,2, 	3]
+						var movie_year = '2014'
+						var director = 'Clint Eastwoods'
 					}
 					else if(movie_name == 'Bohemain Rhapsody'){
 						var data = [ 3.5,	1,	5.5]
+						var movie_year = '2018'
+						var director = ' Bryan Singer'
 					}
 					else if(movie_name == 'Bridge of Spies'){
 						var data = [ 23,	7,	8]
+						var movie_year = '2015'
+						var director = 'Steven Spielberg'
 					}
 					else if(movie_name == 'Captain Phillips'){
 						var data = [ 31,	26,	20]
+						var movie_year = '2013'
+						var director = 'Paul Greengrass'
 					}
 					else if(movie_name == 'Dallas Buyers Club'){
 						var data = [ 25,	3,	43]
+						var movie_year = '2013'
+						var director = 'Jean-Marc Vallées'
 					}
 					else if(movie_name == 'Hidden Figures'){
 						var data = [ 4,	2,	4]
+						var movie_year = '2016'
+						var director = 'Theodore Melfi'
 					}
 					else if(movie_name == 'Philomona'){
 						var data = [ 22,	8,	35]
+						var movie_year = '2013'
+						var director = 'Stephen Frears'
 					}
 					else if(movie_name == 'Rush'){
 						var data = [ 10,2,11]
+						var movie_year = '2013'
+						var director = 'Ron Howard'
 					}
 					else if(movie_name == 'Selma'){
 						var data = [ 3,3,7]
+						var movie_year = '2014'
+						var director = 'Ava DuVernay'
 					}
 					else if(movie_name == 'Spotlight'){
 						var data = [ 20,1,17]
+						var director = 'Tom McCarthy'
+						var movie_year = '2015'
 					}
 					else if(movie_name == 'The Big Short'){
 						var data = [ 2,11,4]
+						var movie_year = '2015'
+						var director = 'Adam McKay'
 					}
 					else if(movie_name == 'The Immitation Game'){
 						var data = [8,0.5,1.5]
+						var movie_year = '2014'
+						var director = 'Morten Tyldum'
 					}
 					else if(movie_name == 'The King\'s Speech'){
 						var data = [18,1,26]
+						var movie_year = '2010'
+						var director = 'Tom Hooper'
 					}
 					else if(movie_name == 'The Social Network'){
 						var data = [ 12,9,16]
+						var movie_year = '2010'
+						var director = 'David Fincher'
 					}
 					else{
 						var data = [31,11,1]
+						var movie_year = '2013'
+						var director = 'Martin Scorsese'
 					}
+				
+					 // var myText = movie_name  + '\n \n Year: 2018'
 
+ 					var text = movie_name 
 					var chart = new CanvasJS.Chart("chart", {
 						animationEnabled: true,
 						title:{
-							text: movie_name,
-							horizontalAlign: "left"
+							text: text + " ("+movie_year+") ",
+							horizontalAlign: "left",
+							fontFamily: "tahoma",
+							 // "left", "right", "center"
+							
 						},
+						subtitles:[
+						{
+							text: "Directed by: "+director,
+							//Uncomment properties below to see how they behave
+							//fontColor: "red",
+							//fontSize: 30
+							fontFamily: "tahoma",
+							fontWeight:"bold"
+						}
+						],
 						data: [{
 							type: "doughnut",
 							startAngle: 60,
@@ -455,7 +522,6 @@
 					});
 					chart.render();
 				});
-
 			//Width and height
 			var bio_dataset = ["TheSocialNetwork.csv","Selma.csv","12YearsaSlave.csv","AmericanSniper.csv","Lion.csv","BohemianRhapsody.csv","DallasBuyersClub.csv","TheKingsSpeech.csv","WolfofWallStreet.csv", "TheImitationGame.csv"];
 			var event_dataset = ["BridgeofSpies.csv","CaptainPhillips.csv","HiddenFigures.csv","Philomena.csv","Rush.csv","Spotlight.csv","TheBigShort.csv"];
