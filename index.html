@@ -48,7 +48,7 @@
 							<li><a href="#Primary">Primary Analysis</a></li>
 							<li><a href="#first">Biographical</a></li>
 							<li><a href="#second">True Events</a></li>
-							<li><a href="#cta">Conclusion</a></li>
+							<li><a href="#cta">Icicle Plots</a></li>
 						</ul>
 					</nav>
 
@@ -200,12 +200,18 @@
 							<section id="cta" class="main special">
 								<header class="major3">
 									<select name="movie_names" id="movie_names">
-									  <option value="TheSocialNetwork">TheSocialNetwork</option>
-									  <option value="CaptainPhillips">CaptainPhillips</option>
-									  <option value="HiddenFigures">HiddenFigures</option>
+									  <option value="TheSocialNetwork">The Social Network</option>
+									  <option value="BridgeofSpies">Bridge of Spies</option>
+									  <option value="HiddenFigures">Hidden Figures</option>
 									  <option value="Selma">Selma</option>
-									  <option value="AmericanSniper">AmericanSniper</option>
-									  <option value="BohemianRhapsody">BohemianRhapsody</option>
+									  <option value="AmericanSniper">American Sniper</option>
+									  <option value="BohemianRhapsody">Bohemian Rhapsody</option>
+									  <option value="DallasBuyersClub">Dallas Buyers Club</option>
+									  <option value="Rush">Rush</option>
+									  <option value="Spotlight">Spotlight</option>
+									  <option value="TheBigShort">The Big Short</option>
+									  <option value="TheImitationGame">The Imitation Game</option>
+									  <option value="12YearsaSlave">12 Years a Slave</option>
 									</select>
 
 									<div class="first_level">
@@ -338,23 +344,23 @@
 					   .attr("fill",  function(d) {
 					   		switch(+d.truth_int) {
 					   			case 0:
-		   							return "#FF1493";
+		   							return "#EC407A";
 		   							break;
 		   						case 1: {
-		   							if(bio_pedantry == "Flexible") return "#FFC0CB";
-		   							else return "#FF1493";
+		   							if(bio_pedantry == "Flexible") return "#F06292";
+		   							else return "#EC407A";
 		   							break;
 		   						}
 		   						case 2: {
-		   							if(bio_pedantry == "Pedantic") return "#FF1493";
-		   							else return "#87CEFA";
+		   							if(bio_pedantry == "Pedantic") return "#EC407A";
+		   							else return "#6d96ad";
 		   							break;
 		   						}
 		   						case 3:
-		   							return "#00BFFF";
+		   							return "#3b7393";
 		   							break;
 		   						case -1:
-		   							return "#B0C4DE";
+		   							return "#a8a895";
 		   							break;
 		   						default:
 		   							return "#bdbf91";
@@ -458,23 +464,23 @@
 					   .attr("fill",  function(d) {
 					   		switch(+d.truth_int) {
 					   			case 0:
-		   							return "#FF1493";
+		   							return "#EC407A";
 		   							break;
 		   						case 1: {
-		   							if(bio_pedantry == "Flexible") return "#FFC0CB";
-		   							else return "#FF1493";
+		   							if(bio_pedantry == "Flexible") return "#F06292";
+		   							else return "#EC407A";
 		   							break;
 		   						}
 		   						case 2: {
-		   							if(bio_pedantry == "Pedantic") return "#FF1493";
-		   							else return "#87CEFA";
+		   							if(bio_pedantry == "Pedantic") return "#EC407A";
+		   							else return "#6d96ad";
 		   							break;
 		   						}
 		   						case 3:
-		   							return "#00BFFF";
+		   							return "#3b7393";
 		   							break;
 		   						case -1:
-		   							return "#B0C4DE";
+		   							return "#a8a895";
 		   							break;
 		   						default:
 		   							return "#bdbf91";
@@ -603,21 +609,21 @@
 					   .attr("fill",  function(d) {
 					   		switch(+d.truth_int) {
 					   			case 0:
-		   							return "#FF1493";
+		   							return "#EC407A";
 		   							break;
 		   						case 1:
-		   							if(event_pedantry == "Flexible") return "#FFC0CB";
-		   							else return "#FF1493";
+		   							if(event_pedantry == "Flexible") return "#F06292";
+		   							else return "#EC407A";
 		   							break;
 		   						case 2:
-		   							if(event_pedantry == "Pedantic") return "#FF1493";
-		   							else return "#87CEFA";
+		   							if(event_pedantry == "Pedantic") return "#EC407A";
+		   							else return "#6d96ad";
 		   							break;
 		   						case 3:
-		   							return "#00BFFF";
+		   							return "#3b7393";
 		   							break;
 		   						case -1:
-		   							return "#B0C4DE";
+		   							return "#a8a895";
 		   							break;
 		   						default:
 		   							return "#bdbf91";
@@ -718,21 +724,21 @@
 							   .attr("fill",  function(d) {
 							   		switch(+d.truth_int) {
 							   			case 0:
-				   							return "#FF1493";
+				   							return "#EC407A";
 				   							break;
 				   						case 1:
-				   							if(event_pedantry == "Flexible") return "#FFC0CB";
-				   							else return "#FF1493";
+				   							if(event_pedantry == "Flexible") return "#F06292";
+				   							else return "#EC407A";
 				   							break;
 				   						case 2:
-				   							if(event_pedantry == "Pedantic") return "#FF1493";
-				   							else return "#87CEFA";
+				   							if(event_pedantry == "Pedantic") return "#EC407A";
+				   							else return "#6d96ad";
 				   							break;
 				   						case 3:
-				   							return "#00BFFF";
+				   							return "#3b7393";
 				   							break;
 				   						case -1:
-				   							return "#B0C4DE";
+				   							return "#a8a895";
 				   							break;
 				   						default:
 				   							return "#bdbf91";
@@ -821,19 +827,19 @@
 					   .attr("fill",  function(d) {
 					   		switch(+d.truth_int) {
 					   			case 0:
-					   				return "#FF1493";
+					   				return "#EC407A";
 					   				break;
 					   			case 1:
-					   				return "#FF1493"; // "#FFC0CB";
+					   				return "#EC407A"; // "#F06292";
 					   				break;
 					   			case 2:
-					   				return "#FF1493"; //"#87CEFA";
+					   				return "#EC407A"; //"#6d96ad";
 					   				break;
 					   			case 3:
-					   				return "#00BFFF";
+					   				return "#3b7393";
 					   				break;
 					   			case -1:
-					   				return "#B0C4DE";
+					   				return "#a8a895";
 					   				break;
 					   			default:
 					   				return "#bdbf91";
@@ -876,19 +882,19 @@
 					   .attr("fill",  function(d) {
 					   		switch(+d.truth_int) {
 					   			case 0:
-					   				return "#FF1493";
+					   				return "#EC407A";
 					   				break;
 					   			case 1:
-					   				return "#FF1493"; //"#FFC0CB";
+					   				return "#EC407A"; //"#F06292";
 					   				break;
 					   			case 2:
-					   				return "#FF1493"; //"#87CEFA";
+					   				return "#EC407A"; //"#6d96ad";
 					   				break;
 					   			case 3:
-					   				return "#00BFFF";
+					   				return "#3b7393";
 					   				break;
 					   			case -1:
-					   				return "#B0C4DE";
+					   				return "#a8a895";
 					   				break;
 					   			default:
 					   				return "#bdbf91";
@@ -932,19 +938,19 @@
 					   .attr("fill",  function(d) {
 					   		switch(+d.truth_int) {
 					   			case 0:
-					   				return "#FF1493";
+					   				return "#EC407A";
 					   				break;
 					   			case 1:
-					   				return "#FF1493"; //"#FFC0CB";
+					   				return "#EC407A"; //"#F06292";
 					   				break;
 					   			case 2:
-					   				return "#FF1493"; // "#87CEFA";
+					   				return "#EC407A"; // "#6d96ad";
 					   				break;
 					   			case 3:
-					   				return "#00BFFF";
+					   				return "#3b7393";
 					   				break;
 					   			case -1:
-					   				return "#B0C4DE";
+					   				return "#a8a895";
 					   				break;
 					   			default:
 					   				return "#bdbf91";
@@ -987,19 +993,19 @@
 					   .attr("fill",  function(d) {
 					   		switch(+d.truth_int) {
 					   			case 0:
-					   				return "#FF1493";
+					   				return "#EC407A";
 					   				break;
 					   			case 1:
-					   				return "#FF1493"; //"#FFC0CB";
+					   				return "#EC407A"; //"#F06292";
 					   				break;
 					   			case 2:
-					   				return "#FF1493"; //"#87CEFA";
+					   				return "#EC407A"; //"#6d96ad";
 					   				break;
 					   			case 3:
-					   				return "#00BFFF";
+					   				return "#3b7393";
 					   				break;
 					   			case -1:
-					   				return "#B0C4DE";
+					   				return "#a8a895";
 					   				break;
 					   			default:
 					   				return "#bdbf91";
@@ -1043,19 +1049,19 @@
 					   .attr("fill",  function(d) {
 					   		switch(+d.truth_int) {
 					   			case 0:
-					   				return "#FF1493";
+					   				return "#EC407A";
 					   				break;
 					   			case 1:
-					   				return "#FF1493"; //"#FFC0CB";
+					   				return "#EC407A"; //"#F06292";
 					   				break;
 					   			case 2:
-					   				return "#FF1493"; //"#87CEFA";
+					   				return "#EC407A"; //"#6d96ad";
 					   				break;
 					   			case 3:
-					   				return "#00BFFF";
+					   				return "#3b7393";
 					   				break;
 					   			case -1:
-					   				return "#B0C4DE";
+					   				return "#a8a895";
 					   				break;
 					   			default:
 					   				return "#bdbf91";
@@ -1066,19 +1072,18 @@
 
 
 
-				
 			    d3.select('#movie_names')
 			      .on('change', function() {
-
+						var max_val_new;
 			      		movie_name = d3.select(this).property('value');
               			console.log(movie_name);
-			      		d3.csv("./data/Cleaned_data/"+ movie_name+".csv", function(data) {
+			      		d3.csv("./data/Cleaned_data/"+ movie_name + ".csv", function(data) {
 
 			      			var dataset = data;
 							var sum = 0;
 							var prev_sum = 0;
-							var ice_h = 50;
-							
+							var ice_h = 60;
+							max_val_new = d3.sum(dataset, function(d) { return d.duration; });
 							xScale = d3.scaleTime()
 										   .domain([
 												0,
@@ -1102,27 +1107,27 @@
 							   		sum += +d.duration;
 							   		return xScale(prev_sum);
 							   })
-							   .attr("y", 30)
+							   .attr("y", 10)
 							   .attr("width", function(d) {
 							   		return xScale(+d.duration);
 							   })
-							   .attr("height", 70)
+							   .attr("height", 50)
 							   .attr("fill",  function(d) {
 							   		switch(+d.truth_int) {
 							   			case 0:
-							   				return "#FF1493";
+							   				return "#EC407A";
 							   				break;
 							   			case 1:
-							   				return "#FF1493"; //"#FFC0CB";
+							   				return "#EC407A"; //"#F06292";
 							   				break;
 							   			case 2:
-							   				return "#FF1493"; //"#87CEFA";
+							   				return "#EC407A"; //"#6d96ad";
 							   				break;
 							   			case 3:
-							   				return "#00BFFF";
+							   				return "#3b7393";
 							   				break;
 							   			case -1:
-							   				return "#B0C4DE";
+							   				return "#a8a895";
 							   				break;
 							   			default:
 							   				return "#bdbf91";
@@ -1130,7 +1135,236 @@
 							   		} 
 							   });
 			      		});
-			      	});
+
+			      		d3.csv("./data/Cleaned_data/"+ movie_name + "_ice27.csv", function(data) {
+			      			var dataset = data;
+							var sum = 0;
+							var prev_sum = 0;
+							var ice_h = 50;
+							xScale_ice = d3.scaleTime()
+										   .domain([
+												0,
+												max_val_new
+											])
+										   .range([padding, w - padding]);
+							
+							d3.select(".second_level").select("svg").remove();
+
+							var level2 = d3.select(".second_level")
+								.append("svg")
+								.attr("width", w)
+								.attr("height", ice_h);
+
+							level2.selectAll("rect")
+							   .data(dataset)
+							   .enter()
+							   .append("rect")
+							   .attr("x", function(d) {
+							   		prev_sum = sum;
+							   		sum += +(d.duration);
+							   		return xScale_ice(prev_sum);
+							   })
+							   .attr("y", 0)
+							   .attr("width", function(d) {
+							   		return xScale_ice(+d.duration);
+							   })
+							   .attr("height", 50)
+							   .attr("fill",  function(d) {
+							   		switch(+d.truth_int) {
+							   			case 0:
+							   				return "#EC407A";
+							   				break;
+							   			case 1:
+							   				return "#EC407A"; //"#F06292";
+							   				break;
+							   			case 2:
+							   				return "#EC407A"; //"#6d96ad";
+							   				break;
+							   			case 3:
+							   				return "#3b7393";
+							   				break;
+							   			case -1:
+							   				return "#a8a895";
+							   				break;
+							   			default:
+							   				return "#bdbf91";
+							   				break;
+							   		} 
+							   });
+						});
+
+						
+						d3.csv("./data/Cleaned_data/"+ movie_name + "_ice9.csv", function(data) {
+							var dataset = data;
+							var sum = 0;
+							var prev_sum = 0;
+							var ice_h = 50;
+							xScale_ice = d3.scaleTime()
+										   .domain([
+												0,
+												max_val_new
+											])
+										   .range([padding, w - padding]);
+
+							d3.select(".third_level").select("svg").remove();
+							var level3 = d3.select(".third_level")
+								.append("svg")
+								.attr("width", w)
+								.attr("height", ice_h);
+
+							level3.selectAll("rect")
+							   .data(dataset)
+							   .enter()
+							   .append("rect")
+							   .attr("x", function(d) {
+							   		prev_sum = sum;
+							   		sum += +(d.duration);
+							   		return xScale_ice(prev_sum);
+							   })
+							   .attr("y", 0)
+							   .attr("width", function(d) {
+							   		return xScale_ice(+d.duration);
+							   })
+							   .attr("height", 50)
+							   .attr("fill",  function(d) {
+							   		switch(+d.truth_int) {
+							   			case 0:
+							   				return "#EC407A";
+							   				break;
+							   			case 1:
+							   				return "#EC407A"; //"#F06292";
+							   				break;
+							   			case 2:
+							   				return "#EC407A"; // "#6d96ad";
+							   				break;
+							   			case 3:
+							   				return "#3b7393";
+							   				break;
+							   			case -1:
+							   				return "#a8a895";
+							   				break;
+							   			default:
+							   				return "#bdbf91";
+							   				break;
+							   		} 
+							   });
+						});
+						
+						d3.csv("./data/Cleaned_data/"+ movie_name + "_ice3.csv", function(data) {
+							var dataset = data;
+							var sum = 0;
+							var prev_sum = 0;
+							var ice_h = 50;
+							xScale_ice = d3.scaleTime()
+										   .domain([
+												0,
+												max_val_new
+											])
+										   .range([padding, w - padding]);
+							
+							d3.select(".fourth_level").select("svg").remove();
+
+							var level4 = d3.select(".fourth_level")
+								.append("svg")
+								.attr("width", w)
+								.attr("height", ice_h);
+
+							level4.selectAll("rect")
+							   .data(dataset)
+							   .enter()
+							   .append("rect")
+							   .attr("x", function(d) {
+							   		prev_sum = sum;
+							   		sum += +(d.duration);
+							   		return xScale_ice(prev_sum);
+							   })
+							   .attr("y", 0)
+							   .attr("width", function(d) {
+							   		return xScale_ice(+d.duration);
+							   })
+							   .attr("height", 50)
+							   .attr("fill",  function(d) {
+							   		switch(+d.truth_int) {
+							   			case 0:
+							   				return "#EC407A";
+							   				break;
+							   			case 1:
+							   				return "#EC407A"; //"#F06292";
+							   				break;
+							   			case 2:
+							   				return "#EC407A"; //"#6d96ad";
+							   				break;
+							   			case 3:
+							   				return "#3b7393";
+							   				break;
+							   			case -1:
+							   				return "#a8a895";
+							   				break;
+							   			default:
+							   				return "#bdbf91";
+							   				break;
+							   		} 
+							   });
+						});
+						
+						d3.csv("./data/Cleaned_data/"+ movie_name + "_ice1.csv", function(data) {
+
+							var dataset = data;
+							var sum = 0;
+							var prev_sum = 0;
+							var ice_h = 50;
+							xScale_ice = d3.scaleTime()
+										   .domain([
+												0,
+												max_val_new
+											])
+										   .range([padding, w - padding]);
+							
+							d3.select(".fifth_level").select("svg").remove();
+							var level5 = d3.select(".fifth_level")
+								.append("svg")
+								.attr("width", w)
+								.attr("height", ice_h);
+
+							level5.selectAll("rect")
+							   .data(dataset)
+							   .enter()
+							   .append("rect")
+							   .attr("x", function(d) {
+							   		prev_sum = sum;
+							   		sum += +(d.duration);
+							   		return xScale_ice(prev_sum);
+							   })
+							   .attr("y", 0)
+							   .attr("width", function(d) {
+							   		return xScale_ice(+d.duration);
+							   })
+							   .attr("height", 50)
+							   .attr("fill",  function(d) {
+							   		switch(+d.truth_int) {
+							   			case 0:
+							   				return "#EC407A";
+							   				break;
+							   			case 1:
+							   				return "#EC407A"; //"#F06292";
+							   				break;
+							   			case 2:
+							   				return "#EC407A"; //"#6d96ad";
+							   				break;
+							   			case 3:
+							   				return "#3b7393";
+							   				break;
+							   			case -1:
+							   				return "#F06292";
+							   				break;
+							   			default:
+							   				return "#bdbf91";
+							   				break;
+							   		} 
+							   });
+		      		});
+
+			    });
 			</script>
 	</body>
 </html>
