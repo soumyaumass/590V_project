@@ -824,10 +824,10 @@
 					   				return "#FF1493";
 					   				break;
 					   			case 1:
-					   				return "#FFC0CB";
+					   				return "#FF1493"; // "#FFC0CB";
 					   				break;
 					   			case 2:
-					   				return "#87CEFA";
+					   				return "#FF1493"; //"#87CEFA";
 					   				break;
 					   			case 3:
 					   				return "#00BFFF";
@@ -842,7 +842,7 @@
 					   });
 				});
 				
-				d3.csv("./data/Cleaned_data/TheSocialNetwork_ice8.csv", function(data) {
+				d3.csv("./data/Cleaned_data/TheSocialNetwork_ice27.csv", function(data) {
 					var dataset = data;
 					var sum = 0;
 					var prev_sum = 0;
@@ -865,24 +865,24 @@
 					   .append("rect")
 					   .attr("x", function(d) {
 					   		prev_sum = sum;
-					   		sum += +(max_val * 0.125);
+					   		sum += +(d.duration);
 					   		return xScale_ice(prev_sum);
 					   })
 					   .attr("y", 0)
 					   .attr("width", function(d) {
-					   		return xScale_ice(+(max_val * 0.125));
+					   		return xScale_ice(+d.duration);
 					   })
 					   .attr("height", 50)
 					   .attr("fill",  function(d) {
-					   		switch(+d.ice) {
+					   		switch(+d.truth_int) {
 					   			case 0:
 					   				return "#FF1493";
 					   				break;
 					   			case 1:
-					   				return "#FFC0CB";
+					   				return "#FF1493"; //"#FFC0CB";
 					   				break;
 					   			case 2:
-					   				return "#87CEFA";
+					   				return "#FF1493"; //"#87CEFA";
 					   				break;
 					   			case 3:
 					   				return "#00BFFF";
@@ -898,7 +898,7 @@
 				});
 
 				
-				d3.csv("./data/Cleaned_data/TheSocialNetwork_ice4.csv", function(data) {
+				d3.csv("./data/Cleaned_data/TheSocialNetwork_ice9.csv", function(data) {
 					var dataset = data;
 					var sum = 0;
 					var prev_sum = 0;
@@ -921,24 +921,24 @@
 					   .append("rect")
 					   .attr("x", function(d) {
 					   		prev_sum = sum;
-					   		sum += +(max_val * 0.25);
+					   		sum += +(d.duration);
 					   		return xScale_ice(prev_sum);
 					   })
 					   .attr("y", 0)
 					   .attr("width", function(d) {
-					   		return xScale_ice(+(max_val * 0.25));
+					   		return xScale_ice(+d.duration);
 					   })
 					   .attr("height", 50)
 					   .attr("fill",  function(d) {
-					   		switch(+d.ice) {
+					   		switch(+d.truth_int) {
 					   			case 0:
 					   				return "#FF1493";
 					   				break;
 					   			case 1:
-					   				return "#FFC0CB";
+					   				return "#FF1493"; //"#FFC0CB";
 					   				break;
 					   			case 2:
-					   				return "#87CEFA";
+					   				return "#FF1493"; // "#87CEFA";
 					   				break;
 					   			case 3:
 					   				return "#00BFFF";
@@ -953,7 +953,7 @@
 					   });
 				});
 				
-				d3.csv("./data/Cleaned_data/TheSocialNetwork_ice2.csv", function(data) {
+				d3.csv("./data/Cleaned_data/TheSocialNetwork_ice3.csv", function(data) {
 					var dataset = data;
 					var sum = 0;
 					var prev_sum = 0;
@@ -976,24 +976,24 @@
 					   .append("rect")
 					   .attr("x", function(d) {
 					   		prev_sum = sum;
-					   		sum += +(max_val * 0.5);
+					   		sum += +(d.duration);
 					   		return xScale_ice(prev_sum);
 					   })
 					   .attr("y", 0)
 					   .attr("width", function(d) {
-					   		return xScale_ice(+(max_val * 0.5));
+					   		return xScale_ice(+d.duration);
 					   })
 					   .attr("height", 50)
 					   .attr("fill",  function(d) {
-					   		switch(+d.ice) {
+					   		switch(+d.truth_int) {
 					   			case 0:
 					   				return "#FF1493";
 					   				break;
 					   			case 1:
-					   				return "#FFC0CB";
+					   				return "#FF1493"; //"#FFC0CB";
 					   				break;
 					   			case 2:
-					   				return "#87CEFA";
+					   				return "#FF1493"; //"#87CEFA";
 					   				break;
 					   			case 3:
 					   				return "#00BFFF";
@@ -1032,24 +1032,24 @@
 					   .append("rect")
 					   .attr("x", function(d) {
 					   		prev_sum = sum;
-					   		sum += +(max_val);
+					   		sum += +(d.duration);
 					   		return xScale_ice(prev_sum);
 					   })
 					   .attr("y", 0)
 					   .attr("width", function(d) {
-					   		return xScale_ice(+(max_val));
+					   		return xScale_ice(+d.duration);
 					   })
 					   .attr("height", 50)
 					   .attr("fill",  function(d) {
-					   		switch(+d.ice) {
+					   		switch(+d.truth_int) {
 					   			case 0:
 					   				return "#FF1493";
 					   				break;
 					   			case 1:
-					   				return "#FFC0CB";
+					   				return "#FF1493"; //"#FFC0CB";
 					   				break;
 					   			case 2:
-					   				return "#87CEFA";
+					   				return "#FF1493"; //"#87CEFA";
 					   				break;
 					   			case 3:
 					   				return "#00BFFF";
@@ -1113,10 +1113,10 @@
 							   				return "#FF1493";
 							   				break;
 							   			case 1:
-							   				return "#FFC0CB";
+							   				return "#FF1493"; //"#FFC0CB";
 							   				break;
 							   			case 2:
-							   				return "#87CEFA";
+							   				return "#FF1493"; //"#87CEFA";
 							   				break;
 							   			case 3:
 							   				return "#00BFFF";
