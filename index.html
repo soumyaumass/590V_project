@@ -64,11 +64,38 @@
 			rect:hover {
 				fill: orange;
 			}
+			#tooltipx {
+				position: absolute;
+				width: 200px;
+				height: auto;
+				padding: 10px;
+				background-color: black;
+				-webkit-border-radius: 10px;
+				-moz-border-radius: 10px;
+				border-radius: 10px;
+				-webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+				-moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+				box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+				pointer-events: none;
+				visibility: hidden;
+			}
+			
+			
+			#tooltipx p {
+				margin: 0;
+				font-family: sans-serif;
+				font-size: 16px;
+				line-height: 20px;
+			}
 		</style>
 
 	</head>
 	<body class="is-preload">
 		<!-- Wrapper -->
+			<div id="tooltipx" class="hidden">
+				<p><strong>Important Label Heading1</strong></p>
+				<p><span id="value">100</span>%</p>
+			</div>
 			<div id="wrapper">
 
 				<!-- Header -->
@@ -562,6 +589,13 @@
 			   						.style("font-family", "sans-serif");
 			   						//.style("font-style", "italic");
 			   				tooltip2.html(d.reality_condensed);
+
+			   				d3.select("#tooltipx")
+							.style("left", (d3.event.pageX) + "px")
+							.style("top", (d3.event.pageY) + "px")
+							.style("visibility", "visible")						
+							.select("#value")
+							.text(d.duration);
 			  		 	})
 					   .on("mouseleave", function() {
 					   		console.log("mouse leaves");
@@ -569,6 +603,7 @@
 					   		var rectsvg = svg.selectAll("rect").attr("height", 70);
 					   		tooltip.style("visibility", "hidden");
 					   		tooltip2.style("visibility", "hidden");
+					   		d3.select("#tooltipx").style("visibility", "hidden");
 					   });   
 				});
 			}
@@ -679,11 +714,18 @@
 			   						.style("font-family", "sans-serif");
 			   						//.style("font-style", "italic");
 			   				tooltip2.html(d.reality_condensed);
+			   				d3.select("#tooltipx")
+							.style("left", (d3.event.pageX) + "px")
+							.style("top", (d3.event.pageY) + "px")
+							.style("visibility", "visible")						
+							.select("#value")
+							.text(d.duration);
 			  		 	})
 					   .on("mouseleave", function() {
 					   		console.log("mouse leaves");
 					   		tooltip.style("visibility", "hidden");
 					   		tooltip2.style("visibility", "hidden");
+					   		d3.select("#tooltipx").style("visibility", "hidden");
 					   });
 					});
 				}
@@ -822,11 +864,18 @@
 			   						.style("font-family", "sans-serif");
 			   						//.style("font-style", "italic");
 			   				tooltip2.html(d.reality_condensed);
+			   				d3.select("#tooltipx")
+							.style("left", (d3.event.pageX) + "px")
+							.style("top", (d3.event.pageY) + "px")
+							.style("visibility", "visible")						
+							.select("#value")
+							.text(d.duration);
 			  		 	})
 					   .on("mouseleave", function() {
 					   		console.log("mouse leaves");
 					   		tooltip.style("visibility", "hidden");
 					   		tooltip2.style("visibility", "hidden");
+					   		d3.select("#tooltipx").style("visibility", "hidden");
 					   });
 				});
 			}
@@ -937,11 +986,18 @@
 					   						.style("font-family", "sans-serif");
 					   						//.style("font-style", "italic");
 					   				tooltip2.html(d.reality_condensed);
+					   				d3.select("#tooltipx")
+									.style("left", (d3.event.pageX) + "px")
+									.style("top", (d3.event.pageY) + "px")
+									.style("visibility", "visible")						
+									.select("#value")
+									.text(d.duration);
 					  		 	})
 							   .on("mouseleave", function() {
 							   		console.log("mouse leaves");
 							   		tooltip.style("visibility", "hidden");
 							   		tooltip2.style("visibility", "hidden");
+							   		d3.select("#tooltipx").style("visibility", "hidden");
 							   });
 						});
 					}
@@ -1004,6 +1060,17 @@
 					   				return "#bdbf91";
 					   				break;
 					   		} 
+					   })
+					   .on("mouseenter", function(d) {
+							d3.select("#tooltipx")
+							.style("left", (d3.event.pageX) + "px")
+							.style("top", (d3.event.pageY) + "px")
+							.style("visibility", "visible")						
+							.select("#value")
+							.text(d.duration);
+					   })
+					   .on("mouseleave", function() {
+					   		d3.select("#tooltipx").style("visibility", "hidden");
 					   });
 				});
 				
@@ -1059,6 +1126,17 @@
 					   				return "#bdbf91";
 					   				break;
 					   		} 
+					   })
+					   .on("mouseenter", function(d) {
+							d3.select("#tooltipx")
+							.style("left", (d3.event.pageX) + "px")
+							.style("top", (d3.event.pageY) + "px")
+							.style("visibility", "visible")						
+							.select("#value")
+							.text(d.duration);
+					   })
+					   .on("mouseleave", function() {
+					   		d3.select("#tooltipx").style("visibility", "hidden");
 					   });
 				});
 
@@ -1115,6 +1193,17 @@
 					   				return "#bdbf91";
 					   				break;
 					   		} 
+					   })
+					   .on("mouseenter", function(d) {
+							d3.select("#tooltipx")
+							.style("left", (d3.event.pageX) + "px")
+							.style("top", (d3.event.pageY) + "px")
+							.style("visibility", "visible")						
+							.select("#value")
+							.text(d.duration);
+					   })
+					   .on("mouseleave", function() {
+					   		d3.select("#tooltipx").style("visibility", "hidden");
 					   });
 				});
 				
@@ -1170,6 +1259,17 @@
 					   				return "#bdbf91";
 					   				break;
 					   		} 
+					   })
+					   .on("mouseenter", function(d) {
+							d3.select("#tooltipx")
+							.style("left", (d3.event.pageX) + "px")
+							.style("top", (d3.event.pageY) + "px")
+							.style("visibility", "visible")						
+							.select("#value")
+							.text(d.duration);
+					   })
+					   .on("mouseleave", function() {
+					   		d3.select("#tooltipx").style("visibility", "hidden");
 					   });
 				});
 				
@@ -1226,6 +1326,17 @@
 					   				return "#bdbf91";
 					   				break;
 					   		} 
+					   })
+					   .on("mouseenter", function(d) {
+							d3.select("#tooltipx")
+							.style("left", (d3.event.pageX) + "px")
+							.style("top", (d3.event.pageY) + "px")
+							.style("visibility", "visible")						
+							.select("#value")
+							.text(d.duration);
+					   })
+					   .on("mouseleave", function() {
+					   		d3.select("#tooltipx").style("visibility", "hidden");
 					   });
 		      		});
 
@@ -1292,6 +1403,17 @@
 							   				return "#bdbf91";
 							   				break;
 							   		} 
+							   })
+							   .on("mouseenter", function(d) {
+									d3.select("#tooltipx")
+									.style("left", (d3.event.pageX) + "px")
+									.style("top", (d3.event.pageY) + "px")
+									.style("visibility", "visible")						
+									.select("#value")
+									.text(d.duration);
+							   })
+							   .on("mouseleave", function() {
+							   		d3.select("#tooltipx").style("visibility", "hidden");
 							   });
 			      		});
 
@@ -1349,6 +1471,17 @@
 							   				return "#bdbf91";
 							   				break;
 							   		} 
+							   })
+							   .on("mouseenter", function(d) {
+									d3.select("#tooltipx")
+									.style("left", (d3.event.pageX) + "px")
+									.style("top", (d3.event.pageY) + "px")
+									.style("visibility", "visible")						
+									.select("#value")
+									.text(d.duration);
+							   })
+							   .on("mouseleave", function() {
+							   		d3.select("#tooltipx").style("visibility", "hidden");
 							   });
 						});
 
@@ -1406,6 +1539,17 @@
 							   				return "#bdbf91";
 							   				break;
 							   		} 
+							   })
+							   .on("mouseenter", function(d) {
+									d3.select("#tooltipx")
+									.style("left", (d3.event.pageX) + "px")
+									.style("top", (d3.event.pageY) + "px")
+									.style("visibility", "visible")						
+									.select("#value")
+									.text(d.duration);
+							   })
+							   .on("mouseleave", function() {
+							   		d3.select("#tooltipx").style("visibility", "hidden");
 							   });
 						});
 						
@@ -1463,6 +1607,17 @@
 							   				return "#bdbf91";
 							   				break;
 							   		} 
+							   })
+							   .on("mouseenter", function(d) {
+									d3.select("#tooltipx")
+									.style("left", (d3.event.pageX) + "px")
+									.style("top", (d3.event.pageY) + "px")
+									.style("visibility", "visible")						
+									.select("#value")
+									.text(d.duration);
+							   })
+							   .on("mouseleave", function() {
+							   		d3.select("#tooltipx").style("visibility", "hidden");
 							   });
 						});
 						
@@ -1520,6 +1675,17 @@
 							   				return "#bdbf91";
 							   				break;
 							   		} 
+							   })
+							   .on("mouseenter", function(d) {
+									d3.select("#tooltipx")
+									.style("left", (d3.event.pageX) + "px")
+									.style("top", (d3.event.pageY) + "px")
+									.style("visibility", "visible")						
+									.select("#value")
+									.text(d.duration);
+							   })
+							   .on("mouseleave", function() {
+							   		d3.select("#tooltipx").style("visibility", "hidden");
 							   });
 		      		});
 
