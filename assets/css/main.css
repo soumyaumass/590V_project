@@ -3197,8 +3197,8 @@ input, select, textarea {
 		background-color: #ffffff;
 		color: #636363;
 		position: absolute;
-		width: 84em;
-		max-width: calc(100% - 2em);
+		width: 78em;
+		max-width: calc(100% - 4em);
 		padding: 1em;
 		background-color: #f7f7f7;
 		border-top-left-radius: 0.25em;
@@ -3742,8 +3742,8 @@ input, select, textarea {
 /* Wrapper */
 
 	#wrapper {
-		width: 84em;
-		max-width: calc(100% - 2em);
+		width: 78em;
+		max-width: calc(100% - 4em);
 		margin: 0 auto;
 	}
 

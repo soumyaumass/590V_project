@@ -13,19 +13,56 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<style>
 			#bio_options{
-			 width:250px;
+			 width:200px;
 			 height:30px;
 			 float: right;
+			 position: relative;
+			 left: -75px;
 			}
 			#event_options{
-			 width:250px;
+			 width:200px;
+			 height:30px;
+			 float: right;
+			 position: relative;
+			 left: -75px;
+			}
+			#movie_names{
+			 width:200px;
 			 height:30px;
 			 float: right;
 			}
-			#movie_names{
-			 width:250px;
-			 height:30px;
+			#bar_chart{
+			 width:200px;
+			 height:40px;
 			 float: right;
+			 position: relative;
+			 left: -75px;
+			}
+			#chart {
+			 padding: 10px 10px 20px 50px;
+			 position: relative;
+			 margin-top: 10px;
+			 margin-left: 10px;	
+			}
+			.bar {
+			 background-color: blue;
+			 height: 20px;
+			 margin-top: 2px;
+			}
+			.major0 {
+			 position: relative;
+			 left: 75px;
+			}
+			.major1 {
+			 position: relative;
+			 left: 75px;
+			}
+			.major2 {
+			 position: relative;
+			 left: 75px;
+			}
+			rect:hover {
+				fill: orange;
 			}
 		</style>
 
@@ -66,9 +103,29 @@
 
 						<section id="Primary" class="main special">
 								<header class="major0">
-									<h1><b>Primary Analysis</b></h1>
+									<h1><b>Primary Analysis</b>
+										<select name="bar_chart" id="bar_chart">
+											  <option value="12 Years a Slave">12 Years a Slave</option>
+											  <option value="American Sniper">American Sniper</option>
+											  <option value="Bohemain Rhapsody">Bohemain Rhapsody</option>
+											  <option value="Bridge of Spies">Bridge of Spies</option>
+											  <option value="Captain Phillips">Captain Phillips</option>
+											  <option value="Dallas Buyers Club">Dallas Buyers Club</option>
+											  <option value="Hidden Figures">Hidden Figures</option>
+											  <option value="Lion">Lion</option>
+											  <option value="Philomona">Philomona</option>
+											  <option value="Rush">Rush</option>
+											  <option value="Selma">Selma</option>
+											  <option value="Spotlight">Spotlight</option>
+											  <option value="The Big Short">The Big Short</option>
+											  <option value="The Immitation Game">The Immitation Game</option>
+											  <option value="The King's Speech">The King's Speech</option>
+											  <option value="The Social Network">The Social Network</option>
+											  <option value="Wolf of Wall Street">Wolf of Wall Street</option>
+									    </select>
+									</h1>
 								</header>
-								
+								<div id='chart' style="height: 200px; width: 100%;"></div>
 								<footer class="major0">
 									
 								</footer>
@@ -261,7 +318,109 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="canvas.js"></script>
 			<script type="text/javascript">
+
+			var chart = new CanvasJS.Chart("chart", {
+						animationEnabled: true,
+						title:{
+							text: "12 Years a Slave",
+							horizontalAlign: "left"
+						},
+						data: [{
+							type: "doughnut",
+							startAngle: 60,
+							//innerRadius: 60,
+							indexLabelFontSize: 17,
+							indexLabel: "{label} - #percent%",
+							toolTipContent: "<b>{label}:</b> {y} (#percent%)",
+							dataPoints: [
+								{ y: 21, label: "Dramatic License" },
+								{ y: 19, label: "Narrative Convenience" },
+								{ y: 9, label: "Character Development" }
+							]
+						}]
+					});
+					chart.render();
+
+			d3.select('#bar_chart')
+                .on('change', function() {
+                	movie_name = (d3.select(this).property('value'))
+
+					if ( movie_name == '12 Years a Slave'){
+						var data = [ 21, 19, 9]
+					}       
+					else if(movie_name == 'Lion'){
+						var data = [ 5,	1,	4]
+					}
+					else if(movie_name == 'American Sniper'){
+						var data = [ 5	,2, 	3]
+					}
+					else if(movie_name == 'Bohemain Rhapsody'){
+						var data = [ 3.5,	1,	5.5]
+					}
+					else if(movie_name == 'Bridge of Spies'){
+						var data = [ 23,	7,	8]
+					}
+					else if(movie_name == 'Captain Phillips'){
+						var data = [ 31,	26,	20]
+					}
+					else if(movie_name == 'Dallas Buyers Club'){
+						var data = [ 25,	3,	43]
+					}
+					else if(movie_name == 'Hidden Figures'){
+						var data = [ 4,	2,	4]
+					}
+					else if(movie_name == 'Philomona'){
+						var data = [ 22,	8,	35]
+					}
+					else if(movie_name == 'Rush'){
+						var data = [ 10,2,11]
+					}
+					else if(movie_name == 'Selma'){
+						var data = [ 3,3,7]
+					}
+					else if(movie_name == 'Spotlight'){
+						var data = [ 20,1,17]
+					}
+					else if(movie_name == 'The Big Short'){
+						var data = [ 2,11,4]
+					}
+					else if(movie_name == 'The Immitation Game'){
+						var data = [8,0.5,1.5]
+					}
+					else if(movie_name == 'The King\'s Speech'){
+						var data = [18,1,26]
+					}
+					else if(movie_name == 'The Social Network'){
+						var data = [ 12,9,16]
+					}
+					else{
+						var data = [31,11,1]
+					}
+
+					var chart = new CanvasJS.Chart("chart", {
+						animationEnabled: true,
+						title:{
+							text: movie_name,
+							horizontalAlign: "left"
+						},
+						data: [{
+							type: "doughnut",
+							startAngle: 60,
+							//innerRadius: 60,
+							indexLabelFontSize: 17,
+							indexLabel: "{label} - #percent%",
+							toolTipContent: "<b>{label}:</b> {y} (#percent%)",
+							dataPoints: [
+								{ y: data[0], label: "Dramatic License" },
+								{ y: data[1], label: "Narrative Convenience" },
+								{ y: data[2], label: "Character Development" }
+							]
+						}]
+					});
+					chart.render();
+				});
 
 			//Width and height
 			var bio_dataset = ["TheSocialNetwork.csv","Selma.csv","12YearsaSlave.csv","AmericanSniper.csv","Lion.csv","BohemianRhapsody.csv","DallasBuyersClub.csv","TheKingsSpeech.csv","WolfofWallStreet.csv", "TheImitationGame.csv"];
